@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "packs": {
+    "crypt": {
+      "monsters": ["monster:skeleton", "monster:zombie", "monster:shadow", "monster:ghoul", "monster:specter", "monster:ghast", "monster:mummy", "monster:wight", "monster:ghost", "monster:wraith", "monster:vampire-spawn", "monster:vampire", "monster:iron-golem"],
+      "traps": ["trap:falling-net", "trap:hidden-pit", "trap:collapsing-roof", "trap:poisoned-darts"],
+      "items": ["item:potion-of-healing", "item:potion-of-climbing", "item:goggles-of-night", "item:cloak-of-protection", "item:potion-of-healing-superior", "item:ring-of-protection", "item:potion-of-healing-supreme", "item:belt-of-giant-strength-fire", "item:belt-of-giant-strength-storm", "item:ring-of-invisibility"],
+      "templates": {
+        "exploration": [
+          {"title": "Quiet Niches", "description": "Dust gathers in shallow stone niches. Scuffed paving and empty recesses invite inspection."},
+          {"title": "Stone Recess", "description": "A low stone bench faces a blank wall. Fine grit traces the joints between floor slabs."},
+          {"title": "Dust Gallery", "description": "The chamber opens between plain masonry pillars. Dry dust softens the edges of ordinary stonework."}
+        ],
+        "combat": [
+          {"title": "Vault Watch", "description": "{occupants} occupy the chamber between stone niches. Their positions leave the passage visible."},
+          {"title": "Stone Vigil", "description": "{occupants} wait among plain masonry pillars. The stone floor offers clear footing."},
+          {"title": "Restless Chamber", "description": "{occupants} occupy a dust-lined chamber. Empty recesses border the open floor."}
+        ],
+        "trap": [
+          {"title": "Unquiet Threshold", "description": "A concealed {trap_name} threatens the approach between stone recesses. GM bypass: {bypass}"},
+          {"title": "Dusty Crossing", "description": "A concealed {trap_name} lies along the dusty crossing. GM bypass: {bypass}"},
+          {"title": "Vault Approach", "description": "A concealed {trap_name} guards the chamber's approach. GM bypass: {bypass}"}
+        ]
+      }
+    },
+    "stronghold": {
+      "monsters": ["monster:iron-golem", "monster:bandit", "monster:guard", "monster:bandit-captain", "monster:guard-captain", "monster:hobgoblin-warrior", "monster:hobgoblin-captain", "monster:gladiator", "monster:assassin", "monster:stone-giant", "monster:fire-giant", "monster:balor"],
+      "traps": ["trap:falling-net", "trap:hidden-pit", "trap:collapsing-roof", "trap:poisoned-darts"],
+      "items": ["item:potion-of-healing", "item:potion-of-climbing", "item:goggles-of-night", "item:cloak-of-protection", "item:potion-of-healing-superior", "item:ring-of-protection", "item:potion-of-healing-supreme", "item:belt-of-giant-strength-fire", "item:belt-of-giant-strength-storm", "item:ring-of-invisibility"],
+      "templates": {
+        "exploration": [
+          {"title": "Empty Stores", "description": "Empty shelves line one wall. Plain wooden supports and swept patches of floor show the room's practical construction."},
+          {"title": "Assembly Room", "description": "A long, unadorned bench stands against the masonry. The open floor leaves space to inspect the room."},
+          {"title": "Inner Landing", "description": "Worn paving crosses a plain chamber. Shallow wall recesses and a low shelf provide ordinary architectural details."}
+        ],
+        "combat": [
+          {"title": "Occupied Post", "description": "{occupants} occupy the room near the passage. Plain masonry frames their positions."},
+          {"title": "Ready Chamber", "description": "{occupants} wait beside an unadorned bench. The open floor leaves their approach visible."},
+          {"title": "Inner Watch", "description": "{occupants} hold positions in the chamber. Empty shelves stand along one wall."}
+        ],
+        "trap": [
+          {"title": "Guarded Crossing", "description": "A concealed {trap_name} threatens the paved crossing. GM bypass: {bypass}"},
+          {"title": "Inner Precaution", "description": "A concealed {trap_name} lies along the room's approach. GM bypass: {bypass}"},
+          {"title": "Unsafe Landing", "description": "A concealed {trap_name} guards the landing. GM bypass: {bypass}"}
+        ]
+      }
+    },
+    "cave": {
+      "monsters": ["monster:giant-rat", "monster:giant-bat", "monster:dire-wolf", "monster:giant-spider", "monster:ankheg", "monster:ogre", "monster:ettin", "monster:troll", "monster:hydra", "monster:behir", "monster:purple-worm"],
+      "traps": ["trap:falling-net", "trap:hidden-pit", "trap:collapsing-roof", "trap:poisoned-darts"],
+      "items": ["item:potion-of-healing", "item:potion-of-climbing", "item:goggles-of-night", "item:cloak-of-protection", "item:potion-of-healing-superior", "item:ring-of-protection", "item:potion-of-healing-supreme", "item:belt-of-giant-strength-fire", "item:belt-of-giant-strength-storm", "item:ring-of-invisibility"],
+      "templates": {
+        "exploration": [
+          {"title": "Cool Stone", "description": "Mineral streaks mark the stone walls. Loose grit collects at the chamber's edges."},
+          {"title": "Echo Hollow", "description": "The walls curve around a plain hollow. Small sounds echo across its exposed stone floor."},
+          {"title": "Low Shelf", "description": "A low rock shelf borders the hollow. Smooth patches interrupt the rough texture of its walls."}
+        ],
+        "combat": [
+          {"title": "Occupied Hollow", "description": "{occupants} occupy the hollow. Bare stone surrounds their positions."},
+          {"title": "Stone Gathering", "description": "{occupants} wait near a low rock shelf. The center of the hollow leaves their approach visible."},
+          {"title": "Echoing Watch", "description": "{occupants} hold positions in the chamber. Mineral streaks mark the surrounding stone."}
+        ],
+        "trap": [
+          {"title": "Unsafe Hollow", "description": "A concealed {trap_name} threatens the approach into the hollow. GM bypass: {bypass}"},
+          {"title": "Stone Snare", "description": "A concealed {trap_name} lies along the stone crossing. GM bypass: {bypass}"},
+          {"title": "Sheltered Hazard", "description": "A concealed {trap_name} guards the approach beside the rock shelf. GM bypass: {bypass}"}
+        ]
+      }
+    }
+  }
+}

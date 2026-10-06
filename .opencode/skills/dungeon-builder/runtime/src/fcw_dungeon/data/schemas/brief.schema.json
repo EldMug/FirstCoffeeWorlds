@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fcw:brief:v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "name", "slug", "party_levels", "grid", "layout", "theme", "purpose", "tone", "room_count", "combat_percent", "trap_percent", "climax", "gate_count", "secret_rooms", "trap_severity", "treasure", "pixels_per_square", "seed", "world_context"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1},
+    "name": {"$ref": "urn:fcw:common:v1#/$defs/name"},
+    "slug": {"$ref": "urn:fcw:common:v1#/$defs/slug"},
+    "party_levels": {"$ref": "urn:fcw:common:v1#/$defs/party_levels"},
+    "grid": {"$ref": "urn:fcw:common:v1#/$defs/grid"},
+    "layout": {"enum": ["constructed", "cave"]},
+    "theme": {"enum": ["crypt", "stronghold", "cave"]},
+    "purpose": {"type": "string", "minLength": 1, "maxLength": 4096},
+    "tone": {"type": "string", "minLength": 1, "maxLength": 256},
+    "room_count": {"type": ["integer", "null"], "minimum": 4, "maximum": 48},
+    "combat_percent": {"type": "integer", "minimum": 0, "maximum": 100},
+    "trap_percent": {"type": "integer", "minimum": 0, "maximum": 100},
+    "climax": {"type": "boolean"},
+    "gate_count": {"type": "integer", "minimum": 0, "maximum": 2},
+    "secret_rooms": {"type": "integer", "minimum": 0, "maximum": 1},
+    "trap_severity": {"enum": ["mixed", "nuisance", "deadly"]},
+    "pixels_per_square": {"type": "integer", "minimum": 16, "maximum": 128},
+    "seed": {"anyOf": [{"type": "null"}, {"$ref": "urn:fcw:common:v1#/$defs/uint64"}]},
+    "treasure": {
+      "type": "object", "additionalProperties": false,
+      "required": ["placement", "magic_items", "coin_gp", "rarity_override", "custom"],
+      "properties": {
+        "placement": {"enum": ["sparse_hidden", "balanced", "guarded", "final_room", "random", "custom"]},
+        "magic_items": {"type": "integer", "minimum": 0, "maximum": 20},
+        "coin_gp": {"type": ["integer", "null"], "minimum": 0, "maximum": 1000000000},
+        "rarity_override": {"anyOf": [{"type": "null"}, {"$ref": "urn:fcw:common:v1#/$defs/rarity"}]},
+        "custom": {"type": "array", "items": {
+          "type": "object", "additionalProperties": false,
+          "required": ["room_id", "coin_gp", "magic_item_ids"],
+          "properties": {
+            "room_id": {"$ref": "urn:fcw:common:v1#/$defs/room_id"},
+            "coin_gp": {"type": "integer", "minimum": 0, "maximum": 1000000000},
+            "magic_item_ids": {"type": "array", "items": {"type": "string", "pattern": "^T[0-9]{3}$(?![\\s\\S])"}}
+          }
+        }}
+      }
+    },
+    "world_context": {
+      "type": "object", "additionalProperties": false, "required": ["references", "facts"],
+      "properties": {
+        "references": {"type": "array", "maxItems": 64, "items": {"type": "string", "maxLength": 4096}},
+        "facts": {"type": "array", "maxItems": 64, "items": {"type": "string", "maxLength": 4096}}
+      }
+    }
+  }
+}

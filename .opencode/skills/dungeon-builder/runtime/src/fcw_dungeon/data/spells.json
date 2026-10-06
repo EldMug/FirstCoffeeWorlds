@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "spell:arcane-lock",
+      "kind": "spell",
+      "name": "Arcane Lock",
+      "rules_text": "Arcane Lock Level 2 Abjuration (Wizard) Casting Time: Action Range: Touch Components: V, S, M (gold dust worth 25+ GP, which the spell consumes) Duration: Until dispelled You touch a closed door, window, gate, container, or hatch and magically lock it for the duration. This lock can’t be unlocked by any nonmagical means. You and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute.",
+      "metadata": {
+        "level": 2,
+        "classes": [
+          "Wizard"
+        ],
+        "casting_time": "Action",
+        "range": "Touch",
+        "components": "V, S, M (gold dust worth 25+ GP, which the spell consumes)",
+        "duration": "Until dispelled"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:casting-spells",
+        "rule:object",
+        "rule:spell"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          110
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#ArcaneLock",
+        "text_sha256": "850c681607d6f4e91494c1a49d691202d83249ee9843e886e2ce4eaee2187d3a"
+      }
+    },
+    {
+      "id": "spell:charm-person",
+      "kind": "spell",
+      "name": "Charm Person",
+      "rules_text": "Charm Person Level 1 Enchantment (Bard, Druid, Sorcerer, Warlock, Wizard) Casting Time: Action Range: 30 feet Components: V, S Duration: 1 hour One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+      "metadata": {
+        "level": 1,
+        "classes": [
+          "Bard",
+          "Druid",
+          "Sorcerer",
+          "Warlock",
+          "Wizard"
+        ],
+        "casting_time": "Action",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "1 hour"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:advantage",
+        "rule:casting-spells",
+        "rule:charmed",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:friendly",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:spell",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          115
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#CharmPerson",
+        "text_sha256": "eb662b35770213ec41d22e1ee7221fa7daba3cf10b621abc39bdac8d1670aa0b"
+      }
+    },
+    {
+      "id": "spell:command",
+      "kind": "spell",
+      "name": "Command",
+      "rules_text": "Command Level 1 Enchantment (Bard, Cleric, Paladin) Casting Time: Action Range: 60 feet Components: V Duration: Instantaneous You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options: Approach. The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you. Drop. The target drops whatever it is holding and then ends its turn. Flee. The target spends its turn moving away from you by the fastest available means. Grovel. The target has the Prone condition and then ends its turn. Halt. On its turn, the target doesn’t move and takes no action or Bonus Action. Using a Higher-Level Spell Slot. You can affect one additional creature for each spell slot level above 1.",
+      "metadata": {
+        "level": 1,
+        "classes": [
+          "Bard",
+          "Cleric",
+          "Paladin"
+        ],
+        "casting_time": "Action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "Instantaneous"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:bonus-action",
+        "rule:casting-spells",
+        "rule:condition",
+        "rule:creature",
+        "rule:prone",
+        "rule:saving-throw",
+        "rule:spell",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          116
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Command",
+        "text_sha256": "8cdc069917a2331810c78ba534f2e78a708adca81bfe16febcc707611adc7682"
+      }
+    },
+    {
+      "id": "spell:etherealness",
+      "kind": "spell",
+      "name": "Etherealness",
+      "rules_text": "Etherealness Level 7 Conjuration (Bard, Cleric, Sorcerer, Warlock, Wizard) Casting Time: Action Range: Self Components: V, S Duration: Up to 8 hours You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can’t see anything there more than 60 feet away. While on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren’t on the Ethereal Plane can’t perceive or interact with you unless a feature gives them the ability to do so. When the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved. This spell ends instantly if you cast it while you are on the Ethereal Plane or a plane that doesn’t border it, such as one of the Outer Planes. Using a Higher-Level Spell Slot. You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.",
+      "metadata": {
+        "level": 7,
+        "classes": [
+          "Bard",
+          "Cleric",
+          "Sorcerer",
+          "Warlock",
+          "Wizard"
+        ],
+        "casting_time": "Action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "Up to 8 hours"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:casting-spells",
+        "rule:damage",
+        "rule:occupied-space",
+        "rule:spell",
+        "rule:target",
+        "rule:unoccupied-space"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          128
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#Etherealness",
+        "text_sha256": "53db81cd385e1217dbd3d2d94466457836cb59a61cccbc0d6d7bd5345d0b7f7b"
+      }
+    },
+    {
+      "id": "spell:greater-restoration",
+      "kind": "spell",
+      "name": "Greater Restoration",
+      "rules_text": "Greater Restoration Level 5 Abjuration (Bard, Cleric, Druid, Paladin, Ranger) Casting Time: Action Range: Touch Components: V, S, M (diamond dust worth 100+ GP, which the spell consumes) Duration: Instantaneous You touch a creature and magically remove one of the following effects from it: • 1 Exhaustion level • The Charmed or Petrified condition • A curse, including the target’s Attunement to a cursed magic item • Any reduction to one of the target’s ability scores • Any reduction to the target’s Hit Point maximum",
+      "metadata": {
+        "level": 5,
+        "classes": [
+          "Bard",
+          "Cleric",
+          "Druid",
+          "Paladin",
+          "Ranger"
+        ],
+        "casting_time": "Action",
+        "range": "Touch",
+        "components": "V, S, M (diamond dust worth 100+ GP, which the spell consumes)",
+        "duration": "Instantaneous"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:attunement",
+        "rule:casting-spells",
+        "rule:charmed",
+        "rule:condition",
+        "rule:creature",
+        "rule:exhaustion",
+        "rule:magic",
+        "rule:petrified",
+        "rule:spell",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          137
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#GreaterRestoration",
+        "text_sha256": "368c3fa500feb348302a4b3e0a89003556f257d1e3e01627409da24f9091ee94"
+      }
+    },
+    {
+      "id": "spell:remove-curse",
+      "kind": "spell",
+      "name": "Remove Curse",
+      "rules_text": "Remove Curse Level 3 Abjuration (Cleric, Paladin, Warlock, Wizard) Casting Time: Action Range: Touch Components: V, S Duration: Instantaneous At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner’s Attunement to the object so it can be removed or discarded.",
+      "metadata": {
+        "level": 3,
+        "classes": [
+          "Cleric",
+          "Paladin",
+          "Warlock",
+          "Wizard"
+        ],
+        "casting_time": "Action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Instantaneous"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:attunement",
+        "rule:casting-spells",
+        "rule:creature",
+        "rule:curses",
+        "rule:magic",
+        "rule:object",
+        "rule:spell"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          158
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#RemoveCurse",
+        "text_sha256": "20eaae6005a8e51c88a8a28df3be4e98a3f4451cb25731f6598e60b1567ae94d"
+      }
+    },
+    {
+      "id": "spell:spider-climb",
+      "kind": "spell",
+      "name": "Spider Climb",
+      "rules_text": "Spider Climb Level 2 Transmutation (Sorcerer, Warlock, Wizard) Casting Time: Action Range: Touch Components: V, S, M (a drop of bitumen and a spider) Duration: Concentration, up to 1 hour Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and along ceilings, while leaving its hands free. The target also gains a Climb Speed equal to its Speed. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2.",
+      "metadata": {
+        "level": 2,
+        "classes": [
+          "Sorcerer",
+          "Warlock",
+          "Wizard"
+        ],
+        "casting_time": "Action",
+        "range": "Touch",
+        "components": "V, S, M (a drop of bitumen and a spider)",
+        "duration": "Concentration, up to 1 hour"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:casting-spells",
+        "rule:climb-speed",
+        "rule:concentration",
+        "rule:creature",
+        "rule:speed",
+        "rule:spell",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          164
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions#SpiderClimb",
+        "text_sha256": "c4a619e5f59f639b88a0d62c983a11f4cc7457dad0c70fcd529b26627b194ef3"
+      }
+    }
+  ]
+}

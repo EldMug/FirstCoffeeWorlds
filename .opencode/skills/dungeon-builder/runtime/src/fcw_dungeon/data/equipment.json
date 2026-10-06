@@ -1,0 +1,840 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "equipment:arrows",
+      "kind": "equipment",
+      "name": "Arrows",
+      "rules_text": "Ammunition (Varies) Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.\n\nAmmunition Type Amount Storage Weight Cost Arrows 20 Quiver 1 lb. 1 GP Bolts 20 Case 1½ lb. 1 GP Bullets, Firearm 10 Pouch 2 lb. 3 GP Bullets, Sling 20 Pouch 1½ lb. 4 CP Needles 50 Pouch 1 lb. 1 GP",
+      "metadata": {
+        "category": "ammunition",
+        "price_cp": 100,
+        "weight_text": "1 lb."
+      },
+      "dependencies": [
+        "rule:weapon"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          94,
+          96
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#AmmunitionVaries",
+        "text_sha256": "db9aeaec674371aa7cd444dcea42542f7dc3ecc27746184178dd4c495723d857"
+      }
+    },
+    {
+      "id": "equipment:battleaxe",
+      "kind": "equipment",
+      "name": "Battleaxe",
+      "rules_text": "Martial Melee Weapons\nName Damage Properties Mastery Weight Cost\nBattleaxe 1d8 Slashing Versatile (1d10) Topple 4 lb. 10 GP",
+      "metadata": {
+        "category": "martial-melee-weapon",
+        "price_cp": 1000,
+        "weight_text": "4 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "c5fdc0c61a6c1081c726fb0898ab1c15960d56f8deae8ccfe71eb23b717cd393"
+      }
+    },
+    {
+      "id": "equipment:bolts",
+      "kind": "equipment",
+      "name": "Bolts",
+      "rules_text": "Ammunition (Varies) Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.\n\nAmmunition Type Amount Storage Weight Cost Arrows 20 Quiver 1 lb. 1 GP Bolts 20 Case 1½ lb. 1 GP Bullets, Firearm 10 Pouch 2 lb. 3 GP Bullets, Sling 20 Pouch 1½ lb. 4 CP Needles 50 Pouch 1 lb. 1 GP",
+      "metadata": {
+        "category": "ammunition",
+        "price_cp": 100,
+        "weight_text": "1½ lb."
+      },
+      "dependencies": [
+        "rule:weapon"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          94,
+          96
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#AmmunitionVaries",
+        "text_sha256": "db9aeaec674371aa7cd444dcea42542f7dc3ecc27746184178dd4c495723d857"
+      }
+    },
+    {
+      "id": "equipment:breastplate",
+      "kind": "equipment",
+      "name": "Breastplate",
+      "rules_text": "Medium Armor (5 Minutes to Don and 1 Minute to Doff)\nArmor Armor Class (AC) Strength Stealth Weight Cost\nBreastplate 14 + Dex modifier (max 2) — — 20 lb. 400 GP",
+      "metadata": {
+        "category": "medium-armor",
+        "price_cp": 40000,
+        "weight_text": "20 lb."
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:armor-rules"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          92
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "text_sha256": "ebf85595c6d7a7fe56c82922b4114d082332e5fe80f7e660064d44fff7388d76"
+      }
+    },
+    {
+      "id": "equipment:chain",
+      "kind": "equipment",
+      "name": "Chain",
+      "rules_text": "Adventuring Gear\nItem Weight Cost\nChain 10 lb. 5 GP\n\nChain (5 GP) As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Strength (Athletics) check. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action.",
+      "metadata": {
+        "category": "adventuring-gear",
+        "price_cp": 500,
+        "weight_text": "10 lb."
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:condition",
+        "rule:creature",
+        "rule:grappled",
+        "rule:incapacitated",
+        "rule:restrained",
+        "rule:utilize"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          95,
+          96
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Chain5GP",
+        "text_sha256": "c2c5f9c054df2fad7a472d9c8b1ed21683bf90319378d4e232790a5818b45dff"
+      }
+    },
+    {
+      "id": "equipment:chain-shirt",
+      "kind": "equipment",
+      "name": "Chain Shirt",
+      "rules_text": "Medium Armor (5 Minutes to Don and 1 Minute to Doff)\nArmor Armor Class (AC) Strength Stealth Weight Cost\nChain Shirt 13 + Dex modifier (max 2) — — 20 lb. 50 GP",
+      "metadata": {
+        "category": "medium-armor",
+        "price_cp": 5000,
+        "weight_text": "20 lb."
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:armor-rules"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          92
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "text_sha256": "ae84ad29bbfc1a04295a291bb0f3a3a769cb2aa283b2f1474f699319e5e74105"
+      }
+    },
+    {
+      "id": "equipment:climber-s-kit",
+      "kind": "equipment",
+      "name": "Climber’s Kit",
+      "rules_text": "Adventuring Gear\nItem Weight Cost\nClimber’s Kit 12 lb. 25 GP\n\nClimber’s Kit (25 GP) A Climber’s Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber’s Kit to anchor yourself; when you do, you can’t fall more than 25 feet from the anchor point, and you can’t move more than 25 feet from there without undoing the anchor as a Bonus Action.",
+      "metadata": {
+        "category": "adventuring-gear",
+        "price_cp": 2500,
+        "weight_text": "12 lb."
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:bonus-action",
+        "rule:utilize"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          95,
+          97
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#ClimbersKit25GP",
+        "text_sha256": "8c8ac76a5aa72ca4ea65f8ff0de94829b32534c4d75f7107b42d34da3630cde9"
+      }
+    },
+    {
+      "id": "equipment:component-pouch",
+      "kind": "equipment",
+      "name": "Component Pouch",
+      "rules_text": "Adventuring Gear\nItem Weight Cost\nComponent Pouch 2 lb. 25 GP\n\nComponent Pouch (25 GP) A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.",
+      "metadata": {
+        "category": "adventuring-gear",
+        "price_cp": 2500,
+        "weight_text": "2 lb."
+      },
+      "dependencies": [],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          95,
+          97
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#ComponentPouch25GP",
+        "text_sha256": "0475df69b16db489e2a387b54d3684cc64c132ee92ae7d89b1042b846fbe8c03"
+      }
+    },
+    {
+      "id": "equipment:firearm-bullets",
+      "kind": "equipment",
+      "name": "Firearm Bullets",
+      "rules_text": "Ammunition (Varies) Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.\n\nAmmunition Type Amount Storage Weight Cost Arrows 20 Quiver 1 lb. 1 GP Bolts 20 Case 1½ lb. 1 GP Bullets, Firearm 10 Pouch 2 lb. 3 GP Bullets, Sling 20 Pouch 1½ lb. 4 CP Needles 50 Pouch 1 lb. 1 GP",
+      "metadata": {
+        "category": "ammunition",
+        "price_cp": 300,
+        "weight_text": "2 lb."
+      },
+      "dependencies": [
+        "rule:weapon"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          94,
+          96
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#AmmunitionVaries",
+        "text_sha256": "db9aeaec674371aa7cd444dcea42542f7dc3ecc27746184178dd4c495723d857"
+      }
+    },
+    {
+      "id": "equipment:greatclub",
+      "kind": "equipment",
+      "name": "Greatclub",
+      "rules_text": "Simple Melee Weapons\nName Damage Properties Mastery Weight Cost\nGreatclub 1d8 Bludgeoning Two-Handed Push 10 lb. 2 SP",
+      "metadata": {
+        "category": "simple-melee-weapon",
+        "price_cp": 20,
+        "weight_text": "10 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "2d398afbe4e3e5ad781095c59267b8e6b6c3709e730052bf57467e38402b9f1f"
+      }
+    },
+    {
+      "id": "equipment:greatsword",
+      "kind": "equipment",
+      "name": "Greatsword",
+      "rules_text": "Martial Melee Weapons\nName Damage Properties Mastery Weight Cost\nGreatsword 2d6 Slashing Heavy, Two-Handed Graze 6 lb. 50 GP",
+      "metadata": {
+        "category": "martial-melee-weapon",
+        "price_cp": 5000,
+        "weight_text": "6 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "f4edd85debef1b452de05fe38be54c94262f64108116277d2e28b3459c69d5df"
+      }
+    },
+    {
+      "id": "equipment:half-plate-armor",
+      "kind": "equipment",
+      "name": "Half Plate Armor",
+      "rules_text": "Medium Armor (5 Minutes to Don and 1 Minute to Doff)\nArmor Armor Class (AC) Strength Stealth Weight Cost\nHalf Plate Armor 15 + Dex modifier (max 2) — Disadvantage 40 lb. 750 GP",
+      "metadata": {
+        "category": "medium-armor",
+        "price_cp": 75000,
+        "weight_text": "40 lb."
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:armor-rules",
+        "rule:disadvantage"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          92
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "text_sha256": "cdd74b4f9bb62f3d39129796f5dfc15b1f8c17d802df80188379157dc23abe6d"
+      }
+    },
+    {
+      "id": "equipment:iron-spikes",
+      "kind": "equipment",
+      "name": "Iron Spikes",
+      "rules_text": "Adventuring Gear\nItem Weight Cost\nSpikes, Iron 5 lb. 1 GP\n\nSpikes, Iron (1 GP) Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike.",
+      "metadata": {
+        "category": "adventuring-gear",
+        "price_cp": 100,
+        "weight_text": "5 lb."
+      },
+      "dependencies": [
+        "equipment:chain",
+        "equipment:light-hammer",
+        "equipment:rope",
+        "rule:action",
+        "rule:object",
+        "rule:utilize"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          95,
+          100
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#SpikesIron1GP",
+        "text_sha256": "8686934165b82b26fd602cd99aa02018f28ba91f7a96caa26256cefefa10cebf"
+      }
+    },
+    {
+      "id": "equipment:javelin",
+      "kind": "equipment",
+      "name": "Javelin",
+      "rules_text": "Simple Melee Weapons\nName Damage Properties Mastery Weight Cost\nJavelin 1d6 Piercing Thrown (Range 30/120) Slow 2 lb. 5 SP",
+      "metadata": {
+        "category": "simple-melee-weapon",
+        "price_cp": 50,
+        "weight_text": "2 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "3bb3d294d75e7abca5f75ba023c12e0ec9520985b108d9fb38639cf35ff3dfe1"
+      }
+    },
+    {
+      "id": "equipment:leather-armor",
+      "kind": "equipment",
+      "name": "Leather Armor",
+      "rules_text": "Light Armor (1 Minute to Don or Doff)\nArmor Armor Class (AC) Strength Stealth Weight Cost\nLeather Armor 11 + Dex modifier — — 10 lb. 10 GP",
+      "metadata": {
+        "category": "light-armor",
+        "price_cp": 1000,
+        "weight_text": "10 lb."
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:armor-rules"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          92
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "text_sha256": "c0ccf5bf82de54b6d028458023beb51ac4fc26b3dd2021ad054995f765332a01"
+      }
+    },
+    {
+      "id": "equipment:light-crossbow",
+      "kind": "equipment",
+      "name": "Light Crossbow",
+      "rules_text": "Simple Ranged Weapons\nName Damage Properties Mastery Weight Cost\nLight Crossbow 1d8 Piercing Ammunition (Range 80/320; Bolt), Loading, Two-Handed Slow 5 lb. 25 GP",
+      "metadata": {
+        "category": "simple-ranged-weapon",
+        "price_cp": 2500,
+        "weight_text": "5 lb."
+      },
+      "dependencies": [
+        "equipment:bolts",
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "b650d49c41f4298a4dcef6f508b3bdda1080ca9563be806cac8edb703edc9523"
+      }
+    },
+    {
+      "id": "equipment:light-hammer",
+      "kind": "equipment",
+      "name": "Light Hammer",
+      "rules_text": "Simple Melee Weapons\nName Damage Properties Mastery Weight Cost\nLight Hammer 1d4 Bludgeoning Light, Thrown (Range 20/60) Nick 2 lb. 2 GP",
+      "metadata": {
+        "category": "simple-melee-weapon",
+        "price_cp": 200,
+        "weight_text": "2 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "8629ee5e8e2ef97f2c861360c2a42e64d5e5f0d7293c9f066b751d0ea0663756"
+      }
+    },
+    {
+      "id": "equipment:lock",
+      "kind": "equipment",
+      "name": "Lock",
+      "rules_text": "Adventuring Gear\nItem Weight Cost\nLock 1 lb. 10 GP\n\nLock (10 GP) A Lock comes with a key. Without the key, a creature can use Thieves’ Tools to pick this Lock with a successful DC 15 Dexterity (Sleight of Hand) check.",
+      "metadata": {
+        "category": "adventuring-gear",
+        "price_cp": 1000,
+        "weight_text": "1 lb."
+      },
+      "dependencies": [
+        "equipment:thieves-tools",
+        "rule:creature"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          95,
+          98
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Lock10GP",
+        "text_sha256": "c3fb8e48fa6ab8dd45725ae377fad290bba6810dd719f3b467dfb1bd8cc1437e"
+      }
+    },
+    {
+      "id": "equipment:longbow",
+      "kind": "equipment",
+      "name": "Longbow",
+      "rules_text": "Martial Ranged Weapons\nName Damage Properties Mastery Weight Cost\nLongbow 1d8 Piercing Ammunition (Range 150/600; Arrow), Heavy, Two-Handed Slow 2 lb. 50 GP",
+      "metadata": {
+        "category": "martial-ranged-weapon",
+        "price_cp": 5000,
+        "weight_text": "2 lb."
+      },
+      "dependencies": [
+        "equipment:arrows",
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "cf5a93e00bd173d85150a1f5da3b2ee6886ff5036cba67a93c3f9add4b8b9795"
+      }
+    },
+    {
+      "id": "equipment:longsword",
+      "kind": "equipment",
+      "name": "Longsword",
+      "rules_text": "Martial Melee Weapons\nName Damage Properties Mastery Weight Cost\nLongsword 1d8 Slashing Versatile (1d10) Sap 3 lb. 15 GP",
+      "metadata": {
+        "category": "martial-melee-weapon",
+        "price_cp": 1500,
+        "weight_text": "3 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "48ec2ffc5360c7d6013743457c1fe88be286a98221be2f1e623c7f0741a58fcd"
+      }
+    },
+    {
+      "id": "equipment:morningstar",
+      "kind": "equipment",
+      "name": "Morningstar",
+      "rules_text": "Martial Melee Weapons\nName Damage Properties Mastery Weight Cost\nMorningstar 1d8 Piercing — Sap 4 lb. 15 GP",
+      "metadata": {
+        "category": "martial-melee-weapon",
+        "price_cp": 1500,
+        "weight_text": "4 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "ba395110d58d37221e1a44f0c3bbeeedfc4e8197644a8b95de0b8a6700a11fc2"
+      }
+    },
+    {
+      "id": "equipment:net",
+      "kind": "equipment",
+      "name": "Net",
+      "rules_text": "Adventuring Gear\nItem Weight Cost\nNet 3 lb. 1 GP\n\nNet (1 GP) When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the Restrained condition until it escapes. The target succeeds automatically if it is Huge or larger. To escape, the target or a creature within 5 feet of it must take an action to make a DC 10 Strength (Athletics) check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect.",
+      "metadata": {
+        "category": "adventuring-gear",
+        "price_cp": 100,
+        "weight_text": "3 lb."
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:attack",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:immunity",
+        "rule:proficiency",
+        "rule:restrained",
+        "rule:saving-throw",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          95,
+          98
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Net1GP",
+        "text_sha256": "313a34831b175cfe0867d7a302926d55ed993570ea53d55ce4cc0496f608b256"
+      }
+    },
+    {
+      "id": "equipment:pistol",
+      "kind": "equipment",
+      "name": "Pistol",
+      "rules_text": "Martial Ranged Weapons\nName Damage Properties Mastery Weight Cost\nPistol 1d10 Piercing Ammunition (Range 30/90; Bullet), Loading Vex 3 lb. 250 GP",
+      "metadata": {
+        "category": "martial-ranged-weapon",
+        "price_cp": 25000,
+        "weight_text": "3 lb."
+      },
+      "dependencies": [
+        "equipment:firearm-bullets",
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "fa67c0f72c98d7bd8032ad07457ceb946f02569f50b271778523be259f6d64a9"
+      }
+    },
+    {
+      "id": "equipment:plate-armor",
+      "kind": "equipment",
+      "name": "Plate Armor",
+      "rules_text": "Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)\nArmor Armor Class (AC) Strength Stealth Weight Cost\nPlate Armor 18 Str 15 Disadvantage 65 lb. 1,500 GP",
+      "metadata": {
+        "category": "heavy-armor",
+        "price_cp": 150000,
+        "weight_text": "65 lb."
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:armor-rules",
+        "rule:disadvantage"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          92
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "text_sha256": "46ed890e8fecd1d14d8d88fbc8e6eb3f1fb8b0a4273d4297a2e4d1c22b35fa57"
+      }
+    },
+    {
+      "id": "equipment:rope",
+      "kind": "equipment",
+      "name": "Rope",
+      "rules_text": "Adventuring Gear\nItem Weight Cost\nRope 5 lb. 1 GP\n\nRope (1 GP) As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check. You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature’s legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.",
+      "metadata": {
+        "category": "adventuring-gear",
+        "price_cp": 100,
+        "weight_text": "5 lb."
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:condition",
+        "rule:creature",
+        "rule:grappled",
+        "rule:incapacitated",
+        "rule:restrained",
+        "rule:utilize"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          95,
+          99
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Rope1GP",
+        "text_sha256": "28dec37f1d6d172ea796de74394f8152ebc2595b148b2bbed3cfd64290e08dbb"
+      }
+    },
+    {
+      "id": "equipment:scimitar",
+      "kind": "equipment",
+      "name": "Scimitar",
+      "rules_text": "Martial Melee Weapons\nName Damage Properties Mastery Weight Cost\nScimitar 1d6 Slashing Finesse, Light Nick 3 lb. 25 GP",
+      "metadata": {
+        "category": "martial-melee-weapon",
+        "price_cp": 2500,
+        "weight_text": "3 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "01b4ea190b703102b63085843089c9b65cd1a71af35d1d07c4cb4449d95456a1"
+      }
+    },
+    {
+      "id": "equipment:shield",
+      "kind": "equipment",
+      "name": "Shield",
+      "rules_text": "Shield (Utilize Action to Don or Doff)\nArmor Armor Class (AC) Strength Stealth Weight Cost\nShield +2 — — 6 lb. 10 GP",
+      "metadata": {
+        "category": "shield",
+        "price_cp": 1000,
+        "weight_text": "6 lb."
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:armor-class",
+        "rule:armor-rules",
+        "rule:utilize"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          92
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "text_sha256": "3a75bf3c734d436aef6484bb155a66b5aa303c495d8e55951552b5f5957ebde6"
+      }
+    },
+    {
+      "id": "equipment:shortbow",
+      "kind": "equipment",
+      "name": "Shortbow",
+      "rules_text": "Simple Ranged Weapons\nName Damage Properties Mastery Weight Cost\nShortbow 1d6 Piercing Ammunition (Range 80/320; Arrow), Two-Handed Vex 2 lb. 25 GP",
+      "metadata": {
+        "category": "simple-ranged-weapon",
+        "price_cp": 2500,
+        "weight_text": "2 lb."
+      },
+      "dependencies": [
+        "equipment:arrows",
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "0ca1d26b2b5ad5f81d99db1215857186c43371e2ce5f161538c021c83b5a7260"
+      }
+    },
+    {
+      "id": "equipment:shortsword",
+      "kind": "equipment",
+      "name": "Shortsword",
+      "rules_text": "Martial Melee Weapons\nName Damage Properties Mastery Weight Cost\nShortsword 1d6 Piercing Finesse, Light Vex 2 lb. 10 GP",
+      "metadata": {
+        "category": "martial-melee-weapon",
+        "price_cp": 1000,
+        "weight_text": "2 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "3034f78371297cafc063e832e72094c9a87e2e6768d8e7b540acb0ce3d04fa0e"
+      }
+    },
+    {
+      "id": "equipment:spear",
+      "kind": "equipment",
+      "name": "Spear",
+      "rules_text": "Simple Melee Weapons\nName Damage Properties Mastery Weight Cost\nSpear 1d6 Piercing Thrown (Range 20/60), Versatile (1d8) Sap 3 lb. 1 GP",
+      "metadata": {
+        "category": "simple-melee-weapon",
+        "price_cp": 100,
+        "weight_text": "3 lb."
+      },
+      "dependencies": [
+        "rule:damage",
+        "rule:weapon-properties"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          91
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Weapons",
+        "text_sha256": "a5a483cb6964f3c8f2717d06275642fff05c802610d9b5272fc2344cce339fbe"
+      }
+    },
+    {
+      "id": "equipment:studded-leather-armor",
+      "kind": "equipment",
+      "name": "Studded Leather Armor",
+      "rules_text": "Light Armor (1 Minute to Don or Doff)\nArmor Armor Class (AC) Strength Stealth Weight Cost\nStudded Leather Armor 12 + Dex modifier — — 13 lb. 45 GP",
+      "metadata": {
+        "category": "light-armor",
+        "price_cp": 4500,
+        "weight_text": "13 lb."
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:armor-rules"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          92
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Armor",
+        "text_sha256": "c3f9e667faab60977cc045aaef796197c41228b7cbcbfbcc59152c7ebe4225db"
+      }
+    },
+    {
+      "id": "equipment:thieves-tools",
+      "kind": "equipment",
+      "name": "Thieves’ Tools",
+      "rules_text": "Thieves’ Tools (25 GP) Ability: Dexterity Weight: 1 lb. Utilize: Pick a lock (DC 15), or disarm a trap (DC 15)",
+      "metadata": {
+        "category": "tool",
+        "price_cp": 2500,
+        "weight_text": "1 lb."
+      },
+      "dependencies": [
+        "rule:tool-proficiency",
+        "rule:utilize"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          94
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment#ThievesTools25GP",
+        "text_sha256": "aaf4db7e82b9c5ec2f7931eaace2cec3db91799f5fa773d400a4387921bd2921"
+      }
+    }
+  ]
+}

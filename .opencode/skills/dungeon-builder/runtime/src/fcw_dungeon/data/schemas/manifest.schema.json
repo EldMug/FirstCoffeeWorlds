@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fcw:manifest:v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "slug", "name", "revision", "operation", "created_at", "input_digest", "parent_digest", "catalog_digest", "generator_version", "runtime", "artifacts", "features"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1}, "slug": {"$ref": "urn:fcw:common:v1#/$defs/slug"}, "name": {"$ref": "urn:fcw:common:v1#/$defs/name"},
+    "revision": {"type": "integer", "minimum": 1}, "operation": {"enum": ["generate", "render", "regenerate"]},
+    "created_at": {"type": "string", "format": "date-time", "pattern": "Z$"},
+    "input_digest": {"$ref": "urn:fcw:common:v1#/$defs/digest"},
+    "parent_digest": {"anyOf": [{"type": "null"}, {"$ref": "urn:fcw:common:v1#/$defs/digest"}]},
+    "catalog_digest": {"$ref": "urn:fcw:common:v1#/$defs/digest"}, "generator_version": {"type": "integer", "const": 1},
+    "runtime": {"$ref": "#/$defs/runtime"}, "artifacts": {"$ref": "#/$defs/artifacts"}, "features": {"$ref": "#/$defs/features"}
+  },
+  "$defs": {
+    "runtime": {
+      "type": "object", "additionalProperties": false, "required": ["python", "pillow", "reportlab", "jsonschema", "font_digests"],
+      "properties": {
+        "python": {"type": "string", "minLength": 1}, "pillow": {"type": "string", "minLength": 1}, "reportlab": {"type": "string", "minLength": 1}, "jsonschema": {"type": "string", "minLength": 1},
+        "font_digests": {
+          "type": "object", "additionalProperties": false, "required": ["Vera.ttf", "VeraBd.ttf"],
+          "properties": {"Vera.ttf": {"$ref": "urn:fcw:common:v1#/$defs/digest"}, "VeraBd.ttf": {"$ref": "urn:fcw:common:v1#/$defs/digest"}}
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object", "additionalProperties": false,
+      "required": ["brief.json", "dungeon.json", "map-gm.png", "map-player.png", "map-gm.pdf", "map-player.pdf", "room-key.md", "room-key.pdf"],
+      "properties": {
+        "brief.json": {"$ref": "urn:fcw:common:v1#/$defs/digest"}, "dungeon.json": {"$ref": "urn:fcw:common:v1#/$defs/digest"},
+        "map-gm.png": {"$ref": "urn:fcw:common:v1#/$defs/digest"}, "map-player.png": {"$ref": "urn:fcw:common:v1#/$defs/digest"},
+        "map-gm.pdf": {"$ref": "urn:fcw:common:v1#/$defs/digest"}, "map-player.pdf": {"$ref": "urn:fcw:common:v1#/$defs/digest"},
+        "room-key.md": {"$ref": "urn:fcw:common:v1#/$defs/digest"}, "room-key.pdf": {"$ref": "urn:fcw:common:v1#/$defs/digest"}
+      }
+    },
+    "features": {
+      "type": "object", "additionalProperties": false,
+      "required": ["grid", "level_min", "level_max", "party_levels", "layout", "theme", "purpose", "seed"],
+      "properties": {
+        "grid": {"$ref": "urn:fcw:common:v1#/$defs/grid"}, "level_min": {"type": "integer", "minimum": 1, "maximum": 20}, "level_max": {"type": "integer", "minimum": 1, "maximum": 20},
+        "party_levels": {"$ref": "urn:fcw:common:v1#/$defs/party_levels"}, "layout": {"enum": ["constructed", "cave"]},
+        "theme": {"enum": ["crypt", "stronghold", "cave"]}, "purpose": {"type": "string", "minLength": 1, "maxLength": 4096}, "seed": {"$ref": "urn:fcw:common:v1#/$defs/uint64"}
+      }
+    }
+  }
+}

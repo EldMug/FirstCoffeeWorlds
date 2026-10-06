@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fcw:dungeon:v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "generator_version", "catalog_version", "catalog_digest", "seed", "brief", "geometry", "contents", "sources", "lore_proposals"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 1}, "generator_version": {"type": "integer", "const": 1},
+    "catalog_version": {"type": "integer", "const": 1}, "catalog_digest": {"$ref": "urn:fcw:common:v1#/$defs/digest"},
+    "seed": {"$ref": "urn:fcw:common:v1#/$defs/uint64"}, "brief": {"$ref": "urn:fcw:brief:v1"},
+    "geometry": {"$ref": "#/$defs/geometry"}, "contents": {"$ref": "#/$defs/contents"},
+    "sources": {"$ref": "urn:fcw:common:v1#/$defs/source_map"},
+    "lore_proposals": {"type": "array", "items": {"$ref": "#/$defs/lore_proposal"}}
+  },
+  "$defs": {
+    "room": {
+      "type": "object", "additionalProperties": false, "required": ["id", "cells", "anchor", "required", "secret"],
+      "properties": {
+        "id": {"$ref": "urn:fcw:common:v1#/$defs/room_id"}, "cells": {"$ref": "urn:fcw:common:v1#/$defs/points"},
+        "anchor": {"$ref": "urn:fcw:common:v1#/$defs/point"}, "required": {"type": "boolean"}, "secret": {"type": "boolean"}
+      }
+    },
+    "passage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "from_room", "to_room", "cells", "centerline", "width", "secret"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^P[0-9]{3}$(?![\\s\\S])"},
+        "from_room": {"$ref": "urn:fcw:common:v1#/$defs/room_id"}, "to_room": {"$ref": "urn:fcw:common:v1#/$defs/room_id"},
+        "cells": {"$ref": "urn:fcw:common:v1#/$defs/points"}, "centerline": {"$ref": "urn:fcw:common:v1#/$defs/points"},
+        "width": {"type": "integer", "enum": [1, 2]}, "secret": {"type": "boolean"}
+      }
+    },
+    "door": {
+      "type": "object", "additionalProperties": false, "required": ["id", "cells", "gate_id"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^D[0-9]{3}$(?![\\s\\S])"}, "cells": {"$ref": "urn:fcw:common:v1#/$defs/points"},
+        "gate_id": {"type": ["string", "null"], "pattern": "^G[0-9]{3}$(?![\\s\\S])"}
+      }
+    },
+    "gate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "mechanism", "door_id", "prerequisite_id", "prerequisite_room", "prerequisite_point", "clue", "solution"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^G[0-9]{3}$(?![\\s\\S])"}, "mechanism": {"enum": ["key_lock", "lever", "secret_door"]},
+        "door_id": {"type": "string", "pattern": "^D[0-9]{3}$(?![\\s\\S])"}, "prerequisite_id": {"type": "string", "minLength": 1},
+        "prerequisite_room": {"$ref": "urn:fcw:common:v1#/$defs/room_id"}, "prerequisite_point": {"$ref": "urn:fcw:common:v1#/$defs/point"},
+        "clue": {"$ref": "urn:fcw:common:v1#/$defs/text"}, "solution": {"$ref": "urn:fcw:common:v1#/$defs/text"}
+      }
+    },
+    "geometry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["width", "height", "rows", "rooms", "passages", "doors", "gates", "entrance", "objective_room", "secret_cells", "actual_room_count"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 20, "maximum": 80}, "height": {"type": "integer", "minimum": 20, "maximum": 80},
+        "rows": {"type": "array", "minItems": 20, "maxItems": 80, "items": {"type": "string", "minLength": 20, "maxLength": 80, "pattern": "^[#.]+$(?![\\s\\S])"}},
+        "rooms": {"type": "array", "minItems": 4, "maxItems": 48, "items": {"$ref": "#/$defs/room"}},
+        "passages": {"type": "array", "items": {"$ref": "#/$defs/passage"}}, "doors": {"type": "array", "items": {"$ref": "#/$defs/door"}},
+        "gates": {"type": "array", "maxItems": 2, "items": {"$ref": "#/$defs/gate"}},
+        "entrance": {"$ref": "urn:fcw:common:v1#/$defs/point"}, "objective_room": {"$ref": "urn:fcw:common:v1#/$defs/room_id"},
+        "secret_cells": {"type": "array", "uniqueItems": true, "items": {"$ref": "urn:fcw:common:v1#/$defs/point"}},
+        "actual_room_count": {"type": "integer", "minimum": 4, "maximum": 48}
+      }
+    },
+    "monster_placement": {
+      "type": "object", "additionalProperties": false, "required": ["instance_id", "catalog_id", "selected_size", "cells"],
+      "properties": {
+        "instance_id": {"type": "string", "minLength": 1}, "catalog_id": {"$ref": "urn:fcw:common:v1#/$defs/entry_id"},
+        "selected_size": {"$ref": "urn:fcw:common:v1#/$defs/size"}, "cells": {"$ref": "urn:fcw:common:v1#/$defs/points"}
+      }
+    },
+    "encounter": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target_difficulty", "budget", "xp", "monsters", "party_entry_cells", "cautions"],
+      "properties": {
+        "target_difficulty": {"enum": ["low", "moderate", "high"]}, "budget": {"type": "integer", "minimum": 1}, "xp": {"type": "integer", "minimum": 1},
+        "monsters": {"type": "array", "minItems": 1, "maxItems": 12, "items": {"$ref": "#/$defs/monster_placement"}},
+        "party_entry_cells": {"$ref": "urn:fcw:common:v1#/$defs/points"}, "cautions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "trap_placement": {
+      "type": "object", "additionalProperties": false,
+      "required": ["instance_id", "catalog_id", "tier", "trigger_cells", "effect_cells", "bypass_path", "escape_aid"],
+      "properties": {
+        "instance_id": {"type": "string", "minLength": 1}, "catalog_id": {"$ref": "urn:fcw:common:v1#/$defs/entry_id"},
+        "tier": {"type": "integer", "minimum": 1, "maximum": 4}, "trigger_cells": {"$ref": "urn:fcw:common:v1#/$defs/points"},
+        "effect_cells": {"$ref": "urn:fcw:common:v1#/$defs/points"}, "bypass_path": {"$ref": "urn:fcw:common:v1#/$defs/points"},
+        "escape_aid": {"type": ["string", "null"]}
+      }
+    },
+    "treasure_placement": {
+      "type": "object", "additionalProperties": false, "required": ["instance_id", "catalog_id", "room_id", "hidden"],
+      "properties": {
+        "instance_id": {"type": "string", "pattern": "^T[0-9]{3}$(?![\\s\\S])"}, "catalog_id": {"$ref": "urn:fcw:common:v1#/$defs/entry_id"},
+        "room_id": {"$ref": "urn:fcw:common:v1#/$defs/room_id"}, "hidden": {"type": "boolean"}
+      }
+    },
+    "feature": {
+      "type": "object", "additionalProperties": false, "required": ["text", "source_ids", "product_choice"],
+      "properties": {"text": {"type": "string"}, "source_ids": {"$ref": "urn:fcw:common:v1#/$defs/entry_ids"}, "product_choice": {"type": "boolean"}}
+    },
+    "room_content": {
+      "type": "object", "additionalProperties": false, "required": ["room_id", "role", "title", "description", "encounter", "trap", "features"],
+      "properties": {
+        "room_id": {"$ref": "urn:fcw:common:v1#/$defs/room_id"}, "role": {"enum": ["exploration", "combat", "trap"]},
+        "title": {"$ref": "urn:fcw:common:v1#/$defs/name"}, "description": {"$ref": "urn:fcw:common:v1#/$defs/text"},
+        "encounter": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/encounter"}]},
+        "trap": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/trap_placement"}]},
+        "features": {"type": "array", "items": {"$ref": "#/$defs/feature"}}
+      },
+      "allOf": [
+        {"if": {"properties": {"role": {"const": "combat"}}}, "then": {"properties": {"encounter": {"$ref": "#/$defs/encounter"}, "trap": {"type": "null"}}}},
+        {"if": {"properties": {"role": {"const": "trap"}}}, "then": {"properties": {"encounter": {"type": "null"}, "trap": {"$ref": "#/$defs/trap_placement"}}}},
+        {"if": {"properties": {"role": {"const": "exploration"}}}, "then": {"properties": {"encounter": {"type": "null"}, "trap": {"type": "null"}}}}
+      ]
+    },
+    "counts": {
+      "type": "object", "additionalProperties": false, "required": ["exploration", "combat", "trap", "item", "coin"],
+      "properties": {"exploration": {"type": "integer", "minimum": 0}, "combat": {"type": "integer", "minimum": 0}, "trap": {"type": "integer", "minimum": 0}, "item": {"type": "integer", "minimum": 0}, "coin": {"type": "integer", "minimum": 0}}
+    },
+    "contents": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rooms", "treasure", "coins", "objective_point", "objective_description", "requested_counts", "actual_counts"],
+      "properties": {
+        "rooms": {"type": "array", "minItems": 4, "maxItems": 48, "items": {"$ref": "#/$defs/room_content"}},
+        "treasure": {"type": "array", "maxItems": 20, "items": {"$ref": "#/$defs/treasure_placement"}},
+        "coins": {"type": "object", "propertyNames": {"$ref": "urn:fcw:common:v1#/$defs/room_id"}, "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 1000000000}},
+        "objective_point": {"$ref": "urn:fcw:common:v1#/$defs/point"}, "objective_description": {"type": "string"},
+        "requested_counts": {"$ref": "#/$defs/counts"}, "actual_counts": {"$ref": "#/$defs/counts"}
+      }
+    },
+    "lore_proposal": {
+      "type": "object", "additionalProperties": false, "required": ["id", "text", "related_links", "status"],
+      "properties": {"id": {"type": "string", "minLength": 1}, "text": {"type": "string", "minLength": 1}, "related_links": {"type": "array", "items": {"type": "string"}}, "status": {"const": "proposed"}}
+    }
+  }
+}

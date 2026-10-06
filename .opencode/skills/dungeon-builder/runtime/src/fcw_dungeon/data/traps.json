@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "trap:collapsing-roof",
+      "kind": "trap",
+      "name": "Collapsing Roof",
+      "rules_text": "Collapsing Roof Deadly Trap (Levels 1–4) Trigger: A creature crosses a trip wire Duration: Instantaneous This trap uses a trip wire to collapse an unstable section of ceiling. The trip wire is 3 inches off the ground and stretches between two weak supports that topple when the trip wire is pulled. The first creature that crosses the trip wire causes the supports to topple and the unstable section of ceiling to collapse. Each creature beneath the unstable section of ceiling must succeed on a DC 13 Dexterity saving throw, taking 11 (2d10) Bludgeoning damage on a failed save or half as much damage on a successful one. Rubble from the collapse turns the trapped area into Difficult Terrain. Detect and Disarm. As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required). At Higher Levels. You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table. Levels Bludgeoning Damage Save DC 5–10 22 (4d10) 15 11–16 55 (10d10) 17 17–20 99 (18d10) 19",
+      "metadata": {
+        "severity": "deadly",
+        "trigger_text": "A creature crosses a trip wire",
+        "reset_text": "Instantaneous",
+        "variants": [
+          {
+            "tier": 1,
+            "minimum_level": 1,
+            "maximum_level": 4,
+            "damage_text": "11 (2d10) Bludgeoning damage; half as much damage on a successful save",
+            "save_dc": 13,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "Instantaneous"
+          },
+          {
+            "tier": 2,
+            "minimum_level": 5,
+            "maximum_level": 10,
+            "damage_text": "22 (4d10) Bludgeoning damage; half as much damage on a successful save",
+            "save_dc": 15,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "Instantaneous"
+          },
+          {
+            "tier": 3,
+            "minimum_level": 11,
+            "maximum_level": 16,
+            "damage_text": "55 (10d10) Bludgeoning damage; half as much damage on a successful save",
+            "save_dc": 17,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "Instantaneous"
+          },
+          {
+            "tier": 4,
+            "minimum_level": 17,
+            "maximum_level": 20,
+            "damage_text": "99 (18d10) Bludgeoning damage; half as much damage on a successful save",
+            "save_dc": 19,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the unstable section of ceiling on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "Instantaneous"
+          }
+        ]
+      },
+      "dependencies": [
+        "rule:ability-check",
+        "rule:action",
+        "rule:creature",
+        "rule:damage",
+        "rule:difficult-terrain",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:search"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          199
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/dms-toolbox#CollapsingRoof",
+        "text_sha256": "fc22f4e3c04ffb5bc12219e91163c214aa1712599153b6250d52500d97b2ce15"
+      }
+    },
+    {
+      "id": "trap:falling-net",
+      "kind": "trap",
+      "name": "Falling Net",
+      "rules_text": "Falling Net Nuisance Trap (Levels 1–4) Trigger: A creature crosses a trip wire Duration: Instantaneous A falling net trap uses a trip wire to release a weighted, 10-foot-square Net suspended from the ceiling. The trip wire is 3 inches off the ground and stretches between two columns or trees. The first creature that crosses the trip wire causes the Net to fall on it. The target must succeed on a DC 10 Dexterity saving throw or have the Restrained condition until it escapes. The target succeeds automatically if it’s Huge or larger. A creature can take an action to make a DC 10 Strength (Athletics) check, freeing itself or another creature within its reach from the Net on a successful check. Detect and Disarm. As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required). Destroy the Net. Reducing the Net to 0 Hit Points frees any creature trapped in it (see “Adventuring Gear” for the Net’s statistics). Set the Trap. A creature that has Thieves’ Tools and all the trap’s components (including a Net) can try to set a falling net trap, doing so with a successful DC 13 Dexterity (Sleight of Hand) check. Each attempt to set this trap takes 10 minutes. At Higher Levels. You can scale the trap for higher levels by increasing the weight of the Net, which increases the save DC and the DC of the Strength (Athletics) check as follows: DC 12 at levels 5–10, DC 14 at levels 11–16, or DC 16 at levels 17–20.",
+      "metadata": {
+        "severity": "nuisance",
+        "trigger_text": "A creature crosses a trip wire",
+        "reset_text": "Instantaneous",
+        "variants": [
+          {
+            "tier": 1,
+            "minimum_level": 1,
+            "maximum_level": 4,
+            "damage_text": "",
+            "save_dc": 10,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "A creature can take an action to make a DC 10 Strength (Athletics) check, freeing itself or another creature within its reach from the Net on a successful check. Reducing the Net to 0 Hit Points frees any creature trapped in it (see “Adventuring Gear” for the Net’s statistics)."
+          },
+          {
+            "tier": 2,
+            "minimum_level": 5,
+            "maximum_level": 10,
+            "damage_text": "",
+            "save_dc": 12,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "A creature can take an action to make a DC 12 Strength (Athletics) check, freeing itself or another creature within its reach from the Net on a successful check. Reducing the Net to 0 Hit Points frees any creature trapped in it (see “Adventuring Gear” for the Net’s statistics)."
+          },
+          {
+            "tier": 3,
+            "minimum_level": 11,
+            "maximum_level": 16,
+            "damage_text": "",
+            "save_dc": 14,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "A creature can take an action to make a DC 14 Strength (Athletics) check, freeing itself or another creature within its reach from the Net on a successful check. Reducing the Net to 0 Hit Points frees any creature trapped in it (see “Adventuring Gear” for the Net’s statistics)."
+          },
+          {
+            "tier": 4,
+            "minimum_level": 17,
+            "maximum_level": 20,
+            "damage_text": "",
+            "save_dc": 16,
+            "discovery_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "disarm_text": "As a Search action, a creature can examine the trapped area and make a DC 11 Wisdom (Perception) check, detecting the trip wire and the suspended Net on a successful check. Once detected, the trip wire can be easily cut or avoided (no ability check required).",
+            "escape_text": "A creature can take an action to make a DC 16 Strength (Athletics) check, freeing itself or another creature within its reach from the Net on a successful check. Reducing the Net to 0 Hit Points frees any creature trapped in it (see “Adventuring Gear” for the Net’s statistics)."
+          }
+        ]
+      },
+      "dependencies": [
+        "equipment:net",
+        "equipment:thieves-tools",
+        "rule:ability-check",
+        "rule:action",
+        "rule:condition",
+        "rule:creature",
+        "rule:falling",
+        "rule:hit-points",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:search",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          199
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/dms-toolbox#FallingNet",
+        "text_sha256": "a1f9c11f33daab19c8dc3320ed8a6c047cb44b6c3b91f9ab2e5e1fa211fd4a4f"
+      }
+    },
+    {
+      "id": "trap:hidden-pit",
+      "kind": "trap",
+      "name": "Hidden Pit",
+      "rules_text": "Hidden Pit Nuisance Trap (Levels 1–4) Trigger: A creature moves onto the pit’s lid Duration: Instantaneous This 10-foot-deep pit has a hinged lid constructed from material identical to the surrounding floor. When a creature moves onto the lid, it swings open like a trapdoor, causing the creature to fall into the pit. The lid remains open thereafter. A creature that falls into the pit takes 3 (1d6) Bludgeoning damage from the fall. Detect and Disarm. As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic. Escape. A creature needs a Climb Speed, climbing gear, or magic such as Spider Climb to scale the pit’s smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds. At Higher Levels. You can scale the trap for higher levels by increasing the pit’s depth and damage, as shown in the following table. Levels Pit Depth Bludgeoning Damage 5–10 30 feet 10 (3d6) 11–16 60 feet 21 (6d6) 17–20 120 feet 42 (12d6)",
+      "metadata": {
+        "severity": "nuisance",
+        "trigger_text": "A creature moves onto the pit’s lid",
+        "reset_text": "Instantaneous",
+        "variants": [
+          {
+            "tier": 1,
+            "minimum_level": 1,
+            "maximum_level": 4,
+            "damage_text": "10 feet; 3 (1d6) Bludgeoning damage from the fall",
+            "save_dc": null,
+            "discovery_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "disarm_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "escape_text": "A creature needs a Climb Speed, climbing gear, or magic such as Spider Climb to scale the pit’s smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds."
+          },
+          {
+            "tier": 2,
+            "minimum_level": 5,
+            "maximum_level": 10,
+            "damage_text": "30 feet; 10 (3d6) Bludgeoning damage from the fall",
+            "save_dc": null,
+            "discovery_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "disarm_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "escape_text": "A creature needs a Climb Speed, climbing gear, or magic such as Spider Climb to scale the pit’s smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds."
+          },
+          {
+            "tier": 3,
+            "minimum_level": 11,
+            "maximum_level": 16,
+            "damage_text": "60 feet; 21 (6d6) Bludgeoning damage from the fall",
+            "save_dc": null,
+            "discovery_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "disarm_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "escape_text": "A creature needs a Climb Speed, climbing gear, or magic such as Spider Climb to scale the pit’s smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds."
+          },
+          {
+            "tier": 4,
+            "minimum_level": 17,
+            "maximum_level": 20,
+            "damage_text": "120 feet; 42 (12d6) Bludgeoning damage from the fall",
+            "save_dc": null,
+            "discovery_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "disarm_text": "As a Study action, a creature can examine the section of floor that forms the pit’s lid and make a DC 15 Intelligence (Investigation) check, detecting the pit on a successful check. Once the pit is detected, an Iron Spike or a similar object can be wedged between the pit’s lid and the surrounding floor to prevent the lid from opening, thereby making it safe to cross. The cover can also be held shut using Arcane Lock or similar magic.",
+            "escape_text": "A creature needs a Climb Speed, climbing gear, or magic such as Spider Climb to scale the pit’s smooth walls. You can make the pit easier to escape by adding cracks in the walls big enough to serve as handholds and footholds."
+          }
+        ]
+      },
+      "dependencies": [
+        "equipment:climber-s-kit",
+        "equipment:iron-spikes",
+        "rule:action",
+        "rule:climb-speed",
+        "rule:climbing",
+        "rule:cover",
+        "rule:creature",
+        "rule:damage",
+        "rule:magic",
+        "rule:object",
+        "rule:speed",
+        "rule:study",
+        "spell:arcane-lock",
+        "spell:spider-climb"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          200
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/dms-toolbox#HiddenPit",
+        "text_sha256": "abf158b3a5b3bf427063200946d05de659e400f6bf1903f01ca7315877ec515b"
+      }
+    },
+    {
+      "id": "trap:poisoned-darts",
+      "kind": "trap",
+      "name": "Poisoned Darts",
+      "rules_text": "Poisoned Darts Deadly Trap (Levels 1–4) Trigger: A creature moves onto a pressure plate Duration: Instantaneous, and the trap resets at the start of the next turn if it has activated fewer than three times When a creature moves onto this trap’s pressure plate for the first time on a turn, poisoned darts shoot from tubes embedded in the surrounding walls. The holes that house these tubes are obscured by dust and cobwebs or skillfully hidden amid bas-reliefs, murals, or frescoes. Each creature in the darts’ path must succeed on a DC 13 Dexterity saving throw or be struck by 1d3 darts, taking 3 (1d6) Poison damage per dart. Detect and Disarm. As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering. At Higher Levels. You can scale the trap for higher levels by increasing each dart’s Poison damage as follows: 7 (2d6) at levels 5–10, 14 (4d6) at levels 11–16, or 24 (7d6) at levels 17–20.",
+      "metadata": {
+        "severity": "deadly",
+        "trigger_text": "A creature moves onto a pressure plate",
+        "reset_text": "Instantaneous, and the trap resets at the start of the next turn if it has activated fewer than three times",
+        "variants": [
+          {
+            "tier": 1,
+            "minimum_level": 1,
+            "maximum_level": 4,
+            "damage_text": "3 (1d6) per dart",
+            "save_dc": 13,
+            "discovery_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "disarm_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "escape_text": "Instantaneous"
+          },
+          {
+            "tier": 2,
+            "minimum_level": 5,
+            "maximum_level": 10,
+            "damage_text": "7 (2d6) per dart",
+            "save_dc": 13,
+            "discovery_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "disarm_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "escape_text": "Instantaneous"
+          },
+          {
+            "tier": 3,
+            "minimum_level": 11,
+            "maximum_level": 16,
+            "damage_text": "14 (4d6) per dart",
+            "save_dc": 13,
+            "discovery_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "disarm_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "escape_text": "Instantaneous"
+          },
+          {
+            "tier": 4,
+            "minimum_level": 17,
+            "maximum_level": 20,
+            "damage_text": "24 (7d6) per dart",
+            "save_dc": 13,
+            "discovery_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "disarm_text": "As a Search action, a creature can examine the walls and make a DC 15 Wisdom (Perception) check, detecting the holes on a successful check. Plugging all the holes with wax, cloth, or detritus prevents the darts from firing. As a Search action, a creature can examine the section of floor that forms the pressure plate and make a DC 15 Wisdom (Perception) check, detecting the pressure plate on a successful check. Wedging an Iron Spike or a similar object under the pressure plate prevents the trap from triggering.",
+            "escape_text": "Instantaneous"
+          }
+        ]
+      },
+      "dependencies": [
+        "equipment:iron-spikes",
+        "rule:action",
+        "rule:creature",
+        "rule:damage",
+        "rule:object",
+        "rule:poisoned",
+        "rule:saving-throw",
+        "rule:search"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          200
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/dms-toolbox#PoisonedDarts",
+        "text_sha256": "56a8735639beab0acbd04809319ad82014b529ccd031202cd548a3b385934199"
+      }
+    }
+  ]
+}

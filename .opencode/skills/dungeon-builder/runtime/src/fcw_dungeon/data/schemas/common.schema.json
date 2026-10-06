@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fcw:common:v1",
+  "$defs": {
+    "uint64": {"type": "integer", "minimum": 0, "maximum": 18446744073709551615},
+    "digest": {"type": "string", "pattern": "^[a-f0-9]{64}$(?![\\s\\S])"},
+    "slug": {"type": "string", "minLength": 1, "maxLength": 64, "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$(?![\\s\\S])"},
+    "name": {"type": "string", "minLength": 1, "maxLength": 80, "pattern": "^(?=.*\\S)[^\u0000-\u001f\u007f-\u009f]*$(?![\\s\\S])"},
+    "text": {"type": "string", "minLength": 1, "maxLength": 4096, "pattern": "\\S"},
+    "room_id": {"type": "string", "pattern": "^R[0-9]{3}$(?![\\s\\S])"},
+    "entry_id": {"type": "string", "pattern": "^(monster|spell|rule|equipment|item|trap):[a-z0-9]+(-[a-z0-9]+)*$(?![\\s\\S])"},
+    "entry_ids": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/entry_id"}},
+    "rarity": {"enum": ["common", "uncommon", "rare", "very-rare", "legendary"]},
+    "size": {"enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"]},
+    "point": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0, "maximum": 79}},
+    "points": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/point"}},
+    "party_levels": {"type": "array", "minItems": 2, "maxItems": 6, "items": {"type": "integer", "minimum": 1, "maximum": 20}},
+    "grid": {
+      "type": "object", "additionalProperties": false, "required": ["width", "height", "feet_per_square"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 20, "maximum": 80},
+        "height": {"type": "integer", "minimum": 20, "maximum": 80},
+        "feet_per_square": {"type": "integer", "const": 5}
+      }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["edition", "pdf_url", "pdf_sha256", "pages", "basic_rules_url", "text_sha256"],
+      "properties": {
+        "edition": {"const": "srd-5.2.1"},
+        "pdf_url": {"const": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf"},
+        "pdf_sha256": {"const": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87"},
+        "pages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
+        "basic_rules_url": {"type": "string", "format": "uri", "pattern": "^https://www\\.dndbeyond\\.com/sources/dnd/br-2024(?:[/#]|$)"},
+        "text_sha256": {"$ref": "#/$defs/digest"}
+      }
+    },
+    "ability": {
+      "type": "object", "additionalProperties": false, "required": ["score", "modifier", "save"],
+      "properties": {"score": {"type": "integer", "minimum": 1, "maximum": 30}, "modifier": {"type": "integer"}, "save": {"type": "integer"}}
+    },
+    "monster_metadata": {
+      "type": "object", "additionalProperties": false,
+      "required": ["ac", "hp", "cr", "xp", "sizes", "variant", "abilities", "initiative", "speed_text", "cautions", "sections"],
+      "properties": {
+        "ac": {"type": "integer", "minimum": 0}, "hp": {"type": "integer", "minimum": 1},
+        "cr": {"type": "string", "pattern": "^(0|[1-9][0-9]*|1/[248])$(?![\\s\\S])"},
+        "xp": {"type": "integer", "minimum": 0},
+        "sizes": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/size"}},
+        "variant": {"const": "base"},
+        "abilities": {
+          "type": "object", "additionalProperties": false, "required": ["str", "dex", "con", "int", "wis", "cha"],
+          "properties": {
+            "str": {"$ref": "#/$defs/ability"}, "dex": {"$ref": "#/$defs/ability"},
+            "con": {"$ref": "#/$defs/ability"}, "int": {"$ref": "#/$defs/ability"},
+            "wis": {"$ref": "#/$defs/ability"}, "cha": {"$ref": "#/$defs/ability"}
+          }
+        },
+        "initiative": {"type": "object", "additionalProperties": false, "required": ["bonus", "score"],
+                       "properties": {"bonus": {"type": "integer"}, "score": {"type": "integer"}}},
+        "speed_text": {"type": "string", "minLength": 1},
+        "cautions": {"type": "array", "items": {"type": "string"}},
+        "sections": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "spell_metadata": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "casting_time", "range", "components", "duration", "classes"],
+      "properties": {
+        "level": {"type": "integer", "minimum": 0, "maximum": 9},
+        "casting_time": {"type": "string", "minLength": 1}, "range": {"type": "string", "minLength": 1},
+        "components": {"type": "string", "minLength": 1}, "duration": {"type": "string", "minLength": 1},
+        "classes": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+      }
+    },
+    "item_metadata": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rarity", "attunement", "consumable", "category", "variant"],
+      "properties": {
+        "rarity": {"$ref": "#/$defs/rarity"}, "attunement": {"type": "boolean"}, "consumable": {"type": "boolean"},
+        "category": {"type": "string", "minLength": 1}, "variant": {"type": ["string", "null"]}
+      }
+    },
+    "equipment_metadata": {
+      "type": "object", "additionalProperties": false, "required": ["category", "price_cp", "weight_text"],
+      "properties": {"category": {"type": "string", "minLength": 1}, "price_cp": {"type": "integer", "minimum": 0}, "weight_text": {"type": "string", "minLength": 1}}
+    },
+    "trap_variant": {
+      "type": "object", "additionalProperties": false,
+      "required": ["tier", "minimum_level", "maximum_level", "damage_text", "save_dc", "discovery_text", "disarm_text", "escape_text"],
+      "properties": {
+        "tier": {"type": "integer", "minimum": 1, "maximum": 4},
+        "minimum_level": {"type": "integer", "minimum": 1, "maximum": 20},
+        "maximum_level": {"type": "integer", "minimum": 1, "maximum": 20},
+        "damage_text": {"type": "string"}, "save_dc": {"type": ["integer", "null"], "minimum": 1},
+        "discovery_text": {"type": "string", "minLength": 1}, "disarm_text": {"type": "string", "minLength": 1},
+        "escape_text": {"type": "string", "minLength": 1}
+      }
+    },
+    "trap_metadata": {
+      "type": "object", "additionalProperties": false, "required": ["severity", "trigger_text", "reset_text", "variants"],
+      "properties": {
+        "severity": {"enum": ["nuisance", "deadly"]}, "trigger_text": {"type": "string", "minLength": 1},
+        "reset_text": {"type": "string", "minLength": 1},
+        "variants": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/trap_variant"}}
+      }
+    },
+    "source_entry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "kind", "name", "rules_text", "metadata", "dependencies", "source"],
+      "properties": {
+        "id": {"$ref": "#/$defs/entry_id"}, "kind": {"enum": ["monster", "spell", "rule", "equipment", "item", "trap"]},
+        "name": {"type": "string", "minLength": 1}, "rules_text": {"type": "string", "minLength": 1},
+        "metadata": {"type": "object"}, "dependencies": {"$ref": "#/$defs/entry_ids"}, "source": {"$ref": "#/$defs/source"}
+      },
+      "allOf": [
+        {"if": {"properties": {"kind": {"const": "monster"}}}, "then": {"properties": {"metadata": {"$ref": "#/$defs/monster_metadata"}}}},
+        {"if": {"properties": {"kind": {"const": "spell"}}}, "then": {"properties": {"metadata": {"$ref": "#/$defs/spell_metadata"}}}},
+        {"if": {"properties": {"kind": {"const": "item"}}}, "then": {"properties": {"metadata": {"$ref": "#/$defs/item_metadata"}}}},
+        {"if": {"properties": {"kind": {"const": "equipment"}}}, "then": {"properties": {"metadata": {"$ref": "#/$defs/equipment_metadata"}}}},
+        {"if": {"properties": {"kind": {"const": "trap"}}}, "then": {"properties": {"metadata": {"$ref": "#/$defs/trap_metadata"}}}},
+        {"if": {"properties": {"kind": {"const": "rule"}}}, "then": {"properties": {"metadata": {"type": "object", "additionalProperties": false}}}}
+      ]
+    },
+    "source_map": {"type": "object", "propertyNames": {"$ref": "#/$defs/entry_id"}, "additionalProperties": {"$ref": "#/$defs/source_entry"}}
+  }
+}

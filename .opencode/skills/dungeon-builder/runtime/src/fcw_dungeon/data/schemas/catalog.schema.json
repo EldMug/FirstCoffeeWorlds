@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fcw:catalog:v1",
+  "$ref": "#/$defs/catalog",
+  "$defs": {
+    "catalog": {
+      "type": "object", "additionalProperties": false,
+      "required": ["catalog_version", "digest", "entries", "packs", "tables", "attribution"],
+      "properties": {
+        "catalog_version": {"type": "integer", "const": 1}, "digest": {"$ref": "urn:fcw:common:v1#/$defs/digest"},
+        "entries": {"$ref": "urn:fcw:common:v1#/$defs/source_map"}, "packs": {"$ref": "#/$defs/packs"},
+        "tables": {"$ref": "#/$defs/rules_file"}, "attribution": {"type": "string", "minLength": 1}
+      }
+    },
+    "content_file": {
+      "type": "object", "additionalProperties": false, "required": ["schema_version", "entries"],
+      "properties": {"schema_version": {"type": "integer", "const": 1}, "entries": {"type": "array", "items": {"$ref": "urn:fcw:common:v1#/$defs/source_entry"}}}
+    },
+    "pack": {
+      "type": "object", "additionalProperties": false, "required": ["monsters", "traps", "items", "templates"],
+      "properties": {"monsters": {"$ref": "urn:fcw:common:v1#/$defs/entry_ids"}, "traps": {"$ref": "urn:fcw:common:v1#/$defs/entry_ids"}, "items": {"$ref": "urn:fcw:common:v1#/$defs/entry_ids"}, "templates": {"$ref": "#/$defs/templates"}}
+    },
+    "template": {
+      "type": "object", "additionalProperties": false, "required": ["title", "description"],
+      "properties": {"title": {"$ref": "urn:fcw:common:v1#/$defs/name"}, "description": {"$ref": "urn:fcw:common:v1#/$defs/text"}}
+    },
+    "role_templates": {
+      "type": "array", "minItems": 3, "uniqueItems": true, "items": {"$ref": "#/$defs/template"}
+    },
+    "templates": {
+      "type": "object", "additionalProperties": false, "required": ["exploration", "combat", "trap"],
+      "properties": {"exploration": {"$ref": "#/$defs/role_templates"}, "combat": {"$ref": "#/$defs/role_templates"}, "trap": {"$ref": "#/$defs/role_templates"}}
+    },
+    "packs": {
+      "type": "object", "additionalProperties": false, "required": ["crypt", "stronghold", "cave"],
+      "properties": {"crypt": {"$ref": "#/$defs/pack"}, "stronghold": {"$ref": "#/$defs/pack"}, "cave": {"$ref": "#/$defs/pack"}}
+    },
+    "themes_file": {
+      "type": "object", "additionalProperties": false, "required": ["schema_version", "packs"],
+      "properties": {"schema_version": {"type": "integer", "const": 1}, "packs": {"$ref": "#/$defs/packs"}}
+    },
+    "budget": {
+      "type": "object", "additionalProperties": false, "required": ["low", "moderate", "high"],
+      "properties": {"low": {"type": "integer", "minimum": 0}, "moderate": {"type": "integer", "minimum": 0}, "high": {"type": "integer", "minimum": 0}}
+    },
+    "xp_budgets": {
+      "type": "object", "additionalProperties": false,
+      "required": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"],
+      "properties": {
+        "1": {"$ref": "#/$defs/budget"}, "2": {"$ref": "#/$defs/budget"}, "3": {"$ref": "#/$defs/budget"}, "4": {"$ref": "#/$defs/budget"},
+        "5": {"$ref": "#/$defs/budget"}, "6": {"$ref": "#/$defs/budget"}, "7": {"$ref": "#/$defs/budget"}, "8": {"$ref": "#/$defs/budget"},
+        "9": {"$ref": "#/$defs/budget"}, "10": {"$ref": "#/$defs/budget"}, "11": {"$ref": "#/$defs/budget"}, "12": {"$ref": "#/$defs/budget"},
+        "13": {"$ref": "#/$defs/budget"}, "14": {"$ref": "#/$defs/budget"}, "15": {"$ref": "#/$defs/budget"}, "16": {"$ref": "#/$defs/budget"},
+        "17": {"$ref": "#/$defs/budget"}, "18": {"$ref": "#/$defs/budget"}, "19": {"$ref": "#/$defs/budget"}, "20": {"$ref": "#/$defs/budget"}
+      }
+    },
+    "weights": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"type": "integer", "minimum": 0, "maximum": 100}},
+    "rarity_weights": {
+      "type": "object", "additionalProperties": false, "required": ["1", "2", "3", "4"],
+      "properties": {"1": {"$ref": "#/$defs/weights"}, "2": {"$ref": "#/$defs/weights"}, "3": {"$ref": "#/$defs/weights"}, "4": {"$ref": "#/$defs/weights"}}
+    },
+    "coin_allowances": {
+      "type": "object", "additionalProperties": false, "required": ["1", "2", "3", "4"],
+      "properties": {"1": {"type": "integer", "minimum": 0}, "2": {"type": "integer", "minimum": 0}, "3": {"type": "integer", "minimum": 0}, "4": {"type": "integer", "minimum": 0}}
+    },
+    "rules_file": {
+      "type": "object", "additionalProperties": false, "required": ["schema_version", "xp_budgets", "rarity_weights", "coin_allowances"],
+      "properties": {"schema_version": {"type": "integer", "const": 1}, "xp_budgets": {"$ref": "#/$defs/xp_budgets"}, "rarity_weights": {"$ref": "#/$defs/rarity_weights"}, "coin_allowances": {"$ref": "#/$defs/coin_allowances"}}
+    },
+    "inventory_entry": {
+      "type": "object", "additionalProperties": false, "required": ["digest", "packs"],
+      "properties": {"digest": {"$ref": "urn:fcw:common:v1#/$defs/digest"}, "packs": {"type": "array", "uniqueItems": true, "items": {"enum": ["crypt", "stronghold", "cave"]}}}
+    },
+    "catalog_manifest": {
+      "type": "object", "additionalProperties": false, "required": ["schema_version", "catalog_version", "digest", "entries"],
+      "properties": {
+        "schema_version": {"type": "integer", "const": 1}, "catalog_version": {"type": "integer", "const": 1},
+        "digest": {"$ref": "urn:fcw:common:v1#/$defs/digest"},
+        "entries": {"type": "object", "propertyNames": {"$ref": "urn:fcw:common:v1#/$defs/entry_id"}, "additionalProperties": {"$ref": "#/$defs/inventory_entry"}}
+      }
+    }
+  }
+}

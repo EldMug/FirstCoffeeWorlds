@@ -1,0 +1,3272 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "monster:ankheg",
+      "kind": "monster",
+      "name": "Ankheg",
+      "rules_text": "Ankheg Large Monstrosity, Unaligned AC 14 Initiative +0 (10) HP 45 (6d10 + 12) Speed 30 ft., Burrow 10 ft. MOD SAVE MOD SAVE MOD SAVE Str 17 +3 +3 Dex 11 +0 +0 Con 14 +2 +2 Int 1 −5 −5 WIS 13 +1 +1 Cha 6 −2 −2 Senses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 11 Languages None CR 2 (XP 450; PB +2) Traits Tunneler. The ankheg can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake. Actions Bite. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the ankheg), reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 3 (1d6) Acid damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13). Acid Spray (Recharge 6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 14 (4d6) Acid damage. Success: Half damage.",
+      "metadata": {
+        "ac": 14,
+        "hp": 45,
+        "cr": "2",
+        "xp": 450,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 17,
+            "modifier": 3,
+            "save": 3
+          },
+          "dex": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "con": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "int": {
+            "score": 1,
+            "modifier": -5,
+            "save": -5
+          },
+          "wis": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "cha": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          }
+        },
+        "initiative": {
+          "bonus": 0,
+          "score": 10
+        },
+        "speed_text": "30 ft., Burrow 10 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:advantage",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:burrow-speed",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:grappled",
+        "rule:initiative",
+        "rule:line",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target",
+        "rule:tremorsense"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          259
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Ankheg",
+        "text_sha256": "4717f253b8eb65f96afa9daeb202316f3fd44ee8555dd093d5c25f2fb3963747"
+      }
+    },
+    {
+      "id": "monster:assassin",
+      "kind": "monster",
+      "name": "Assassin",
+      "rules_text": "Assassin Medium or Small Humanoid, Neutral AC 16 Initiative +10 (20) HP 97 (15d8 + 30) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 11 +0 +0 Dex 18 +4 +7 Con 14 +2 +2 Int 16 +3 +6 WIS 11 +0 +0 Cha 10 +0 +0 Skills Acrobatics +7, Perception +6, Stealth +10 Resistances Poison Gear Light Crossbow, Shortsword, Studded Leather Armor Senses Passive Perception 16 Languages Common, Thieves’ Cant CR 8 (XP 3,900; PB +3) Traits Evasion. If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the save and only half damage if it fails. It can’t use this trait if it has the Incapacitated condition. Actions Multiattack. The assassin makes three attacks, using Shortsword or Light Crossbow in any combination. Shortsword. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing damage plus 17 (5d6) Poison damage, and the target has the Poisoned condition until the start of the assassin’s next turn. Light Crossbow. Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing damage plus 21 (6d6) Poison damage. Bonus Actions Cunning Action. The assassin takes the Dash, Disengage, or Hide action.",
+      "metadata": {
+        "ac": 16,
+        "hp": 97,
+        "cr": "8",
+        "xp": 3900,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "dex": {
+            "score": 18,
+            "modifier": 4,
+            "save": 7
+          },
+          "con": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "int": {
+            "score": 16,
+            "modifier": 3,
+            "save": 6
+          },
+          "wis": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          }
+        },
+        "initiative": {
+          "bonus": 10,
+          "score": 20
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions",
+          "Bonus Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:leather-armor",
+        "equipment:light-crossbow",
+        "equipment:shortsword",
+        "equipment:studded-leather-armor",
+        "rule:action",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:damage",
+        "rule:dash",
+        "rule:disengage",
+        "rule:hide",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          260
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Assassin",
+        "text_sha256": "434cde58756c08becfd0e990098c04c342599347673b3a58a78ca8f39ce7ad41"
+      }
+    },
+    {
+      "id": "monster:balor",
+      "kind": "monster",
+      "name": "Balor",
+      "rules_text": "Balor Huge Fiend (Demon), Chaotic Evil AC 19 Initiative +14 (24) HP 287 (23d12 + 138) Speed 40 ft., Fly 80 ft. MOD SAVE MOD SAVE MOD SAVE Str 26 +8 +8 Dex 15 +2 +2 Con 22 +6 +12 Int 20 +5 +5 WIS 16 +3 +9 Cha 22 +6 +6 Skills Perception +9 Resistances Cold, Lightning Immunities Fire, Poison; Charmed, Frightened, Poisoned Senses Truesight 120 ft.; Passive Perception 19 Languages Abyssal; telepathy 120 ft. CR 19 (XP 22,000; PB +6) Traits Death Throes. The balor explodes when it dies. Dexterity Saving Throw: DC 20, each creature in a 30-foot Emanation originating from the balor. Failure: 31 (9d6) Fire damage plus 31 (9d6) Force damage. Success: Half damage. Failure or Success: If the balor dies outside the Abyss, it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss. Fire Aura. At the end of each of the balor’s turns, each creature in a 5-foot Emanation originating from the balor takes 13 (3d8) Fire damage. Legendary Resistance (3/Day). If the balor fails a saving throw, it can choose to succeed instead. Magic Resistance. The balor has Advantage on saving throws against spells and other magical effects. Actions Multiattack. The balor makes one Flame Whip attack and one Lightning Blade attack. Flame Whip. Melee Attack Roll: +14, reach 30 ft. Hit: 18 (3d6 + 8) Force damage plus 17 (5d6) Fire damage. If the target is a Huge or smaller creature, the balor pulls the target up to 25 feet straight toward itself, and the target has the Prone condition. Lightning Blade. Melee Attack Roll: +14, reach 10 ft. Hit: 21 (3d8 + 8) Force damage plus 22 (4d10) Lightning damage, and the target can’t take Reactions until the start of the balor’s next turn. Bonus Actions Teleport. The balor teleports itself or a willing demon within 10 feet of itself up to 60 feet to an unoccupied space the balor can see.",
+      "metadata": {
+        "ac": 19,
+        "hp": 287,
+        "cr": "19",
+        "xp": 22000,
+        "sizes": [
+          "huge"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 26,
+            "modifier": 8,
+            "save": 8
+          },
+          "dex": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 22,
+            "modifier": 6,
+            "save": 12
+          },
+          "int": {
+            "score": 20,
+            "modifier": 5,
+            "save": 5
+          },
+          "wis": {
+            "score": 16,
+            "modifier": 3,
+            "save": 9
+          },
+          "cha": {
+            "score": 22,
+            "modifier": 6,
+            "save": 6
+          }
+        },
+        "initiative": {
+          "bonus": 14,
+          "score": 24
+        },
+        "speed_text": "40 ft., Fly 80 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions",
+          "Bonus Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:advantage",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:emanation",
+        "rule:frightened",
+        "rule:hit-points",
+        "rule:initiative",
+        "rule:magic",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:prone",
+        "rule:reach",
+        "rule:resistance",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target",
+        "rule:telepathy",
+        "rule:truesight",
+        "rule:unoccupied-space"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          261
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Balor",
+        "text_sha256": "4a9412ce289ce93ffdd4a77c2eae78d1e8f0db360a9ab619ad57e6cbad7fd767"
+      }
+    },
+    {
+      "id": "monster:bandit",
+      "kind": "monster",
+      "name": "Bandit",
+      "rules_text": "Bandit Medium or Small Humanoid, Neutral AC 12 Initiative +1 (11) HP 11 (2d8 + 2) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 11 +0 +0 Dex 12 +1 +1 Con 12 +1 +1 Int 10 +0 +0 WIS 10 +0 +0 Cha 10 +0 +0 Gear Leather Armor, Light Crossbow, Scimitar Senses Passive Perception 10 Languages Common, Thieves’ Cant CR 1/8 (XP 25; PB +2) Actions Scimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage. Light Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage.",
+      "metadata": {
+        "ac": 12,
+        "hp": 11,
+        "cr": "1/8",
+        "xp": 25,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "dex": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "con": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          }
+        },
+        "initiative": {
+          "bonus": 1,
+          "score": 11
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:leather-armor",
+        "equipment:light-crossbow",
+        "equipment:scimitar",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          261
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Bandit",
+        "text_sha256": "8b12f63dc9cdf30942067b2e33c49b3618bfd174bc4583a5d1e9d1f53a1b5af4"
+      }
+    },
+    {
+      "id": "monster:bandit-captain",
+      "kind": "monster",
+      "name": "Bandit Captain",
+      "rules_text": "Bandit Captain Medium or Small Humanoid, Neutral AC 15 Initiative +3 (13) HP 52 (8d8 + 16) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 15 +2 +4 Dex 16 +3 +5 Con 14 +2 +2 Int 14 +2 +2 WIS 11 +0 +2 Cha 14 +2 +2 Skills Athletics +4, Deception +4 Gear Pistol, Scimitar, Studded Leather Armor Senses Passive Perception 10 Languages Common, Thieves’ Cant CR 2 (XP 450; PB +2) Actions Multiattack. The bandit makes two attacks, using Scimitar and Pistol in any combination. Scimitar. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage. Pistol. Ranged Attack Roll: +5, range 30/90 ft. Hit: 8 (1d10 + 3) Piercing damage. Reactions Parry. Trigger: The bandit is hit by a melee attack roll while holding a weapon. Response: The bandit adds 2 to its AC against that attack, possibly causing it to miss.",
+      "metadata": {
+        "ac": 15,
+        "hp": 52,
+        "cr": "2",
+        "xp": 450,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 15,
+            "modifier": 2,
+            "save": 4
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 5
+          },
+          "con": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "int": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "wis": {
+            "score": 11,
+            "modifier": 0,
+            "save": 2
+          },
+          "cha": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft.",
+        "cautions": [
+          "Retains source Pistol; no weapon substitution."
+        ],
+        "sections": [
+          "Actions",
+          "Reactions"
+        ]
+      },
+      "dependencies": [
+        "equipment:leather-armor",
+        "equipment:pistol",
+        "equipment:scimitar",
+        "equipment:studded-leather-armor",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed",
+        "rule:weapon"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          261,
+          262
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#BanditCaptain",
+        "text_sha256": "7b277e47f542d6e24d63d36df60ed6c114f74ce83a1e88a64621e16af7b04d0b"
+      }
+    },
+    {
+      "id": "monster:behir",
+      "kind": "monster",
+      "name": "Behir",
+      "rules_text": "Behir Huge Monstrosity, Neutral Evil AC 17 Initiative +3 (13) HP 168 (16d12 + 64) Speed 50 ft., Climb 50 ft. MOD SAVE MOD SAVE MOD SAVE Str 23 +6 +6 Dex 16 +3 +3 Con 18 +4 +4 Int 7 −2 −2 WIS 14 +2 +2 Cha 12 +1 +1 Skills Perception +6, Stealth +7 Immunities Lightning Senses Darkvision 90 ft.; Passive Perception 16 Languages Draconic CR 11 (XP 7,200; PB +4) Actions Multiattack. The behir makes one Bite attack and uses Constrict. Bite. Melee Attack Roll: +10, reach 10 ft. Hit: 19 (2d12 + 6) Piercing damage plus 11 (2d10) Lightning damage. Constrict. Strength Saving Throw: DC 18, one Large or smaller creature the behir can see within 5 feet. Failure: 28 (5d8 + 6) Bludgeoning damage. The target has the Grappled condition (escape DC 16), and it has the Restrained condition until the grapple ends. Lightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 66 (12d10) Lightning damage. Success: Half damage. Bonus Actions Swallow. Dexterity Saving Throw: DC 18, one Large or smaller creature Grappled by the behir (the behir can have only one creature swallowed at a time). Failure: The behir swallows the target, which is no longer Grappled. While swallowed, a creature has the Blinded and Restrained conditions, has Total Cover against attacks and other effects outside the behir, and takes 21 (6d6) Acid damage at the start of each of the behir’s turns. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls in a space within 10 feet of the behir and has the Prone condition. If the behir dies, a swallowed creature is no longer Restrained and can escape from the corpse by using 15 feet of movement, exiting Prone.",
+      "metadata": {
+        "ac": 17,
+        "hp": 168,
+        "cr": "11",
+        "xp": 7200,
+        "sizes": [
+          "huge"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 23,
+            "modifier": 6,
+            "save": 6
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "con": {
+            "score": 18,
+            "modifier": 4,
+            "save": 4
+          },
+          "int": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          },
+          "wis": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "cha": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "50 ft., Climb 50 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions",
+          "Bonus Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:blinded",
+        "rule:combat",
+        "rule:condition",
+        "rule:cover",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:grappled",
+        "rule:initiative",
+        "rule:line",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:prone",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          263
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Behir",
+        "text_sha256": "39263efbf6f7a7109e39d9fda1ab7139adcec8f97ee5c730e4d1b4749ccda2b0"
+      }
+    },
+    {
+      "id": "monster:dire-wolf",
+      "kind": "monster",
+      "name": "Dire Wolf",
+      "rules_text": "Dire Wolf Large Beast, Unaligned AC 14 Initiative +2 (12) HP 22 (3d10 + 6) Speed 50 ft. MOD SAVE MOD SAVE MOD SAVE Str 17 +3 +3 Dex 15 +2 +2 Con 15 +2 +2 Int 3 −4 −4 WIS 12 +1 +1 Cha 7 −2 −2 Skills Perception +5, Stealth +4 Senses Darkvision 60 ft.; Passive Perception 15 Languages None CR 1 (XP 200; PB +2) Traits Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition. Actions Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "metadata": {
+        "ac": 14,
+        "hp": 22,
+        "cr": "1",
+        "xp": 200,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 17,
+            "modifier": 3,
+            "save": 3
+          },
+          "dex": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "int": {
+            "score": 3,
+            "modifier": -4,
+            "save": -4
+          },
+          "wis": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "cha": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          }
+        },
+        "initiative": {
+          "bonus": 2,
+          "score": 12
+        },
+        "speed_text": "50 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:advantage",
+        "rule:ally",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:prone",
+        "rule:reach",
+        "rule:save",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          347
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#DireWolf",
+        "text_sha256": "3c23809e2dd902dfafa32e5dbda5a01002c7c7209719e67713a199a630bbe553"
+      }
+    },
+    {
+      "id": "monster:ettin",
+      "kind": "monster",
+      "name": "Ettin",
+      "rules_text": "Ettin Large Giant, Chaotic Evil AC 12 Initiative −1 (9) HP 85 (10d10 + 30) Speed 40 ft. MOD SAVE MOD SAVE MOD SAVE Str 21 +5 +5 Dex 8 −1 −1 Con 17 +3 +3 Int 6 −2 −2 WIS 10 +0 +0 Cha 8 −1 −1 Skills Perception +4 Immunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious Gear Battleaxe, Morningstar Senses Darkvision 60 ft.; Passive Perception 14 Languages Giant CR 4 (XP 1,100; PB +2) Actions Multiattack. The ettin makes one Battleaxe attack and one Morningstar attack. Battleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition. Morningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn.",
+      "metadata": {
+        "ac": 12,
+        "hp": 85,
+        "cr": "4",
+        "xp": 1100,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 21,
+            "modifier": 5,
+            "save": 5
+          },
+          "dex": {
+            "score": 8,
+            "modifier": -1,
+            "save": -1
+          },
+          "con": {
+            "score": 17,
+            "modifier": 3,
+            "save": 3
+          },
+          "int": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 8,
+            "modifier": -1,
+            "save": -1
+          }
+        },
+        "initiative": {
+          "bonus": -1,
+          "score": 9
+        },
+        "speed_text": "40 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:battleaxe",
+        "equipment:morningstar",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:blinded",
+        "rule:charmed",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:deafened",
+        "rule:disadvantage",
+        "rule:frightened",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:prone",
+        "rule:reach",
+        "rule:save",
+        "rule:speed",
+        "rule:stunned",
+        "rule:target",
+        "rule:unconscious"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          284
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Ettin",
+        "text_sha256": "92a4faf1084bd800e87bee973a2433ee5fec41dea519ae3616e9baecab126c6f"
+      }
+    },
+    {
+      "id": "monster:fire-giant",
+      "kind": "monster",
+      "name": "Fire Giant",
+      "rules_text": "Fire Giant Huge Giant, Lawful Evil AC 18 Initiative +3 (13) HP 162 (13d12 + 78) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 25 +7 +7 Dex 9 −1 +3 Con 23 +6 +10 Int 10 +0 +0 WIS 14 +2 +2 Cha 13 +1 +5 Skills Athletics +11, Perception +6 Immunities Fire Senses Passive Perception 16 Languages Giant CR 9 (XP 5,000; PB +4) Actions Multiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination. Flame Sword. Melee Attack Roll: +11, reach 10 ft. Hit: 21 (4d6 + 7) Slashing damage plus 10 (3d6) Fire damage. Hammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn.",
+      "metadata": {
+        "ac": 18,
+        "hp": 162,
+        "cr": "9",
+        "xp": 5000,
+        "sizes": [
+          "huge"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 25,
+            "modifier": 7,
+            "save": 7
+          },
+          "dex": {
+            "score": 9,
+            "modifier": -1,
+            "save": 3
+          },
+          "con": {
+            "score": 23,
+            "modifier": 6,
+            "save": 10
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "cha": {
+            "score": 13,
+            "modifier": 1,
+            "save": 5
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:disadvantage",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          285
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#FireGiant",
+        "text_sha256": "32627760b0f887f186589efe098ecf2e9db6c1a76f0342225bbf9e97a8a26572"
+      }
+    },
+    {
+      "id": "monster:ghast",
+      "kind": "monster",
+      "name": "Ghast",
+      "rules_text": "Ghast Medium Undead, Chaotic Evil AC 13 Initiative +3 (13) HP 36 (8d8) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 16 +3 +3 Dex 17 +3 +3 Con 10 +0 +0 Int 11 +0 +0 WIS 10 +0 +2 Cha 8 −1 −1 Resistances Necrotic Immunities Poison; Charmed, Exhaustion, Poisoned Senses Darkvision 60 ft.; Passive Perception 10 Languages Common CR 2 (XP 450; PB +2) Traits Stench. Constitution Saving Throw: DC 10, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast’s Stench for 24 hours. Actions Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage. Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn.",
+      "metadata": {
+        "ac": 13,
+        "hp": 36,
+        "cr": "2",
+        "xp": 450,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "dex": {
+            "score": 17,
+            "modifier": 3,
+            "save": 3
+          },
+          "con": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "int": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 2
+          },
+          "cha": {
+            "score": 8,
+            "modifier": -1,
+            "save": -1
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:emanation",
+        "rule:exhaustion",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          287
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Ghast",
+        "text_sha256": "6016c75f240aecb454b1937b1d9d52ea707d5919f35786c58c48b69d35da6dc8"
+      }
+    },
+    {
+      "id": "monster:ghost",
+      "kind": "monster",
+      "name": "Ghost",
+      "rules_text": "Ghost Medium Undead, Neutral AC 11 Initiative +1 (11) HP 45 (10d8) Speed 5 ft., Fly 40 ft. (hover) MOD SAVE MOD SAVE MOD SAVE Str 7 −2 −2 Dex 13 +1 +1 Con 10 +0 +0 Int 10 +0 +0 WIS 12 +1 +1 Cha 17 +3 +3 Resistances Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder Immunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained Senses Darkvision 60 ft.; Passive Perception 11 Languages Common plus one other language CR 4 (XP 1,100; PB +2) Traits Ethereal Sight. The ghost can see 60 feet into the Ethereal Plane when it is on the Material Plane. Incorporeal Movement. The ghost can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object. Actions Multiattack. The ghost makes two Withering Touch attacks. Withering Touch. Melee Attack Roll: +5, reach 5 ft. Hit: 19 (3d10 + 3) Necrotic damage. Etherealness. The ghost casts the Etherealness spell, requiring no spell components and using Charisma as the spellcasting ability. The ghost is visible on the Material Plane while on the Border Ethereal and vice versa, but it can’t affect or be affected by anything on the other plane. Horrific Visage. Wisdom Saving Throw: DC 13, each creature in a 60-foot Cone that can see the ghost and isn’t an Undead. Failure: 10 (2d6 + 3) Psychic damage, and the target has the Frightened condition until the start of the ghost’s next turn. Success: The target is immune to this ghost’s Horrific Visage for 24 hours. Possession (Recharge 6). Charisma Saving Throw: DC 13, one Humanoid the ghost can see within 5 feet. Failure: The target is possessed by the ghost; the ghost disappears, and the target has the Incapacitated condition and loses control of its body. The ghost now controls the body, but the target retains awareness. The ghost can’t be targeted by any attack, spell, or other effect, except ones that specifically target Undead. The ghost’s game statistics are the same, except it uses the possessed target’s Speed, as well as the target’s Strength, Dexterity, and Constitution modifiers. The possession lasts until the body drops to 0 Hit Points or the ghost leaves as a Bonus Action. When the possession ends, the ghost appears in an unoccupied space within 5 feet of the target, and the target is immune to this ghost’s Possession for 24 hours. Success: The target is immune to this ghost’s Possession for 24 hours.",
+      "metadata": {
+        "ac": 11,
+        "hp": 45,
+        "cr": "4",
+        "xp": 1100,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          },
+          "dex": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "con": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "cha": {
+            "score": 17,
+            "modifier": 3,
+            "save": 3
+          }
+        },
+        "initiative": {
+          "bonus": 1,
+          "score": 11
+        },
+        "speed_text": "5 ft., Fly 40 ft. (hover)",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:bonus-action",
+        "rule:charmed",
+        "rule:combat",
+        "rule:condition",
+        "rule:cone",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:difficult-terrain",
+        "rule:exhaustion",
+        "rule:frightened",
+        "rule:grappled",
+        "rule:hit-points",
+        "rule:hover",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:object",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:petrified",
+        "rule:poisoned",
+        "rule:possession",
+        "rule:prone",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:spell",
+        "rule:target",
+        "rule:unoccupied-space",
+        "spell:etherealness"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          287,
+          288
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Ghost",
+        "text_sha256": "e374bb4239458c8c2976eb28928adcb92a8ab8987183483030b90563b15743e0"
+      }
+    },
+    {
+      "id": "monster:ghoul",
+      "kind": "monster",
+      "name": "Ghoul",
+      "rules_text": "Ghoul Medium Undead, Chaotic Evil AC 12 Initiative +2 (12) HP 22 (5d8) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 13 +1 +1 Dex 15 +2 +2 Con 10 +0 +0 Int 7 −2 −2 WIS 10 +0 +0 Cha 6 −2 −2 Immunities Poison; Charmed, Exhaustion, Poisoned Senses Darkvision 60 ft.; Passive Perception 10 Languages Common CR 1 (XP 200; PB +2) Actions Multiattack. The ghoul makes two Bite attacks. Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage. Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn’t an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn.",
+      "metadata": {
+        "ac": 12,
+        "hp": 22,
+        "cr": "1",
+        "xp": 200,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "dex": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "int": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          }
+        },
+        "initiative": {
+          "bonus": 2,
+          "score": 12
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:exhaustion",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          288
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Ghoul",
+        "text_sha256": "204701dcbc838cac3b0ece69f4e5053ac63d0b95dfe7ec510997e0a76ce4a49d"
+      }
+    },
+    {
+      "id": "monster:giant-bat",
+      "kind": "monster",
+      "name": "Giant Bat",
+      "rules_text": "Giant Bat Large Beast, Unaligned AC 13 Initiative +3 (13) HP 22 (4d10) Speed 10 ft., Fly 60 ft. MOD SAVE MOD SAVE MOD SAVE Str 15 +2 +2 Dex 16 +3 +3 Con 11 +0 +0 Int 2 −4 −4 WIS 12 +1 +1 Cha 6 −2 −2 Senses Blindsight 120 ft.; Passive Perception 11 Languages None CR 1/4 (XP 50; PB +2) Actions Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "metadata": {
+        "ac": 13,
+        "hp": 22,
+        "cr": "1/4",
+        "xp": 50,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "con": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "int": {
+            "score": 2,
+            "modifier": -4,
+            "save": -4
+          },
+          "wis": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "cha": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "10 ft., Fly 60 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:blindsight",
+        "rule:combat",
+        "rule:damage",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          349
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#GiantBat",
+        "text_sha256": "daba12598d67bcce4471e45e8d117eb06767190de245b4b1f47ffc339fbcd7fd"
+      }
+    },
+    {
+      "id": "monster:giant-rat",
+      "kind": "monster",
+      "name": "Giant Rat",
+      "rules_text": "Giant Rat Small Beast, Unaligned AC 13 Initiative +3 (13) HP 7 (2d6) Speed 30 ft., Climb 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 7 −2 −2 Dex 16 +3 +5 Con 11 +0 +0 Int 2 −4 −4 WIS 10 +0 +0 Cha 4 −3 −3 Skills Perception +2 Senses Darkvision 60 ft.; Passive Perception 12 Languages None CR 1/8 (XP 25; PB +2) Traits Pack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition. Actions Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage.",
+      "metadata": {
+        "ac": 13,
+        "hp": 7,
+        "cr": "1/8",
+        "xp": 25,
+        "sizes": [
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 5
+          },
+          "con": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "int": {
+            "score": 2,
+            "modifier": -4,
+            "save": -4
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 4,
+            "modifier": -3,
+            "save": -3
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft., Climb 30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:advantage",
+        "rule:ally",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          353
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#GiantRat",
+        "text_sha256": "0ead0e43a0d826032cf070f13f4780647ee83b45f791c0f8b5eb00588ac412b2"
+      }
+    },
+    {
+      "id": "monster:giant-spider",
+      "kind": "monster",
+      "name": "Giant Spider",
+      "rules_text": "Giant Spider Large Beast, Unaligned AC 14 Initiative +3 (13) HP 26 (4d10 + 4) Speed 30 ft., Climb 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 14 +2 +2 Dex 16 +3 +3 Con 12 +1 +1 Int 2 −4 −4 WIS 11 +0 +0 Cha 4 −3 −3 Skills Perception +4, Stealth +7 Senses Darkvision 60 ft.; Passive Perception 14 Languages None CR 1 (XP 200; PB +2) Traits Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check. Web Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web. Actions Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage. Web (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).",
+      "metadata": {
+        "ac": 14,
+        "hp": 26,
+        "cr": "1",
+        "xp": 200,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "con": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "int": {
+            "score": 2,
+            "modifier": -4,
+            "save": -4
+          },
+          "wis": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 4,
+            "modifier": -3,
+            "save": -3
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft., Climb 30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:ability-check",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:immunity",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target",
+        "rule:vulnerability"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          353,
+          354
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#GiantSpider",
+        "text_sha256": "b3cb63086b997b6b4a352a4e188c537a6ebd744bbcd4d4827fcb28a1f00be5ec"
+      }
+    },
+    {
+      "id": "monster:gladiator",
+      "kind": "monster",
+      "name": "Gladiator",
+      "rules_text": "Gladiator Medium or Small Humanoid, Neutral AC 16 Initiative +5 (15) HP 112 (15d8 + 45) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 18 +4 +7 Dex 15 +2 +5 Con 16 +3 +6 Int 10 +0 +0 WIS 12 +1 +4 Cha 15 +2 +2 Skills Athletics +10, Performance +5 Gear Shield, Spears (3), Studded Leather Armor Senses Passive Perception 11 Languages Common CR 5 (XP 1,800; PB +3) Actions Multiattack. The gladiator makes three Spear attacks. It can replace one attack with a use of Shield Bash. Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage. Shield Bash. Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition. Reactions Parry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss.",
+      "metadata": {
+        "ac": 16,
+        "hp": 112,
+        "cr": "5",
+        "xp": 1800,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 18,
+            "modifier": 4,
+            "save": 7
+          },
+          "dex": {
+            "score": 15,
+            "modifier": 2,
+            "save": 5
+          },
+          "con": {
+            "score": 16,
+            "modifier": 3,
+            "save": 6
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 12,
+            "modifier": 1,
+            "save": 4
+          },
+          "cha": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          }
+        },
+        "initiative": {
+          "bonus": 5,
+          "score": 15
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions",
+          "Reactions"
+        ]
+      },
+      "dependencies": [
+        "equipment:leather-armor",
+        "equipment:shield",
+        "equipment:spear",
+        "equipment:studded-leather-armor",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:prone",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target",
+        "rule:weapon"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          289
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Gladiator",
+        "text_sha256": "fb3f240059e56098e23b7f8d0f0a6119f7ceda6d122da7e5b7684cb2945b1f9d"
+      }
+    },
+    {
+      "id": "monster:guard",
+      "kind": "monster",
+      "name": "Guard",
+      "rules_text": "Guard Medium or Small Humanoid, Neutral AC 16 Initiative +1 (11) HP 11 (2d8 + 2) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 13 +1 +1 Dex 12 +1 +1 Con 12 +1 +1 Int 10 +0 +0 WIS 11 +0 +0 Cha 10 +0 +0 Skills Perception +2 Gear Chain Shirt, Shield, Spear Senses Passive Perception 12 Languages Common CR 1/8 (XP 25; PB +2) Actions Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
+      "metadata": {
+        "ac": 16,
+        "hp": 11,
+        "cr": "1/8",
+        "xp": 25,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "dex": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "con": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          }
+        },
+        "initiative": {
+          "bonus": 1,
+          "score": 11
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:chain",
+        "equipment:chain-shirt",
+        "equipment:shield",
+        "equipment:spear",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          296
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Guard",
+        "text_sha256": "b6b9400a92d35c88823618674effc28047775bf9304e6c6a0d6b32c4e1cd7da3"
+      }
+    },
+    {
+      "id": "monster:guard-captain",
+      "kind": "monster",
+      "name": "Guard Captain",
+      "rules_text": "Guard Captain Medium or Small Humanoid, Neutral AC 18 Initiative +4 (14) HP 75 (10d8 + 30) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 18 +4 +4 Dex 14 +2 +2 Con 16 +3 +3 Int 12 +1 +1 WIS 14 +2 +2 Cha 13 +1 +1 Skills Athletics +6, Perception +4 Gear Breastplate, Javelins (6), Longsword, Shield Senses Passive Perception 14 Languages Common CR 4 (XP 1,100; PB +2) Actions Multiattack. The guard makes two attacks, using Javelin or Longsword in any combination. Javelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage. Longsword. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage.",
+      "metadata": {
+        "ac": 18,
+        "hp": 75,
+        "cr": "4",
+        "xp": 1100,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 18,
+            "modifier": 4,
+            "save": 4
+          },
+          "dex": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "int": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "wis": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "cha": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          }
+        },
+        "initiative": {
+          "bonus": 4,
+          "score": 14
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:breastplate",
+        "equipment:javelin",
+        "equipment:longsword",
+        "equipment:shield",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          296
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#GuardCaptain",
+        "text_sha256": "211252a57b711e9ea5500cce3d36e1406cf68f1d969d010611e62769904f4146"
+      }
+    },
+    {
+      "id": "monster:hobgoblin-captain",
+      "kind": "monster",
+      "name": "Hobgoblin Captain",
+      "rules_text": "Hobgoblin Captain Medium Fey (Goblinoid), Lawful Evil AC 17 Initiative +4 (14) HP 58 (9d8 + 18) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 15 +2 +2 Dex 14 +2 +2 Con 14 +2 +2 Int 12 +1 +1 WIS 10 +0 +0 Cha 13 +1 +1 Gear Greatsword, Half Plate Armor, Longbow Senses Darkvision 60 ft.; Passive Perception 10 Languages Common, Goblin CR 3 (XP 700; PB +2) Traits Aura of Authority. While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn’t have the Incapacitated condition. Actions Multiattack. The hobgoblin makes two attacks, using Greatsword or Longbow in any combination. Greatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage. Longbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+      "metadata": {
+        "ac": 17,
+        "hp": 58,
+        "cr": "3",
+        "xp": 700,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "dex": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "int": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          }
+        },
+        "initiative": {
+          "bonus": 4,
+          "score": 14
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:greatsword",
+        "equipment:half-plate-armor",
+        "equipment:longbow",
+        "equipment:plate-armor",
+        "rule:advantage",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:emanation",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          299
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#HobgoblinCaptain",
+        "text_sha256": "b9664c557a258fb6e1c63831ce4edcf74dd32c1834e8c166e1b9b2b483a6ddf3"
+      }
+    },
+    {
+      "id": "monster:hobgoblin-warrior",
+      "kind": "monster",
+      "name": "Hobgoblin Warrior",
+      "rules_text": "Hobgoblin Warrior Medium Fey (Goblinoid), Lawful Evil AC 18 Initiative +3 (13) HP 11 (2d8 + 2) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 13 +1 +1 Dex 12 +1 +1 Con 12 +1 +1 Int 10 +0 +0 WIS 10 +0 +0 Cha 9 −1 −1 Gear Half Plate Armor, Longbow, Longsword, Shield Senses Darkvision 60 ft.; Passive Perception 10 Languages Common, Goblin CR 1/2 (XP 100; PB +2) Traits Pack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition. Actions Longsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage. Longbow. Ranged Attack Roll: +3, range 150/600 ft. Hit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
+      "metadata": {
+        "ac": 18,
+        "hp": 11,
+        "cr": "1/2",
+        "xp": 100,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "dex": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "con": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 9,
+            "modifier": -1,
+            "save": -1
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:half-plate-armor",
+        "equipment:longbow",
+        "equipment:longsword",
+        "equipment:plate-armor",
+        "equipment:shield",
+        "rule:advantage",
+        "rule:ally",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          298,
+          299
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#HobgoblinWarrior",
+        "text_sha256": "806e98a072f43dab1ba272897fbd41fbc4b1a6b3f52a2ad94be289ddffed057c"
+      }
+    },
+    {
+      "id": "monster:hydra",
+      "kind": "monster",
+      "name": "Hydra",
+      "rules_text": "Hydra Huge Monstrosity, Unaligned AC 15 Initiative +4 (14) HP 184 (16d12 + 80) Speed 40 ft., Swim 40 ft. MOD SAVE MOD SAVE MOD SAVE Str 20 +5 +5 Dex 12 +1 +1 Con 20 +5 +5 Int 2 −4 −4 WIS 10 +0 +0 Cha 7 −2 −2 Skills Perception +6 Immunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious Senses Darkvision 60 ft.; Passive Perception 16 Languages None CR 8 (XP 3,900; PB +3) Traits Hold Breath. The hydra can hold its breath for 1 hour. Multiple Heads. The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken Fire damage since its last turn. The hydra regains 20 Hit Points when it grows new heads. Reactive Heads. For each head the hydra has beyond one, it gets an extra Reaction that can be used only for Opportunity Attacks. Actions Multiattack. The hydra makes as many Bite attacks as it has heads. Bite. Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing damage.",
+      "metadata": {
+        "ac": 15,
+        "hp": 184,
+        "cr": "8",
+        "xp": 3900,
+        "sizes": [
+          "huge"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 20,
+            "modifier": 5,
+            "save": 5
+          },
+          "dex": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "con": {
+            "score": 20,
+            "modifier": 5,
+            "save": 5
+          },
+          "int": {
+            "score": 2,
+            "modifier": -4,
+            "save": -4
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          }
+        },
+        "initiative": {
+          "bonus": 4,
+          "score": 14
+        },
+        "speed_text": "40 ft., Swim 40 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:blinded",
+        "rule:charmed",
+        "rule:combat",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:dead",
+        "rule:deafened",
+        "rule:frightened",
+        "rule:hit-points",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:opportunity-attacks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:reaction",
+        "rule:save",
+        "rule:speed",
+        "rule:stunned",
+        "rule:unconscious"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          300
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Hydra",
+        "text_sha256": "5a9a88791d7dae1cd498600c3b6d1273775e23f3e984f99addf6fd7c537bf1e2"
+      }
+    },
+    {
+      "id": "monster:iron-golem",
+      "kind": "monster",
+      "name": "Iron Golem",
+      "rules_text": "Iron Golem Large Construct, Unaligned AC 20 Initiative +9 (19) HP 252 (24d10 + 120) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 24 +7 +7 Dex 9 −1 −1 Con 20 +5 +5 Int 3 −4 −4 WIS 11 +0 +0 Cha 1 −5 −5 Immunities Fire, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned Senses Darkvision 120 ft.; Passive Perception 10 Languages Understands Common plus two other languages but can’t speak CR 16 (XP 15,000; PB +5) Traits Fire Absorption. Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt. Immutable Form. The golem can’t shape-shift. Magic Resistance. The golem has Advantage on saving throws against spells and other magical effects. Actions Multiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination. Bladed Arm. Melee Attack Roll: +12, reach 10 ft. Hit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage. Fiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage. Poison Breath (Recharge 6). Constitution Saving Throw: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage.",
+      "metadata": {
+        "ac": 20,
+        "hp": 252,
+        "cr": "16",
+        "xp": 15000,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 24,
+            "modifier": 7,
+            "save": 7
+          },
+          "dex": {
+            "score": 9,
+            "modifier": -1,
+            "save": -1
+          },
+          "con": {
+            "score": 20,
+            "modifier": 5,
+            "save": 5
+          },
+          "int": {
+            "score": 3,
+            "modifier": -4,
+            "save": -4
+          },
+          "wis": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 1,
+            "modifier": -5,
+            "save": -5
+          }
+        },
+        "initiative": {
+          "bonus": 9,
+          "score": 19
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:advantage",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:cone",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:exhaustion",
+        "rule:frightened",
+        "rule:hit-points",
+        "rule:initiative",
+        "rule:magic",
+        "rule:monster-stat-blocks",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:petrified",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:resistance",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:shape-shifting",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          302
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#IronGolem",
+        "text_sha256": "357ce36766565c19e7908d5ed4306b4aa108779bf58749781229d1d9b07bfe8b"
+      }
+    },
+    {
+      "id": "monster:mummy",
+      "kind": "monster",
+      "name": "Mummy",
+      "rules_text": "Mummy Medium or Small Undead, Lawful Evil AC 11 Initiative −1 (9) HP 58 (9d8 + 18) Speed 20 ft. MOD SAVE MOD SAVE MOD SAVE Str 16 +3 +3 Dex 8 −1 −1 Con 15 +2 +2 Int 6 −2 −2 WIS 12 +1 +3 Cha 12 +1 +1 Vulnerabilities Fire Immunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned Senses Darkvision 60 ft.; Passive Perception 11 Languages Common plus two other languages CR 3 (XP 700; PB +2) Actions Multiattack. The mummy makes two Rotting Fist attacks and uses Dreadful Glare. Rotting Fist. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target can’t regain Hit Points, its Hit Point maximum doesn’t return to normal when finishing a Long Rest, and its Hit Point maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack. Dreadful Glare. Wisdom Saving Throw: DC 11, one creature the mummy can see within 60 feet. Failure: The target has the Frightened condition until the end of the mummy’s next turn. Success: The target is immune to this mummy’s Dreadful Glare for 24 hours.",
+      "metadata": {
+        "ac": 11,
+        "hp": 58,
+        "cr": "3",
+        "xp": 700,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "dex": {
+            "score": 8,
+            "modifier": -1,
+            "save": -1
+          },
+          "con": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "int": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          },
+          "wis": {
+            "score": 12,
+            "modifier": 1,
+            "save": 3
+          },
+          "cha": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          }
+        },
+        "initiative": {
+          "bonus": -1,
+          "score": 9
+        },
+        "speed_text": "20 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:curses",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:exhaustion",
+        "rule:frightened",
+        "rule:hit-points",
+        "rule:initiative",
+        "rule:long-rest",
+        "rule:monster-stat-blocks",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target",
+        "spell:greater-restoration",
+        "spell:remove-curse"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          309
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Mummy",
+        "text_sha256": "7eccd13a7cbfb6b059a171bfb0148bfdca22c455b87feea37ca776b0bb54abbf"
+      }
+    },
+    {
+      "id": "monster:ogre",
+      "kind": "monster",
+      "name": "Ogre",
+      "rules_text": "Ogre Large Giant, Chaotic Evil AC 11 Initiative −1 (9) HP 68 (8d10 + 24) Speed 40 ft. MOD SAVE MOD SAVE MOD SAVE Str 19 +4 +4 Dex 8 −1 −1 Con 16 +3 +3 Int 5 −3 −3 WIS 7 −2 −2 Cha 7 −2 −2 Gear Greatclub, Javelins (3) Senses Darkvision 60 ft.; Passive Perception 8 Languages Common, Giant CR 2 (XP 450; PB +2) Actions Greatclub. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage. Javelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+      "metadata": {
+        "ac": 11,
+        "hp": 68,
+        "cr": "2",
+        "xp": 450,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 19,
+            "modifier": 4,
+            "save": 4
+          },
+          "dex": {
+            "score": 8,
+            "modifier": -1,
+            "save": -1
+          },
+          "con": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "int": {
+            "score": 5,
+            "modifier": -3,
+            "save": -3
+          },
+          "wis": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          },
+          "cha": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          }
+        },
+        "initiative": {
+          "bonus": -1,
+          "score": 9
+        },
+        "speed_text": "40 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:greatclub",
+        "equipment:javelin",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          312
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Ogre",
+        "text_sha256": "fe98e786324d07011943e64b8144f3d7ed1125a39ec8caa3833a8d50bd1402cd"
+      }
+    },
+    {
+      "id": "monster:purple-worm",
+      "kind": "monster",
+      "name": "Purple Worm",
+      "rules_text": "Purple Worm Gargantuan Monstrosity, Unaligned AC 18 Initiative +3 (13) HP 247 (15d20 + 90) Speed 50 ft., Burrow 50 ft. MOD SAVE MOD SAVE MOD SAVE Str 28 +9 +9 Dex 7 −2 −2 Con 22 +6 +11 Int 1 −5 −5 WIS 8 −1 +4 Cha 4 −3 −3 Senses Blindsight 30 ft., Tremorsense 60 ft.; Passive Perception 9 Languages None CR 15 (XP 13,000; PB +5) Traits Tunneler. The worm can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake. Actions Multiattack. The worm makes one Bite attack and one Tail Stinger attack. Bite. Melee Attack Roll: +14, reach 10 ft. Hit: 22 (3d8 + 9) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 19), and it has the Restrained condition until the grapple ends. Tail Stinger. Melee Attack Roll: +14, reach 10 ft. Hit: 16 (2d6 + 9) Piercing damage plus 35 (10d6) Poison damage. Bonus Actions Swallow. Strength Saving Throw: DC 19, one Large or smaller creature Grappled by the worm (it can have up to three creatures swallowed at a time). Failure: The target is swallowed by the worm, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions, has Total Cover against attacks and other effects outside the worm, and takes 17 (5d6) Acid damage at the start of each of the worm’s turns. If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 5 feet of the worm and has the Prone condition. If the worm dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone.",
+      "metadata": {
+        "ac": 18,
+        "hp": 247,
+        "cr": "15",
+        "xp": 13000,
+        "sizes": [
+          "gargantuan"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 28,
+            "modifier": 9,
+            "save": 9
+          },
+          "dex": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          },
+          "con": {
+            "score": 22,
+            "modifier": 6,
+            "save": 11
+          },
+          "int": {
+            "score": 1,
+            "modifier": -5,
+            "save": -5
+          },
+          "wis": {
+            "score": 8,
+            "modifier": -1,
+            "save": 4
+          },
+          "cha": {
+            "score": 4,
+            "modifier": -3,
+            "save": -3
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "50 ft., Burrow 50 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions",
+          "Bonus Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:blinded",
+        "rule:blindsight",
+        "rule:burrow-speed",
+        "rule:combat",
+        "rule:condition",
+        "rule:cover",
+        "rule:creature",
+        "rule:damage",
+        "rule:grappled",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:prone",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target",
+        "rule:tremorsense"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          316,
+          317
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#PurpleWorm",
+        "text_sha256": "6671c09914cb2e4f63e418de6b169df5a8ef535703209a707bb7f8970c1acbb9"
+      }
+    },
+    {
+      "id": "monster:shadow",
+      "kind": "monster",
+      "name": "Shadow",
+      "rules_text": "Shadow Medium Undead, Chaotic Evil AC 12 Initiative +2 (12) HP 27 (5d8 + 5) Speed 40 ft. MOD SAVE MOD SAVE MOD SAVE Str 6 −2 −2 Dex 14 +2 +2 Con 13 +1 +1 Int 6 −2 −2 WIS 10 +0 +0 Cha 8 −1 −1 Skills Stealth +6 Vulnerabilities Radiant Resistances Acid, Cold, Fire, Lightning, Thunder Immunities Necrotic, Poison; Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious Senses Darkvision 60 ft.; Passive Perception 10 Languages None CR 1/2 (XP 100; PB +2) Traits Amorphous. The shadow can move through a space as narrow as 1 inch without expending extra movement to do so. Sunlight Weakness. While in sunlight, the shadow has Disadvantage on D20 Tests. Actions Draining Swipe. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target’s Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later. Bonus Actions Shadow Stealth. While in Dim Light or Darkness, the shadow takes the Hide action.",
+      "metadata": {
+        "ac": 12,
+        "hp": 27,
+        "cr": "1/2",
+        "xp": 100,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          },
+          "dex": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "int": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 8,
+            "modifier": -1,
+            "save": -1
+          }
+        },
+        "initiative": {
+          "bonus": 2,
+          "score": 12
+        },
+        "speed_text": "40 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions",
+          "Bonus Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:darkness",
+        "rule:darkvision",
+        "rule:dim-light",
+        "rule:disadvantage",
+        "rule:exhaustion",
+        "rule:frightened",
+        "rule:grappled",
+        "rule:hide",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:petrified",
+        "rule:poisoned",
+        "rule:prone",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:speed",
+        "rule:target",
+        "rule:unconscious"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          322,
+          323
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Shadow",
+        "text_sha256": "de04278593078515af69b9b78a77d121241403b378c127071778bd955698da5a"
+      }
+    },
+    {
+      "id": "monster:skeleton",
+      "kind": "monster",
+      "name": "Skeleton",
+      "rules_text": "Skeleton Medium Undead, Lawful Evil AC 14 Initiative +3 (13) HP 13 (2d8 + 4) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 10 +0 +0 Dex 16 +3 +3 Con 15 +2 +2 Int 6 −2 −2 WIS 8 −1 −1 Cha 5 −3 −3 Vulnerabilities Bludgeoning Immunities Poison; Exhaustion, Poisoned Gear Shortbow, Shortsword Senses Darkvision 60 ft.; Passive Perception 9 Languages Understands Common plus one other language but can’t speak CR 1/4 (XP 50; PB +2) Actions Shortsword. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage. Shortbow. Ranged Attack Roll: +5, range 80/320 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "metadata": {
+        "ac": 14,
+        "hp": 13,
+        "cr": "1/4",
+        "xp": 50,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "con": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "int": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          },
+          "wis": {
+            "score": 8,
+            "modifier": -1,
+            "save": -1
+          },
+          "cha": {
+            "score": 5,
+            "modifier": -3,
+            "save": -3
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:shortbow",
+        "equipment:shortsword",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:exhaustion",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          325,
+          326
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Skeleton",
+        "text_sha256": "89692beb301587c8bd7822ffd9af0964b1802983737b068cde0cd89782385a5e"
+      }
+    },
+    {
+      "id": "monster:specter",
+      "kind": "monster",
+      "name": "Specter",
+      "rules_text": "Specter Medium Undead, Chaotic Evil AC 12 Initiative +2 (12) HP 22 (5d8) Speed 30 ft., Fly 50 ft. (hover) MOD SAVE MOD SAVE MOD SAVE Str 1 −5 −5 Dex 14 +2 +2 Con 11 +0 +0 Int 10 +0 +0 WIS 10 +0 +0 Cha 11 +0 +0 Resistances Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder Immunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious Senses Darkvision 60 ft.; Passive Perception 10 Languages Understands Common plus one other language but can’t speak CR 1 (XP 200; PB +2) Traits Incorporeal Movement. The specter can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object. Sunlight Sensitivity. While in sunlight, the specter has Disadvantage on ability checks and attack rolls. Actions Life Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.",
+      "metadata": {
+        "ac": 12,
+        "hp": 22,
+        "cr": "1",
+        "xp": 200,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 1,
+            "modifier": -5,
+            "save": -5
+          },
+          "dex": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "cha": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          }
+        },
+        "initiative": {
+          "bonus": 2,
+          "score": 12
+        },
+        "speed_text": "30 ft., Fly 50 ft. (hover)",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:difficult-terrain",
+        "rule:disadvantage",
+        "rule:exhaustion",
+        "rule:grappled",
+        "rule:hover",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:object",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:petrified",
+        "rule:poisoned",
+        "rule:prone",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:speed",
+        "rule:target",
+        "rule:unconscious"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          327
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Specter",
+        "text_sha256": "5aaa9f52ea5b369d9ce8515ab28eb7a82fb32cd08743edd5bc24b32e58de4a21"
+      }
+    },
+    {
+      "id": "monster:stone-giant",
+      "kind": "monster",
+      "name": "Stone Giant",
+      "rules_text": "Stone Giant Huge Giant, Neutral AC 17 Initiative +5 (15) HP 126 (11d12 + 55) Speed 40 ft. MOD SAVE MOD SAVE MOD SAVE Str 23 +6 +6 Dex 15 +2 +5 Con 20 +5 +8 Int 10 +0 +0 WIS 12 +1 +4 Cha 9 −1 −1 Skills Athletics +12, Perception +4, Stealth +5 Senses Darkvision 60 ft.; Passive Perception 14 Languages Giant CR 7 (XP 2,900; PB +3) Actions Multiattack. The giant makes two attacks, using Stone Club or Boulder in any combination. Stone Club. Melee Attack Roll: +9, reach 15 ft. Hit: 22 (3d10 + 6) Bludgeoning damage. Boulder. Ranged Attack Roll: +9, range 60/240 ft. Hit: 15 (2d8 + 6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Reactions Deflect Missile (Recharge 5–6). Trigger: The giant is hit by a ranged attack roll and takes Bludgeoning, Piercing, or Slashing damage from it. Response: The giant reduces the damage it takes from the attack by 11 (1d10 + 6), and if that damage is reduced to 0, the giant can redirect some of the attack’s force. Dexterity Saving Throw: DC 17, one creature the giant can see within 60 feet. Failure: 11 (1d10 + 6) Force damage.",
+      "metadata": {
+        "ac": 17,
+        "hp": 126,
+        "cr": "7",
+        "xp": 2900,
+        "sizes": [
+          "huge"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 23,
+            "modifier": 6,
+            "save": 6
+          },
+          "dex": {
+            "score": 15,
+            "modifier": 2,
+            "save": 5
+          },
+          "con": {
+            "score": 20,
+            "modifier": 5,
+            "save": 8
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 12,
+            "modifier": 1,
+            "save": 4
+          },
+          "cha": {
+            "score": 9,
+            "modifier": -1,
+            "save": -1
+          }
+        },
+        "initiative": {
+          "bonus": 5,
+          "score": 15
+        },
+        "speed_text": "40 ft.",
+        "cautions": [],
+        "sections": [
+          "Actions",
+          "Reactions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:prone",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          330
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#StoneGiant",
+        "text_sha256": "e61e5d9c8bcfa21028fc6f019112b5fbd8667e0ff20e6f17504dafb63b3bf2af"
+      }
+    },
+    {
+      "id": "monster:troll",
+      "kind": "monster",
+      "name": "Troll",
+      "rules_text": "Troll Large Giant, Chaotic Evil AC 15 Initiative +1 (11) HP 94 (9d10 + 45) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 18 +4 +4 Dex 13 +1 +1 Con 20 +5 +5 Int 7 −2 −2 WIS 9 −1 −1 Cha 7 −2 −2 Skills Perception +5 Senses Darkvision 60 ft.; Passive Perception 15 Languages Giant CR 5 (XP 1,800; PB +3) Traits Loathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll’s limbs is severed, falls into the troll’s space, and becomes a Troll Limb. The limb acts immediately after the troll’s turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points. Regeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn’t function on the troll’s next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn’t regenerate. Actions Multiattack. The troll makes three Rend attacks. Rend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage. Bonus Actions Charge. The troll moves up to half its Speed straight toward an enemy it can see.",
+      "metadata": {
+        "ac": 15,
+        "hp": 94,
+        "cr": "5",
+        "xp": 1800,
+        "sizes": [
+          "large"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 18,
+            "modifier": 4,
+            "save": 4
+          },
+          "dex": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "con": {
+            "score": 20,
+            "modifier": 5,
+            "save": 5
+          },
+          "int": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          },
+          "wis": {
+            "score": 9,
+            "modifier": -1,
+            "save": -1
+          },
+          "cha": {
+            "score": 7,
+            "modifier": -2,
+            "save": -2
+          }
+        },
+        "initiative": {
+          "bonus": 1,
+          "score": 11
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions",
+          "Bonus Actions"
+        ]
+      },
+      "dependencies": [
+        "monster:troll-limb",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:bloodied",
+        "rule:combat",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:enemy",
+        "rule:exhaustion",
+        "rule:hit-points",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          333
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Troll",
+        "text_sha256": "63ab6847d5026006d9c4562526147b4f486cebdc631b1b71d3ef301a2b00ba7a"
+      }
+    },
+    {
+      "id": "monster:troll-limb",
+      "kind": "monster",
+      "name": "Troll Limb",
+      "rules_text": "Troll Limb Small Giant, Chaotic Evil AC 13 Initiative +1 (11) HP 14 (4d6) Speed 20 ft. MOD SAVE MOD SAVE MOD SAVE Str 18 +4 +4 Dex 12 +1 +1 Con 10 +0 +0 Int 1 −5 −5 WIS 9 −1 −1 Cha 1 −5 −5 Senses Darkvision 60 ft.; Passive Perception 9 Languages None CR 1/2 (XP 100; PB +2) Traits Regeneration. The limb regains 5 Hit Points at the start of each of its turns. If the limb takes Acid or Fire damage, this trait doesn’t function on the limb’s next turn. The limb dies only if it starts its turn with 0 Hit Points and doesn’t regenerate. Troll Spawn. The limb uncannily has the same senses as a whole troll. If the limb isn’t destroyed within 24 hours, roll 1d12. On a 12, the limb turns into a Troll. Otherwise, the limb withers away. Actions Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage.",
+      "metadata": {
+        "ac": 13,
+        "hp": 14,
+        "cr": "1/2",
+        "xp": 100,
+        "sizes": [
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 18,
+            "modifier": 4,
+            "save": 4
+          },
+          "dex": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "con": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "int": {
+            "score": 1,
+            "modifier": -5,
+            "save": -5
+          },
+          "wis": {
+            "score": 9,
+            "modifier": -1,
+            "save": -1
+          },
+          "cha": {
+            "score": 1,
+            "modifier": -5,
+            "save": -5
+          }
+        },
+        "initiative": {
+          "bonus": 1,
+          "score": 11
+        },
+        "speed_text": "20 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "monster:troll",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:hit-points",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:save",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          333
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#TrollLimb",
+        "text_sha256": "89971adda2039ec8f0786ce395d892e067c5ec8ed5a2906aaa4864f075f2e10a"
+      }
+    },
+    {
+      "id": "monster:vampire",
+      "kind": "monster",
+      "name": "Vampire",
+      "rules_text": "Vampire Medium or Small Undead, Lawful Evil AC 16 Initiative +14 (24) HP 195 (23d8 + 92) Speed 40 ft., Climb 40 ft. MOD SAVE MOD SAVE MOD SAVE Str 18 +4 +4 Dex 18 +4 +9 Con 18 +4 +9 Int 17 +3 +3 WIS 15 +2 +7 Cha 18 +4 +9 Skills Perception +7, Stealth +9 Resistances Necrotic Senses Darkvision 120 ft.; Passive Perception 17 Languages Common plus two other languages CR 13 (XP 10,000, or 11,500 in lair; PB +5) Traits Legendary Resistance (3/Day, or 4/Day in Lair). If the vampire fails a saving throw, it can choose to succeed instead. Misty Escape. If the vampire drops to 0 Hit Points outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can’t use Shape-Shift, it is destroyed. While it has 0 Hit Points in mist form, it can’t return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the Paralyzed condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there. Spider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check. Vampire Weakness. The vampire has these weaknesses: Forbiddance. The vampire can’t enter a residence without an invitation from an occupant. Running Water. The vampire takes 20 Acid damage if it ends its turn in running water. Stake to the Heart. If a weapon that deals Piercing damage is driven into the vampire’s heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed. Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks. Actions Multiattack (Vampire Form Only). The vampire makes two Grave Strike attacks and uses Bite. Grave Strike (Vampire Form Only). Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands. Bite (Bat or Vampire Form Only). Constitution Saving Throw: DC 17, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage. The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire’s control. Bonus Actions Charm (Recharge 5–6). The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire’s Bite, the damage of which doesn’t end the spell. When the spell ends, the target is unaware it was Charmed by the vampire. Shape-Shift. If the vampire isn’t in sunlight or running water, it shape-shifts into a Tiny bat (Speed 5 ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it. While in bat form, the vampire can’t speak. Its game statistics, other than its size and Speed, are unchanged. While in mist form, the vampire can’t take any actions, speak, or manipulate objects. It is weightless and can enter an enemy’s space and stop there. If air can pass through a space, the mist can do so, but it can’t pass through liquid. It has Resistance to all damage, except the damage it takes from sunlight. Legendary Actions Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns. Beguile. The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). The vampire can’t take this action again until the start of its next turn. Deathless Strike. The vampire moves up to half its Speed, and it makes one Grave Strike attack.",
+      "metadata": {
+        "ac": 16,
+        "hp": 195,
+        "cr": "13",
+        "xp": 10000,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 18,
+            "modifier": 4,
+            "save": 4
+          },
+          "dex": {
+            "score": 18,
+            "modifier": 4,
+            "save": 9
+          },
+          "con": {
+            "score": 18,
+            "modifier": 4,
+            "save": 9
+          },
+          "int": {
+            "score": 17,
+            "modifier": 3,
+            "save": 3
+          },
+          "wis": {
+            "score": 15,
+            "modifier": 2,
+            "save": 7
+          },
+          "cha": {
+            "score": 18,
+            "modifier": 4,
+            "save": 9
+          }
+        },
+        "initiative": {
+          "bonus": 14,
+          "score": 24
+        },
+        "speed_text": "40 ft., Climb 40 ft.",
+        "cautions": [
+          "Base variant: 10,000 XP and 3 legendary uses/resistances; lair alternatives remain in licensed text but are not selected."
+        ],
+        "sections": [
+          "Traits",
+          "Actions",
+          "Bonus Actions",
+          "Legendary Actions"
+        ]
+      },
+      "dependencies": [
+        "monster:vampire-spawn",
+        "rule:ability-check",
+        "rule:action",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:disadvantage",
+        "rule:enemy",
+        "rule:fly-speed",
+        "rule:grappled",
+        "rule:hit-points",
+        "rule:hover",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:resistance",
+        "rule:restrained",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:shape-shifting",
+        "rule:size",
+        "rule:speed",
+        "rule:spell",
+        "rule:target",
+        "rule:weapon",
+        "spell:charm-person",
+        "spell:command"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          335,
+          336
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Vampire",
+        "text_sha256": "7d8f7a90f8e2f2324ecfe46b34b5eae82ac1ab386a75bb97d0481a4d00edbd12"
+      }
+    },
+    {
+      "id": "monster:vampire-spawn",
+      "kind": "monster",
+      "name": "Vampire Spawn",
+      "rules_text": "Vampire Spawn Medium or Small Undead, Neutral Evil AC 16 Initiative +3 (13) HP 90 (12d8 + 36) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 16 +3 +3 Dex 16 +3 +6 Con 16 +3 +3 Int 11 +0 +0 WIS 10 +0 +3 Cha 12 +1 +1 Skills Perception +3, Stealth +6 Resistances Necrotic Senses Darkvision 60 ft.; Passive Perception 13 Languages Common plus one other language CR 5 (XP 1,800; PB +3) Traits Spider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check. Vampire Weakness. The vampire has these weaknesses: Forbiddance. The vampire can’t enter a residence without an invitation from an occupant. Running Water. The vampire takes 20 Acid damage if it ends its turn in running water. Stake to the Heart. The vampire is destroyed if a weapon that deals Piercing damage is driven into the vampire’s heart while the vampire has the Incapacitated condition. Sunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks. Actions Multiattack. The vampire makes two Claw attacks and uses Bite. Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws. Bite. Constitution Saving Throw: DC 14, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage. The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. Bonus Actions Deathless Agility. The vampire takes the Dash or Disengage action.",
+      "metadata": {
+        "ac": 16,
+        "hp": 90,
+        "cr": "5",
+        "xp": 1800,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 6
+          },
+          "con": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "int": {
+            "score": 11,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 10,
+            "modifier": 0,
+            "save": 3
+          },
+          "cha": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions",
+          "Bonus Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:ability-check",
+        "rule:action",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:dash",
+        "rule:disadvantage",
+        "rule:disengage",
+        "rule:grappled",
+        "rule:hit-points",
+        "rule:incapacitated",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target",
+        "rule:weapon"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          334,
+          335
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#VampireSpawn",
+        "text_sha256": "30c310d3b2cb17b0a0aef09a7212286007b8f022c764fabbc6cc1fb6a4e1eb94"
+      }
+    },
+    {
+      "id": "monster:wight",
+      "kind": "monster",
+      "name": "Wight",
+      "rules_text": "Wight Medium Undead, Neutral Evil AC 14 Initiative +4 (14) HP 82 (11d8 + 33) Speed 30 ft. MOD SAVE MOD SAVE MOD SAVE Str 15 +2 +2 Dex 14 +2 +2 Con 16 +3 +3 Int 10 +0 +0 WIS 13 +1 +1 Cha 15 +2 +2 Skills Perception +3, Stealth +4 Resistances Necrotic Immunities Poison; Exhaustion, Poisoned Gear Studded Leather Armor Senses Darkvision 60 ft.; Passive Perception 13 Languages Common plus one other language CR 3 (XP 700; PB +2) Traits Sunlight Sensitivity. While in sunlight, the wight has Disadvantage on ability checks and attack rolls. Actions Multiattack. The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Life Drain. Necrotic Sword. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage. Necrotic Bow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage. Life Drain. Constitution Saving Throw: DC 13, one creature within 5 feet. Failure: 6 (1d8 + 2) Necrotic damage, and the target’s Hit Point maximum decreases by an amount equal to the damage taken. A Humanoid slain by this attack rises 24 hours later as a Zombie under the wight’s control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time.",
+      "metadata": {
+        "ac": 14,
+        "hp": 82,
+        "cr": "3",
+        "xp": 700,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          },
+          "dex": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "con": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "int": {
+            "score": 10,
+            "modifier": 0,
+            "save": 0
+          },
+          "wis": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "cha": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          }
+        },
+        "initiative": {
+          "bonus": 4,
+          "score": 14
+        },
+        "speed_text": "30 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "equipment:leather-armor",
+        "equipment:studded-leather-armor",
+        "monster:zombie",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:disadvantage",
+        "rule:exhaustion",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed",
+        "rule:target"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          341
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Wight",
+        "text_sha256": "922fdf1b12bf94b9c8740fa4243bb66a0d17f011f18f2c6e66c9f3803fa01989"
+      }
+    },
+    {
+      "id": "monster:wraith",
+      "kind": "monster",
+      "name": "Wraith",
+      "rules_text": "Wraith Medium or Small Undead, Neutral Evil AC 13 Initiative +3 (13) HP 67 (9d8 + 27) Speed 5 ft., Fly 60 ft. (hover) MOD SAVE MOD SAVE MOD SAVE Str 6 −2 −2 Dex 16 +3 +3 Con 16 +3 +3 Int 12 +1 +1 WIS 14 +2 +2 Cha 15 +2 +2 Resistances Acid, Bludgeoning, Cold, Fire, Piercing, Slashing Immunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious Senses Darkvision 60 ft.; Passive Perception 12 Languages Common plus two other languages CR 5 (XP 1,800; PB +3) Traits Incorporeal Movement. The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object. Sunlight Sensitivity. While in sunlight, the wraith has Disadvantage on ability checks and attack rolls. Actions Life Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken. Create Specter. The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target’s spirit rises as a Specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith’s control. The wraith can have no more than seven specters under its control at a time.",
+      "metadata": {
+        "ac": 13,
+        "hp": 67,
+        "cr": "5",
+        "xp": 1800,
+        "sizes": [
+          "medium",
+          "small"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          },
+          "dex": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "con": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "int": {
+            "score": 12,
+            "modifier": 1,
+            "save": 1
+          },
+          "wis": {
+            "score": 14,
+            "modifier": 2,
+            "save": 2
+          },
+          "cha": {
+            "score": 15,
+            "modifier": 2,
+            "save": 2
+          }
+        },
+        "initiative": {
+          "bonus": 3,
+          "score": 13
+        },
+        "speed_text": "5 ft., Fly 60 ft. (hover)",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "monster:specter",
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:charmed",
+        "rule:combat",
+        "rule:creature",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:dead",
+        "rule:difficult-terrain",
+        "rule:disadvantage",
+        "rule:exhaustion",
+        "rule:grappled",
+        "rule:hover",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:object",
+        "rule:paralyzed",
+        "rule:passive-perception",
+        "rule:petrified",
+        "rule:poisoned",
+        "rule:prone",
+        "rule:reach",
+        "rule:restrained",
+        "rule:save",
+        "rule:speed",
+        "rule:target",
+        "rule:unconscious",
+        "rule:unoccupied-space"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          342,
+          343
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Wraith",
+        "text_sha256": "5008f5dd03f7c7026beaf38633cd3d4472351f3ffe2e82bc9a8dca7f80f143b5"
+      }
+    },
+    {
+      "id": "monster:zombie",
+      "kind": "monster",
+      "name": "Zombie",
+      "rules_text": "Zombie Medium Undead, Neutral Evil AC 8 Initiative −2 (8) HP 15 (2d8 + 6) Speed 20 ft. MOD SAVE MOD SAVE MOD SAVE Str 13 +1 +1 Dex 6 −2 −2 Con 16 +3 +3 Int 3 −4 −4 WIS 6 −2 +0 Cha 5 −3 −3 Immunities Poison; Exhaustion, Poisoned Senses Darkvision 60 ft.; Passive Perception 8 Languages Understands Common plus one other language but can’t speak CR 1/4 (XP 50; PB +2) Traits Undead Fortitude. If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead. Actions Slam. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Bludgeoning damage.",
+      "metadata": {
+        "ac": 8,
+        "hp": 15,
+        "cr": "1/4",
+        "xp": 50,
+        "sizes": [
+          "medium"
+        ],
+        "variant": "base",
+        "abilities": {
+          "str": {
+            "score": 13,
+            "modifier": 1,
+            "save": 1
+          },
+          "dex": {
+            "score": 6,
+            "modifier": -2,
+            "save": -2
+          },
+          "con": {
+            "score": 16,
+            "modifier": 3,
+            "save": 3
+          },
+          "int": {
+            "score": 3,
+            "modifier": -4,
+            "save": -4
+          },
+          "wis": {
+            "score": 6,
+            "modifier": -2,
+            "save": 0
+          },
+          "cha": {
+            "score": 5,
+            "modifier": -3,
+            "save": -3
+          }
+        },
+        "initiative": {
+          "bonus": -2,
+          "score": 8
+        },
+        "speed_text": "20 ft.",
+        "cautions": [],
+        "sections": [
+          "Traits",
+          "Actions"
+        ]
+      },
+      "dependencies": [
+        "rule:attack",
+        "rule:attack-roll",
+        "rule:combat",
+        "rule:critical-hit",
+        "rule:damage",
+        "rule:darkvision",
+        "rule:exhaustion",
+        "rule:hit-points",
+        "rule:initiative",
+        "rule:monster-stat-blocks",
+        "rule:passive-perception",
+        "rule:poisoned",
+        "rule:reach",
+        "rule:save",
+        "rule:saving-throw",
+        "rule:speed"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          343,
+          344
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Zombie",
+        "text_sha256": "dd7362026d22dfdaf64e7c09a2df4d477167847445424d6bd0c9b672bfa258fa"
+      }
+    }
+  ]
+}

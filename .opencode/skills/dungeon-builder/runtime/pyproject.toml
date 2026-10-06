@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fcw-dungeon"
+version = "0.0.10.0"
+requires-python = ">=3.11,<3.15"
+dependencies = ["Pillow==12.3.0", "reportlab==5.0.1", "jsonschema==4.26.0"]
+
+[project.optional-dependencies]
+test = ["pypdf==6.19.0"]
+
+[project.scripts]
+fcw-dungeon = "fcw_dungeon.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fcw_dungeon = ["data/*.json", "data/*.txt", "data/schemas/*.json"]

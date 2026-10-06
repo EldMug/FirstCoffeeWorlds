@@ -1,1 +1,14 @@
 /wd/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+/.fcw-dungeon.lock
+/.fcw-dungeon-stage/
+/.fcw-dungeon-stage-*/
+/.fcw-dungeon-txn/
+/.venv/
+/.opencode/skills/dungeon-builder/runtime/.venv/
+/.opencode/skills/dungeon-builder/runtime/build/
+/.opencode/skills/dungeon-builder/runtime/dist/

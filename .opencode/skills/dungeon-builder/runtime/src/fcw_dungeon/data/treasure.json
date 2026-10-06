@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "item:belt-of-giant-strength-fire",
+      "kind": "item",
+      "name": "Belt of Giant Strength Fire",
+      "rules_text": "Belt of Giant Strength Wondrous Item, Rarity Varies (Requires Attunement) While wearing this belt, your Strength changes to a score granted by the belt. The type of giant determines the score (see the table below). The item has no effect on you if your Strength without the belt is equal to or greater than the belt’s score. Belt Str. Rarity Belt of Giant Strength (hill) 21 Rare Belt of Giant Strength (frost or stone) 23 Very Rare Belt of Giant Strength (fire) 25 Very Rare Belt of Giant Strength (cloud) 27 Legendary Belt of Giant Strength (storm) 29 Legendary",
+      "metadata": {
+        "rarity": "very-rare",
+        "attunement": true,
+        "consumable": false,
+        "category": "Wondrous Item",
+        "variant": "fire"
+      },
+      "dependencies": [
+        "rule:attunement",
+        "rule:attuning-to-magic-items"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          213
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#BeltofGiantStrength",
+        "text_sha256": "d594c088a6a49532d81d01675c933c599b2242d75d4b94c77024dae4da8ab90d"
+      }
+    },
+    {
+      "id": "item:belt-of-giant-strength-storm",
+      "kind": "item",
+      "name": "Belt of Giant Strength Storm",
+      "rules_text": "Belt of Giant Strength Wondrous Item, Rarity Varies (Requires Attunement) While wearing this belt, your Strength changes to a score granted by the belt. The type of giant determines the score (see the table below). The item has no effect on you if your Strength without the belt is equal to or greater than the belt’s score. Belt Str. Rarity Belt of Giant Strength (hill) 21 Rare Belt of Giant Strength (frost or stone) 23 Very Rare Belt of Giant Strength (fire) 25 Very Rare Belt of Giant Strength (cloud) 27 Legendary Belt of Giant Strength (storm) 29 Legendary",
+      "metadata": {
+        "rarity": "legendary",
+        "attunement": true,
+        "consumable": false,
+        "category": "Wondrous Item",
+        "variant": "storm"
+      },
+      "dependencies": [
+        "rule:attunement",
+        "rule:attuning-to-magic-items"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          213
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#BeltofGiantStrength",
+        "text_sha256": "d594c088a6a49532d81d01675c933c599b2242d75d4b94c77024dae4da8ab90d"
+      }
+    },
+    {
+      "id": "item:cloak-of-protection",
+      "kind": "item",
+      "name": "Cloak of Protection",
+      "rules_text": "Cloak of Protection Wondrous Item, Uncommon (Requires Attunement) You gain a +1 bonus to Armor Class and saving throws while you wear this cloak.",
+      "metadata": {
+        "rarity": "uncommon",
+        "attunement": true,
+        "consumable": false,
+        "category": "Wondrous Item",
+        "variant": null
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:attunement",
+        "rule:attuning-to-magic-items"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          216
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#CloakofProtection",
+        "text_sha256": "135b190ac425faab2f0e3dcb6ede4511b2e1b805fc0ee6dfcfd05dc55109b4e5"
+      }
+    },
+    {
+      "id": "item:goggles-of-night",
+      "kind": "item",
+      "name": "Goggles of Night",
+      "rules_text": "Goggles of Night Wondrous Item, Uncommon While wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet.",
+      "metadata": {
+        "rarity": "uncommon",
+        "attunement": false,
+        "consumable": false,
+        "category": "Wondrous Item",
+        "variant": null
+      },
+      "dependencies": [
+        "rule:darkvision"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          224
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#GogglesofNight",
+        "text_sha256": "e8224969d121e57bf024c5e6c727b67535c860b1425be565e659e1f336774a3e"
+      }
+    },
+    {
+      "id": "item:potion-of-climbing",
+      "kind": "item",
+      "name": "Potion of Climbing",
+      "rules_text": "Potion of Climbing Potion, Common When you drink this potion, you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb. This potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.\n\nPotions An item in the Potion category might be a magical brew that must be imbibed or an oil that must be applied to a creature or an object. A typical potion consists of 1 ounce of liquid in a vial. Using a Potion. Potions are consumable items. Drinking a potion or administering it to another creature requires a Bonus Action. Applying an oil might take longer as specified in its description. Once used, a potion takes effect immediately, and it is used up. Mixing Potions. A character might drink one potion while still under the effects of another or pour several potions into a single container. The strange ingredients used in creating potions can result in unpredictable interactions. When a character mixes two potions together, roll on the Potion Miscibility table. If more than two are combined, roll again for each subsequent potion, combining the results. Unless the effects are immediately obvious, reveal them only when they become evident. Potion Miscibility 1d100 Result 01 Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage. 02–08 Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”). 09–15 Both potions lose their effects. 16–25 One potion loses its effect. 26–35 Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect. 36–90 Both potions work normally. 91–99 Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally. 00 Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.",
+      "metadata": {
+        "rarity": "common",
+        "attunement": false,
+        "consumable": true,
+        "category": "Potion",
+        "variant": null
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:advantage",
+        "rule:bonus-action",
+        "rule:climb-speed",
+        "rule:climbing",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:healing",
+        "rule:invisible",
+        "rule:magic",
+        "rule:object",
+        "rule:potions",
+        "rule:speed",
+        "rule:spell",
+        "rule:sphere"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          204,
+          235
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#PotionofClimbing",
+        "text_sha256": "22dbad80fbfcf9f437376e5d7f5c2aed6a91228ab4eb1ea8a9a1dfc3c0c17611"
+      }
+    },
+    {
+      "id": "item:potion-of-healing",
+      "kind": "item",
+      "name": "Potion of Healing",
+      "rules_text": "Potions of Healing Potion, Rarity Varies You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion’s rarity, as shown in the table below. Whatever its potency, the potion’s red liquid glimmers when agitated. Potion HP Regained Rarity Potion of Healing 2d4 + 2 Common Potion of Healing (greater) 4d4 + 4 Uncommon Potion of Healing (superior) 8d4 + 8 Rare Potion of Healing (supreme) 10d4 + 20 Very Rare\n\nPotions An item in the Potion category might be a magical brew that must be imbibed or an oil that must be applied to a creature or an object. A typical potion consists of 1 ounce of liquid in a vial. Using a Potion. Potions are consumable items. Drinking a potion or administering it to another creature requires a Bonus Action. Applying an oil might take longer as specified in its description. Once used, a potion takes effect immediately, and it is used up. Mixing Potions. A character might drink one potion while still under the effects of another or pour several potions into a single container. The strange ingredients used in creating potions can result in unpredictable interactions. When a character mixes two potions together, roll on the Potion Miscibility table. If more than two are combined, roll again for each subsequent potion, combining the results. Unless the effects are immediately obvious, reveal them only when they become evident. Potion Miscibility 1d100 Result 01 Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage. 02–08 Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”). 09–15 Both potions lose their effects. 16–25 One potion loses its effect. 26–35 Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect. 36–90 Both potions work normally. 91–99 Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally. 00 Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.",
+      "metadata": {
+        "rarity": "common",
+        "attunement": false,
+        "consumable": true,
+        "category": "Potion",
+        "variant": null
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:bonus-action",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:healing",
+        "rule:hit-points",
+        "rule:invisible",
+        "rule:magic",
+        "rule:object",
+        "rule:potions",
+        "rule:spell",
+        "rule:sphere"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          204,
+          236
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#PotionsofHealing",
+        "text_sha256": "7926edf6f0c950a1b224746e63ebfcf3780375064eab8ae08a6c339c6a8bf004"
+      }
+    },
+    {
+      "id": "item:potion-of-healing-superior",
+      "kind": "item",
+      "name": "Potion of Healing Superior",
+      "rules_text": "Potions of Healing Potion, Rarity Varies You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion’s rarity, as shown in the table below. Whatever its potency, the potion’s red liquid glimmers when agitated. Potion HP Regained Rarity Potion of Healing 2d4 + 2 Common Potion of Healing (greater) 4d4 + 4 Uncommon Potion of Healing (superior) 8d4 + 8 Rare Potion of Healing (supreme) 10d4 + 20 Very Rare\n\nPotions An item in the Potion category might be a magical brew that must be imbibed or an oil that must be applied to a creature or an object. A typical potion consists of 1 ounce of liquid in a vial. Using a Potion. Potions are consumable items. Drinking a potion or administering it to another creature requires a Bonus Action. Applying an oil might take longer as specified in its description. Once used, a potion takes effect immediately, and it is used up. Mixing Potions. A character might drink one potion while still under the effects of another or pour several potions into a single container. The strange ingredients used in creating potions can result in unpredictable interactions. When a character mixes two potions together, roll on the Potion Miscibility table. If more than two are combined, roll again for each subsequent potion, combining the results. Unless the effects are immediately obvious, reveal them only when they become evident. Potion Miscibility 1d100 Result 01 Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage. 02–08 Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”). 09–15 Both potions lose their effects. 16–25 One potion loses its effect. 26–35 Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect. 36–90 Both potions work normally. 91–99 Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally. 00 Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.",
+      "metadata": {
+        "rarity": "rare",
+        "attunement": false,
+        "consumable": true,
+        "category": "Potion",
+        "variant": "superior"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:bonus-action",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:healing",
+        "rule:hit-points",
+        "rule:invisible",
+        "rule:magic",
+        "rule:object",
+        "rule:potions",
+        "rule:spell",
+        "rule:sphere"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          204,
+          236
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#PotionsofHealing",
+        "text_sha256": "7926edf6f0c950a1b224746e63ebfcf3780375064eab8ae08a6c339c6a8bf004"
+      }
+    },
+    {
+      "id": "item:potion-of-healing-supreme",
+      "kind": "item",
+      "name": "Potion of Healing Supreme",
+      "rules_text": "Potions of Healing Potion, Rarity Varies You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion’s rarity, as shown in the table below. Whatever its potency, the potion’s red liquid glimmers when agitated. Potion HP Regained Rarity Potion of Healing 2d4 + 2 Common Potion of Healing (greater) 4d4 + 4 Uncommon Potion of Healing (superior) 8d4 + 8 Rare Potion of Healing (supreme) 10d4 + 20 Very Rare\n\nPotions An item in the Potion category might be a magical brew that must be imbibed or an oil that must be applied to a creature or an object. A typical potion consists of 1 ounce of liquid in a vial. Using a Potion. Potions are consumable items. Drinking a potion or administering it to another creature requires a Bonus Action. Applying an oil might take longer as specified in its description. Once used, a potion takes effect immediately, and it is used up. Mixing Potions. A character might drink one potion while still under the effects of another or pour several potions into a single container. The strange ingredients used in creating potions can result in unpredictable interactions. When a character mixes two potions together, roll on the Potion Miscibility table. If more than two are combined, roll again for each subsequent potion, combining the results. Unless the effects are immediately obvious, reveal them only when they become evident. Potion Miscibility 1d100 Result 01 Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage. 02–08 Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”). 09–15 Both potions lose their effects. 16–25 One potion loses its effect. 26–35 Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect. 36–90 Both potions work normally. 91–99 Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally. 00 Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.",
+      "metadata": {
+        "rarity": "very-rare",
+        "attunement": false,
+        "consumable": true,
+        "category": "Potion",
+        "variant": "supreme"
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:bonus-action",
+        "rule:condition",
+        "rule:creature",
+        "rule:damage",
+        "rule:healing",
+        "rule:hit-points",
+        "rule:invisible",
+        "rule:magic",
+        "rule:object",
+        "rule:potions",
+        "rule:spell",
+        "rule:sphere"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          204,
+          236
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#PotionsofHealing",
+        "text_sha256": "7926edf6f0c950a1b224746e63ebfcf3780375064eab8ae08a6c339c6a8bf004"
+      }
+    },
+    {
+      "id": "item:ring-of-invisibility",
+      "kind": "item",
+      "name": "Ring of Invisibility",
+      "rules_text": "Ring of Invisibility Ring, Legendary (Requires Attunement) While wearing this ring, you can take a Magic action to give yourself the Invisible condition. You remain Invisible until the ring is removed or until you take a Bonus Action to become visible again.",
+      "metadata": {
+        "rarity": "legendary",
+        "attunement": true,
+        "consumable": false,
+        "category": "Ring",
+        "variant": null
+      },
+      "dependencies": [
+        "rule:action",
+        "rule:attunement",
+        "rule:attuning-to-magic-items",
+        "rule:bonus-action",
+        "rule:condition",
+        "rule:invisible",
+        "rule:magic"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          238
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#RingofInvisibility",
+        "text_sha256": "89f00ab1449e064b0ebcc65a5eb4c2ec4daed277c632a21ba8e956c760716a22"
+      }
+    },
+    {
+      "id": "item:ring-of-protection",
+      "kind": "item",
+      "name": "Ring of Protection",
+      "rules_text": "Ring of Protection Ring, Rare (Requires Attunement) You gain a +1 bonus to Armor Class and saving throws while wearing this ring.",
+      "metadata": {
+        "rarity": "rare",
+        "attunement": true,
+        "consumable": false,
+        "category": "Ring",
+        "variant": null
+      },
+      "dependencies": [
+        "rule:armor-class",
+        "rule:attunement",
+        "rule:attuning-to-magic-items"
+      ],
+      "source": {
+        "edition": "srd-5.2.1",
+        "pdf_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+        "pdf_sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+        "pages": [
+          238
+        ],
+        "basic_rules_url": "https://www.dndbeyond.com/sources/dnd/br-2024/magic-items-a-z#RingofProtection",
+        "text_sha256": "a7a0196ddd59aab98bdfc28be8ad6f265abcae890dc59b3c828c411e51cfc73e"
+      }
+    }
+  ]
+}

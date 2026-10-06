@@ -1,0 +1,1106 @@
+{
+  "schema_version": 1,
+  "catalog_version": 1,
+  "digest": "cceef40b94231f0f9de32b4e8ad8947f818fd12f6c6529d8c7972246693de9f7",
+  "entries": {
+    "equipment:arrows": {
+      "digest": "15eea55e26ed3c221b4383779d757675091895db6e397f576b5e655a7f0c6858",
+      "packs": []
+    },
+    "equipment:battleaxe": {
+      "digest": "468da801958fbb6812f65182fae91959d9f99741a34fa99a3a9d4ff55c2c4260",
+      "packs": []
+    },
+    "equipment:bolts": {
+      "digest": "4e1a67f3ce5ddd43fed182740eb5a017607cdeca8b9b4d4bdb37b8ff5091121b",
+      "packs": []
+    },
+    "equipment:breastplate": {
+      "digest": "0da9f3bfc14654b87b2dbdd0b2facb9d078b81254aab36d8adb43ed6eba825ba",
+      "packs": []
+    },
+    "equipment:chain": {
+      "digest": "a3eaf1ec17fa6c766f008a78eadcebbdb79ee147a20cfa032ae9f08414b9838b",
+      "packs": []
+    },
+    "equipment:chain-shirt": {
+      "digest": "6f3e01380d5b564f11f8a38d77f3e0a5911ec043cbe0d1d565c6029639548a01",
+      "packs": []
+    },
+    "equipment:climber-s-kit": {
+      "digest": "6dfed9363aaf6cbd3c05afd5d133a5a2f1f7007c77a5e65f3e5f46dad9d9bbba",
+      "packs": []
+    },
+    "equipment:component-pouch": {
+      "digest": "e3d9d42f81380a6d572d77a22cc947ee6ae7966c6df493a1475dbccef12b8058",
+      "packs": []
+    },
+    "equipment:firearm-bullets": {
+      "digest": "daf04d16834103e89b9761ce006b47c35decee72333b3022ebdbf29b4012480c",
+      "packs": []
+    },
+    "equipment:greatclub": {
+      "digest": "14fc2449f634476ea2c2986e9d021b32cc062347362f0868379e4696871be072",
+      "packs": []
+    },
+    "equipment:greatsword": {
+      "digest": "e9ea93506f35813010153ad001ffcf6aa91665a9784294ad8f0e87896ae41f58",
+      "packs": []
+    },
+    "equipment:half-plate-armor": {
+      "digest": "a57d61afaf1c08459b3978459b79d0eef0b1b18fe63b4ad15638674d8df99e6b",
+      "packs": []
+    },
+    "equipment:iron-spikes": {
+      "digest": "861598557e8da7b67849baf428853a2d446c6fd5a5f07d25cc4d09d952a49eb6",
+      "packs": []
+    },
+    "equipment:javelin": {
+      "digest": "517170eecd7c8e31cd10f1677e65eea21655707fad5bc0f5a0960cc834d63483",
+      "packs": []
+    },
+    "equipment:leather-armor": {
+      "digest": "b4bbe9d3497e3656d9e87f238cc9b408c91ff16e99546b92c6f2c80f067fa83a",
+      "packs": []
+    },
+    "equipment:light-crossbow": {
+      "digest": "1ad7a9777e4c4d936c680bc5e8e75f32ff25a82ee277d50a259ae41b1a5f167b",
+      "packs": []
+    },
+    "equipment:light-hammer": {
+      "digest": "cbec4f4939e12e9e08ca3be14cf85b3f1514897d1f9176e4cae94801f64b55f2",
+      "packs": []
+    },
+    "equipment:lock": {
+      "digest": "dbad9a32aa233b02ca60994a4c1f7fb9590a168aaf5a40a5b8e9e22f8e983a56",
+      "packs": []
+    },
+    "equipment:longbow": {
+      "digest": "b83c6d8a6c7f2d95fdb9f2d9aee7e07a0e51a581d0f2837ef06120ae550d89b1",
+      "packs": []
+    },
+    "equipment:longsword": {
+      "digest": "b46ac18267faeab8808bbdd92595669c5ea5d244f4667568f41739c8a41be0f7",
+      "packs": []
+    },
+    "equipment:morningstar": {
+      "digest": "1c26984b1eec2fc2c31262ef1f61f18b4fad292a9cc3f703743383eef8335cca",
+      "packs": []
+    },
+    "equipment:net": {
+      "digest": "0e32bef560e1810432f8a396862436d4e85b27914fe70295f6169ca92fbd62c7",
+      "packs": []
+    },
+    "equipment:pistol": {
+      "digest": "86fa5dc5775e732a9c98474d1061b7a6d44039ac1973185d1e6a49dc431e3784",
+      "packs": []
+    },
+    "equipment:plate-armor": {
+      "digest": "ba42b31077266a322a88611fd48dc0192a74adfe3c7d5e0ecc5190e07c9d2091",
+      "packs": []
+    },
+    "equipment:rope": {
+      "digest": "6c6f566f796c73520b4b391ccc6cf767ce57b1557e825dd07be33ba980180d7f",
+      "packs": []
+    },
+    "equipment:scimitar": {
+      "digest": "398f4276447764d61855180d8cad8bfb0df94a3b7f647b1cca36ec2d6b81f1e0",
+      "packs": []
+    },
+    "equipment:shield": {
+      "digest": "c1c3230df2ddb00865ca49b5df564328fbf5da662084f5c5d89dbb89b2a6ea00",
+      "packs": []
+    },
+    "equipment:shortbow": {
+      "digest": "62e954d8279f0af9906153af9f0b70ffedfc1a86511aef92ad5a87a21ca88414",
+      "packs": []
+    },
+    "equipment:shortsword": {
+      "digest": "6599be0c1826fc7b91871066441915e3c7db0067923cd55bfebe1a5f5a4af0da",
+      "packs": []
+    },
+    "equipment:spear": {
+      "digest": "0f7f82711ad22e442fd849ef02127a2616d67b3463a77d4517bac94a1b7e97a5",
+      "packs": []
+    },
+    "equipment:studded-leather-armor": {
+      "digest": "79288ceedcfe7d3ecbc0004123c52ac31439574f8e3af5b40cb42ecf61e76ff3",
+      "packs": []
+    },
+    "equipment:thieves-tools": {
+      "digest": "613817c304a806c294daee54f9c3cdd9437855b24ac76e16bf2a7dada2c5b3a6",
+      "packs": []
+    },
+    "item:belt-of-giant-strength-fire": {
+      "digest": "3a204462e5640c9312d16c3a1cc0c1f26ae46cb820d32421c3b55bc2d3e96d0b",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:belt-of-giant-strength-storm": {
+      "digest": "ed099f1ea6e5188962d421d1c4b43416b3ace1b754e3153c733bf0a44563fd71",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:cloak-of-protection": {
+      "digest": "9e3a7ab19bb8eea591bf62d0cf486aeef133e930f78e5a58bb0e6da009eb8203",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:goggles-of-night": {
+      "digest": "d90da38342deb94d6354b257d062c4dc82ec833b50a35937fb234d169495e724",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:potion-of-climbing": {
+      "digest": "989cbe5fbdaf738ae074f0dabf545d668192a2e2dc0d10bb851817438bec009a",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:potion-of-healing": {
+      "digest": "68f8595102b90ecb98feca86ab5c97f1fbc6ff664b986ed100a821e0e728c0f0",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:potion-of-healing-superior": {
+      "digest": "ac5be8387346ddf652970c3e253b0c0778b405d4f61ee43da7e87911dad7007d",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:potion-of-healing-supreme": {
+      "digest": "ac2a0baefd7974c198bf7ef1c75ce865ca1f0ba6639ad46615799b234f3383cb",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:ring-of-invisibility": {
+      "digest": "d8d6951bc0b730ffc0202ca62b2284e5caefb55dcd207920f5480cd6bca9aa14",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "item:ring-of-protection": {
+      "digest": "1d7819c0f8784e7f0e96a19317d93aa55c98ceb0e1dd087d7157fdb28103a51d",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "monster:ankheg": {
+      "digest": "2fb8d4d2df390d1cf6f56409211359e6ae3da86d989a229861cc012c9d9fa1f9",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:assassin": {
+      "digest": "e943efadb9ff8eb532ebcad7a85e4edf07855d224b1c501751bb6bd2b593764c",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:balor": {
+      "digest": "5083c6e7b7bd0c524a36badd63fe67b1eac28c081a6d5639532684802ec25bf4",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:bandit": {
+      "digest": "10d8798bde5fcdead9806d63eaa778059a7ad4ffad9def9adad9aecdfc860cfc",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:bandit-captain": {
+      "digest": "8264f92bd9585d85a06e9b4da6d3713cdc31362a371779498ccc72d6702bf549",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:behir": {
+      "digest": "b0a09aa722228023447a5dc5d9044fefb82ff9658605a41d33f33f896cc582eb",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:dire-wolf": {
+      "digest": "3b343ec95caee2d7ff33484744041c4a7a55072b18c6dc34980cf1b61d51dd42",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:ettin": {
+      "digest": "99dcf0e40238ec70dea967d77ecade721c2699fefe5424857fbd19628275d6a7",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:fire-giant": {
+      "digest": "e5a6bef168fb64fb4fb5fd4acdfcf672a7d8ae41ab580c6fd212565b47fe1fcf",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:ghast": {
+      "digest": "7af55dce2988ca9ffb15ac67f31bce26f60a386a638e65d1698e3eca2c9a21c6",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:ghost": {
+      "digest": "20531a0cb3048b1e285f9a677eedc2a716b49cce1015d9b75d00f9aaf66eb129",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:ghoul": {
+      "digest": "502fc9e6ffedfb037ee091af754919e9acab805f045e8184f88656947fb23d95",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:giant-bat": {
+      "digest": "74e2f95adc7889f61c84687443efd71c7cd61cb15b7415c097c50fc04908d636",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:giant-rat": {
+      "digest": "98f78c0e505ce0226b539a53db8d5f627da96959b2c195b9c07dd8ed8b11d6d0",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:giant-spider": {
+      "digest": "c204142dbd5da05d082c4a45e27eb458c4150098f875a6e1a50b85476881ab22",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:gladiator": {
+      "digest": "041c6dc3b1a1e86d5f913ae6b96641148751f25eb9c133a54fe316eca05631c3",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:guard": {
+      "digest": "a43f5e972f492ca757117eae53f01a21af6cc017256080ed10f1a2ac4cdf069a",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:guard-captain": {
+      "digest": "d590e268e5d46de324db3b8c7094bfef0f10333cc4783a5881871bd31bddd333",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:hobgoblin-captain": {
+      "digest": "9990790d5e5294b86a0fcb8bf9e4cef3a6bb357853eb3410840d98f9f41e589b",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:hobgoblin-warrior": {
+      "digest": "b56d56feb3791127598a4497fac63bfb7a50d85cb7b6b9784322140f518c0894",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:hydra": {
+      "digest": "09ba0765020ccbd21e84a03bb35a4de0707dc8851bfa39ed9a59e7285f76215c",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:iron-golem": {
+      "digest": "c6c9c2b9efecff261c36024ac1070308259450e3b0132a34615c692449efda57",
+      "packs": [
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "monster:mummy": {
+      "digest": "d9ec9fa798e39caee00f6282d9cec8409fa3f4e755177b7cf96b39a1f7990563",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:ogre": {
+      "digest": "ea3f8f54e9635bf90d95e291a4e6c5ce655bc19043ffa40d79cf6bb3b6049843",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:purple-worm": {
+      "digest": "7e5d51160ba956eddbc6ec7faba51d2604b0042c9a4c4377b405fcab142205bf",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:shadow": {
+      "digest": "72b634d5b7dab8613ee2c74a4860ca98a56f551fdbc81a0dd743bea41299168e",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:skeleton": {
+      "digest": "66e67675304c2a90bc72d87588f36d0a9e15c0285df192ca9ccda651a2e4348f",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:specter": {
+      "digest": "d85e039cea43c583bf4cb722c065215b20879052bff8ac8d6b00116128c3dabf",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:stone-giant": {
+      "digest": "322e9e2ad963f8be43ab2684393824f83f38e47bc1b03e953d86903fcb907401",
+      "packs": [
+        "stronghold"
+      ]
+    },
+    "monster:troll": {
+      "digest": "4ec48db1aa90190b2dd532820f1f76f5236203805b70a58b1d34640b35c4991f",
+      "packs": [
+        "cave"
+      ]
+    },
+    "monster:troll-limb": {
+      "digest": "2bac614952252a76b621a1acdf42be1f5e4d56006bfd4084303d69852c78ab64",
+      "packs": []
+    },
+    "monster:vampire": {
+      "digest": "768efa9ee47210aa0be5b1dc7f7fb1f0a3be46d26ffdf14b2ee24db8bcc86f5d",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:vampire-spawn": {
+      "digest": "97d7ef9059b7a6d413884f184895df7a85035aadae35501074e6f582cabaa539",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:wight": {
+      "digest": "657e9e7e77a5311a72e32049b59cb0cdcec29a0a81315bfef5fe4df155843ce3",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:wraith": {
+      "digest": "56ab46ec62b744fdeb70ea174604fb11086e2f4bd529248eed0c15bc18388519",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "monster:zombie": {
+      "digest": "93088b8c1e8b2d28451a1c4ba0387b078afe33533e5ca87d41100019fc506541",
+      "packs": [
+        "crypt"
+      ]
+    },
+    "rule:ability-check": {
+      "digest": "5d7d1b2062c2d86e2fbae50c238efcaa56438649bf1d5e046b2e1aaf4f7abf7f",
+      "packs": []
+    },
+    "rule:ability-score-and-modifier": {
+      "digest": "12398e7fefc66f1338feb83a3978430ccec36587b8f1dcfcce6f21830af3c5a3",
+      "packs": []
+    },
+    "rule:action": {
+      "digest": "2485513ee61dd21d0d940f3b4bbc126479815ca3ea48f19ea804752064eb92fb",
+      "packs": []
+    },
+    "rule:advantage": {
+      "digest": "a70fd5d9a5dca50b1455a25ed4fcd8946b46dd689b2f0a1cc52b02dd953a061f",
+      "packs": []
+    },
+    "rule:adventure": {
+      "digest": "99fefa71dfd3e39cd7d3405e4112de91bdd1bafb3dc0610b34dfde4fae1ff1e9",
+      "packs": []
+    },
+    "rule:alignment": {
+      "digest": "9d84e3a8ed8d32a2e73284a93369e78d2041d3b17b6720d88494366140d5094a",
+      "packs": []
+    },
+    "rule:ally": {
+      "digest": "343262b8e4727a969281dbf6545750352a7136c106450c702c38cc7b9cc31003",
+      "packs": []
+    },
+    "rule:area-of-effect": {
+      "digest": "bb105d273feda56bccd307b2a87ebd8f0423f53beab7940b0f584af8b0edd452",
+      "packs": []
+    },
+    "rule:armor-class": {
+      "digest": "21e39c65148d14cc0133894728f37473cb519ade66129ac7eb702ac2cf8e8f4c",
+      "packs": []
+    },
+    "rule:armor-rules": {
+      "digest": "2f8ea8e8281b2257b1ccf1e569a4f2c9aaa19f208363aec899da063c38062c9f",
+      "packs": []
+    },
+    "rule:armor-training": {
+      "digest": "a1e10dfdc655e948896fec73729ce9fd3398400e1d9e740a42ea01d41ae5479d",
+      "packs": []
+    },
+    "rule:attack": {
+      "digest": "8b3d599fde124d8832e1a3943dd9934d65dedb77b13c4699ae27eb7ee6e1de09",
+      "packs": []
+    },
+    "rule:attack-roll": {
+      "digest": "3f0501d8704c38090e3e5d21a7f4231071b31713b4383c62d2914ed80fcb6a7b",
+      "packs": []
+    },
+    "rule:attitude": {
+      "digest": "03fa20a818905247dc933695725af4039e6a2f155b0e9ca413b574c97479a6b6",
+      "packs": []
+    },
+    "rule:attunement": {
+      "digest": "22feb3dc1060843e784f99be955dba067271010e57d4f4b5a0db51f581ba909c",
+      "packs": []
+    },
+    "rule:attuning-to-magic-items": {
+      "digest": "2261da88a377482f44863944fd1c5a66c51270405851cd874d2f962706a29e90",
+      "packs": []
+    },
+    "rule:blinded": {
+      "digest": "6d738409b1a0ce3fd5a334bad123afd35738255d1b376a7b66797a4c93691eff",
+      "packs": []
+    },
+    "rule:blindsight": {
+      "digest": "689dc082116e2e8f859f123957cdcde7af632cda3739b01efa4f44a3a57eba6f",
+      "packs": []
+    },
+    "rule:bloodied": {
+      "digest": "59d3634a9c39d1cb20a6dc5408caacfa984b81e587edf0a04a8238dec2bc5a9f",
+      "packs": []
+    },
+    "rule:bonus-action": {
+      "digest": "b185214acd9f6b25ed34b1e1f1530c8ddfc47e628906cb46aed23b9b8413ddc4",
+      "packs": []
+    },
+    "rule:breaking-objects": {
+      "digest": "a9e33ecdb7669c49848ad56a390da439c6d7c133b44bcd979752fdad27d2ced3",
+      "packs": []
+    },
+    "rule:bright-light": {
+      "digest": "57268798a7c29f07943b4f3c034ecd097858c80d183bd0e41968cb56efb401c1",
+      "packs": []
+    },
+    "rule:burrow-speed": {
+      "digest": "728ada28691b15a798c8503a17ce699f8e0216ccbca3cf1f0ee74ab77db852f6",
+      "packs": []
+    },
+    "rule:cantrip": {
+      "digest": "5d20ecb4bce5e00889edd65fce7d55603d5286908dacb8739b436639eae6910f",
+      "packs": []
+    },
+    "rule:casting-spells": {
+      "digest": "cb5b24e441be3594d73967f005bbc7d86eaeb4f516a195dc279557fa3208df93",
+      "packs": []
+    },
+    "rule:challenge-rating": {
+      "digest": "9e5dfed0c0c93bcd5ffdfd43a95672e077274187e215a13445bccf1d433f01b3",
+      "packs": []
+    },
+    "rule:character-sheet": {
+      "digest": "1c663253d4a77299c5b575da837d715e14ce0b78d97ff06846ba651d7c01a4d7",
+      "packs": []
+    },
+    "rule:charmed": {
+      "digest": "aaec36c55c952878c6c03051b07f24bd53d5b2edaa072df85a8e119f6ebcb2f1",
+      "packs": []
+    },
+    "rule:climb-speed": {
+      "digest": "dabd4c5520fc76bcc6ed8fd169de87753f8a16dc2f865686909d724f479a322c",
+      "packs": []
+    },
+    "rule:climbing": {
+      "digest": "4fe1e3adadb0863b0cb9acf0c344442b83a0f10e98f33fa93c22c85079404880",
+      "packs": []
+    },
+    "rule:combat": {
+      "digest": "4df04d104eadf31309ee2ebea545286be906f113336b3e4928a2b73717b5f9af",
+      "packs": []
+    },
+    "rule:concentration": {
+      "digest": "dd8f6f5b6f76707b29cefd310053ed9b409c9d0e0faa41c7f553cb3deb8579e9",
+      "packs": []
+    },
+    "rule:condition": {
+      "digest": "afdcd121de4d855e299bdf93a2728ca41d1c227c9c5aba419ca31bdcdce52af4",
+      "packs": []
+    },
+    "rule:cone": {
+      "digest": "414c42d246e1de2083289ab5c74c3bbcded6b62a82b8d6acbfa3d54bb0421638",
+      "packs": []
+    },
+    "rule:cover": {
+      "digest": "60c95107454aa99a42cb569a94058090eba9ebb82ccb03dcdb319ae2c0afe444",
+      "packs": []
+    },
+    "rule:crawling": {
+      "digest": "db7b0f91523366a414f917801636309a2c588c5ed98ce9202e17c230f48b6a6b",
+      "packs": []
+    },
+    "rule:creature": {
+      "digest": "0375339822e925e25a390d87f31fbf06da486cbf8ed912c39eb914f61ed4397e",
+      "packs": []
+    },
+    "rule:creature-type": {
+      "digest": "1757b01527bf01fe3754d2f3b9bbc8165abead55ef3fc641c7a8cbc14df2a595",
+      "packs": []
+    },
+    "rule:critical-hit": {
+      "digest": "245e135b6bbb8e390587f3f5b2748eb656604f0d5b1e71825169b3d35f5c0d2b",
+      "packs": []
+    },
+    "rule:cube": {
+      "digest": "d978b5606f4e791df6df881f6b9f0e5dac265671a4d2edbdaa04dd969c2d8c55",
+      "packs": []
+    },
+    "rule:curses": {
+      "digest": "2f3046b6d4302bcd2f240ffb2d1cbaf088d646e7e1d4fdd770345531fa309a1f",
+      "packs": []
+    },
+    "rule:cylinder": {
+      "digest": "b90b20766abee91b6b110da71faaf32a8dbad1775cb4bae5a0e542bd1478b715",
+      "packs": []
+    },
+    "rule:d20-test": {
+      "digest": "6e1690f273532e8081015b38759fca985c530a38592335eee705048ced753a2d",
+      "packs": []
+    },
+    "rule:damage": {
+      "digest": "077876dee608a2de0d5386e4cd1e06dcf6125b5a484180f1a96685c5880207ad",
+      "packs": []
+    },
+    "rule:damage-roll": {
+      "digest": "6272228022a7249968c076b7570e4a6c524335e80cc78dce9a447338c08e34ce",
+      "packs": []
+    },
+    "rule:damage-threshold": {
+      "digest": "d5e42d707eb161a8f1e3f2491782c9ddfd8b9d7e1851b2f6927fabdd45d512ae",
+      "packs": []
+    },
+    "rule:damage-types": {
+      "digest": "16a3cd03476015e1970e3853dd88649e77d9a5adb1784bd4a8c798a5bd06db4f",
+      "packs": []
+    },
+    "rule:darkness": {
+      "digest": "7e3ebfc78becc0d5fc466529b9ba06ca299a04f6b29c385862ed0911de062fbc",
+      "packs": []
+    },
+    "rule:darkvision": {
+      "digest": "18ea9ba448e7b56c4a22cbb0e58d5cdead4ae665059df99448fa5d3f752df9f2",
+      "packs": []
+    },
+    "rule:dash": {
+      "digest": "19c95e15a6c6bfc4010fea206b7a5257730fb980311443a61fa898061ff0ae0f",
+      "packs": []
+    },
+    "rule:dead": {
+      "digest": "d0885b347593ab8c55d5408b7fcbbd59be2868ab768b5ab126af60a05f9de8c6",
+      "packs": []
+    },
+    "rule:deafened": {
+      "digest": "b33b42d1ef31dcb4f1b760e1ac31131d6eee72e162b8f0f2ddb97dd16eeee0a8",
+      "packs": []
+    },
+    "rule:death-saving-throw": {
+      "digest": "8d24fbaa2e4a17cd1a365532722b0650fad271a29473b503478d94486dc5ae28",
+      "packs": []
+    },
+    "rule:dehydration": {
+      "digest": "22b521437a9981c0c56f6ddf8330ec78756631e8d429e0d17168c15e51281655",
+      "packs": []
+    },
+    "rule:difficult-terrain": {
+      "digest": "9684ccd79d77924f136634a9ce75e8576cdb02598b8dcedd6e8097cf41af7fe8",
+      "packs": []
+    },
+    "rule:dim-light": {
+      "digest": "3ee16b1b516680eb2ea2a16b944336a6882b3387abb881f0e4ca111f4d30bd6e",
+      "packs": []
+    },
+    "rule:disadvantage": {
+      "digest": "2bc30d9fb539efe68473fa6a6e6dcdebc16f01fb1490331867248a985b51eb63",
+      "packs": []
+    },
+    "rule:disengage": {
+      "digest": "9aa76adb70c70b50afd17f6c3f446894fac5b243c7afb3e15b3ec3a70a7ac751",
+      "packs": []
+    },
+    "rule:dodge": {
+      "digest": "a061d2f8314d6deaeb8d4bfe9888678121dbc2758b9e22c05489d447772f190c",
+      "packs": []
+    },
+    "rule:emanation": {
+      "digest": "dbba0533f606bd9ef740332737b2cf3bbf83a46717bb774b076eb66fab222907",
+      "packs": []
+    },
+    "rule:encounter": {
+      "digest": "050bbd69a665eb15a354d0d168864ea9cd1e323b601ea89331d6f71725ba9516",
+      "packs": []
+    },
+    "rule:enemy": {
+      "digest": "32677b266380885c0c38bab5b5f897046c82daf737f8c6da87c0b3806ddece85",
+      "packs": []
+    },
+    "rule:exhaustion": {
+      "digest": "27e446a8113e41d5d6807ab485d5f9f5ddd2a189ea73cea17bcc601727db7dda",
+      "packs": []
+    },
+    "rule:experience-points": {
+      "digest": "05188e5798b1f59ce3a0efa097b7c8474a4ba9aafd42acf4dfd542cef6d6d4e0",
+      "packs": []
+    },
+    "rule:falling": {
+      "digest": "92f15d1e73b8209f64b0aa172d657a8d50aaa128bf417146bc186da068a1c0f0",
+      "packs": []
+    },
+    "rule:fly-speed": {
+      "digest": "96071adbc5fb8a5dcae976db35db797eb58d63603615910c1484c97c2c2d2e50",
+      "packs": []
+    },
+    "rule:flying": {
+      "digest": "f0b85c6f91bf7be09560fb34a4ebef7f796618050e45eae2bd9b2b8929e04753",
+      "packs": []
+    },
+    "rule:friendly": {
+      "digest": "84f3cc72d4b3adb1701a26d56706eb9fe8cb6b7c2ac83acb16411f0b6084a28d",
+      "packs": []
+    },
+    "rule:frightened": {
+      "digest": "7ca7ce2c3ab5c8c5bc739fab8ac444666e9a74fceee9f038dbd0d1c33134c68f",
+      "packs": []
+    },
+    "rule:grappled": {
+      "digest": "3320764b36b78aed05eb4abc118adfa494fc91748fc83b724dd2b85e7ffbde6d",
+      "packs": []
+    },
+    "rule:grappling": {
+      "digest": "f6f2b8f855fcb2f5aa9afa2ff09d86add254cb6e8bbfa27c63c70c263de521b6",
+      "packs": []
+    },
+    "rule:hazard": {
+      "digest": "150b6f61d2adb06e9560a6238fc6349ed291e54e1730fcb35aaf5feaf868b392",
+      "packs": []
+    },
+    "rule:healing": {
+      "digest": "43ad3407b58f3a022fac924a04b3a4165582085d5adcf5cb7ce36538f3ed1e5d",
+      "packs": []
+    },
+    "rule:heavily-obscured": {
+      "digest": "461b19d9c92e693d880213df9930caef255ea2eb21977b16c876f536575131d2",
+      "packs": []
+    },
+    "rule:help": {
+      "digest": "dcecd7d584bc8bdd38d83f97c18d2bfda4d6ddcf945b0bc13cfc7ae383fe0b9f",
+      "packs": []
+    },
+    "rule:hide": {
+      "digest": "5f3f4628eb17b82c85335c9e79335327f725a89dda66fe2c3e84948e619e23a5",
+      "packs": []
+    },
+    "rule:high-jump": {
+      "digest": "9e682db3a1d498df0ee3b3a47c29917b8d95438ad99adfd7339d4f581ec465a7",
+      "packs": []
+    },
+    "rule:hit-point-dice": {
+      "digest": "511762de55c2ed015af4ee3da10c837a5ea0eac825036e9b44dae8f8fcd10927",
+      "packs": []
+    },
+    "rule:hit-points": {
+      "digest": "662d453c0c48c5679dac29944952da51f1902b53ed591f8b912999dc71ed2063",
+      "packs": []
+    },
+    "rule:hostile": {
+      "digest": "27e9e371d92f3155ea4769bf4a2423a4abf3d3fdba7aeeb91bfeacf67d0c7ff5",
+      "packs": []
+    },
+    "rule:hover": {
+      "digest": "cb6cf4e3ca60bbee909c4c66f004724a07a7682298ebb283a834f5542e63a287",
+      "packs": []
+    },
+    "rule:illusions": {
+      "digest": "519888146bebe83ff528a063b8ee7d42c28ac3fc5301ab644ab76fbee70571b1",
+      "packs": []
+    },
+    "rule:immunity": {
+      "digest": "e67e67ec096c89d5d379ee61544380d3478e8656cd5e104e30467c5d67d4563a",
+      "packs": []
+    },
+    "rule:improvised-weapons": {
+      "digest": "a503438f7b4181640b357ff730758b2455352e234d8a84dab216e73df32a46b9",
+      "packs": []
+    },
+    "rule:incapacitated": {
+      "digest": "f485fbaab3c08331a3ffb3a3e4d00bb7f1ce3b194b36a854412be863147b3a31",
+      "packs": []
+    },
+    "rule:indifferent": {
+      "digest": "973428b3957aa12233cc5aee5351efcc5fad802d3f8d6926d1805e5ed5767e2e",
+      "packs": []
+    },
+    "rule:influence": {
+      "digest": "6fbd85bdfc142e267ff32a6b2896d63ae2780d937297afa78d267c17e9abd167",
+      "packs": []
+    },
+    "rule:initiative": {
+      "digest": "fa54c3182f1b4f392d128e7bc51c483697330936bf0c9158377ac7d0f5c094ec",
+      "packs": []
+    },
+    "rule:invisible": {
+      "digest": "f2eb427c53c51870647f71a0c93c9c2e048c1e05d35ee57b109bf8a26fbc8341",
+      "packs": []
+    },
+    "rule:jumping": {
+      "digest": "0651b5bbb204cd7a7a59e39ef69db955b2a5f5f062612502e107841517f30e0b",
+      "packs": []
+    },
+    "rule:knocking-out-a-creature": {
+      "digest": "e0d8e7c95281d3643dc20df2de8d55e6a9824a4e277bcaf6d9beb456e9d0ed39",
+      "packs": []
+    },
+    "rule:lightly-obscured": {
+      "digest": "1d0a0ae95d4b70a7b4ff715f31c68d44201277710e263d9341950ea77577b92b",
+      "packs": []
+    },
+    "rule:line": {
+      "digest": "670768060fbdb8f75f03e01a86a1c7ff492a5858fc8f537cea26b513e37a11ca",
+      "packs": []
+    },
+    "rule:long-jump": {
+      "digest": "eaab882ec19b307a80fd37009151b692045c65b70e2175e5ae1a17355bed50c8",
+      "packs": []
+    },
+    "rule:long-rest": {
+      "digest": "2c0b2ab13df35ac6859a7c761005cb38ecf611ebe4f5da475378d5191541b9c6",
+      "packs": []
+    },
+    "rule:magic": {
+      "digest": "afdbe2534585d78016a743b42c7b7f01e298b63ba38a6e5a7cbb2eb05cb5c538",
+      "packs": []
+    },
+    "rule:magical-effect": {
+      "digest": "34f0d6c4f3b393da7cbcff4d4d067d671c89afba1ba6f0a454f2882ef2285f4c",
+      "packs": []
+    },
+    "rule:malnutrition": {
+      "digest": "0e6c28d3e07a45f2e8d88bdd6f7b1d734f63f35d94455a894d1b1610b5eab692",
+      "packs": []
+    },
+    "rule:monster": {
+      "digest": "01a4ab4661d9c710d5fe1b758908207dd346f039bd6062383fda632a16d1bfbd",
+      "packs": []
+    },
+    "rule:monster-stat-blocks": {
+      "digest": "de0d7f96abc4117fec44bb3490a2d994e1ee6d376393f62f5ff9192a1d434c2b",
+      "packs": []
+    },
+    "rule:object": {
+      "digest": "7a216bed8b994bc1f04def71248924d67e619c5e792e973dc3bc69e59528c1da",
+      "packs": []
+    },
+    "rule:occupied-space": {
+      "digest": "c68fe302891a5490aa6af5b41f8055c876e704d53ce1a1d18e916a22f337051f",
+      "packs": []
+    },
+    "rule:opportunity-attacks": {
+      "digest": "04870fb05a8e3d98c2a4c33ae3a6182ba58b0d918679bf03bdbcecd1956ec241",
+      "packs": []
+    },
+    "rule:paralyzed": {
+      "digest": "ac692a2068fb0b5394c07621dc239621ad794cf4b9c3bb96751a1d08686a1bc8",
+      "packs": []
+    },
+    "rule:passive-perception": {
+      "digest": "cf0a2bd2b511a8376d6260dd515fe18d8091d6894bcf8a42b0680d6325c6d917",
+      "packs": []
+    },
+    "rule:per-day": {
+      "digest": "d00708e4ce52c9db102a54dcff2e6abfeae29a34a0e7533d9f61cd4d50d4e80f",
+      "packs": []
+    },
+    "rule:petrified": {
+      "digest": "bc31e55580b5eaec90f6c407e3952e773e653e7208dbc3d13a199259ddf687fc",
+      "packs": []
+    },
+    "rule:player-character": {
+      "digest": "cc5b096cf2929528a1c4454e5b80d3a80200d24c1479740e67bac93c09d11dd4",
+      "packs": []
+    },
+    "rule:poisoned": {
+      "digest": "9ec28668332bdea988f541c296a9500198d211008dcb8d4acdf7b7783803f240",
+      "packs": []
+    },
+    "rule:possession": {
+      "digest": "02b6754ce8815ea5c54c9bd563dd0f70372272abc15a6c3cb27a38a0c4428359",
+      "packs": []
+    },
+    "rule:potions": {
+      "digest": "2472a8dbcabcbb36423a7ba91aac9ab9b9dae0ffeadd2d30a1d5d4b3afde7710",
+      "packs": []
+    },
+    "rule:proficiency": {
+      "digest": "0245158775e9ae264e6176e343ecb3d176511838ee3acea4410c6808c53dbb2c",
+      "packs": []
+    },
+    "rule:prone": {
+      "digest": "99e262cf6320491010c87a1c7e5c1e715a32a252cc3150707e760c7dd24f61ab",
+      "packs": []
+    },
+    "rule:reach": {
+      "digest": "ede8a8963c46646eb6fca3e5db743f89eacc1e6124b60203454b8c22b5b9a0f8",
+      "packs": []
+    },
+    "rule:reaction": {
+      "digest": "79f30c170c075e528f95a2ad914bf468137eb7730c59c392ab8aa5a95eb76a13",
+      "packs": []
+    },
+    "rule:ready": {
+      "digest": "f6fdd7202e62980719eea9e2d9bbc6a86f59537fb08f34739e502a69c68ab0ac",
+      "packs": []
+    },
+    "rule:resistance": {
+      "digest": "a8896ea1815fe613383b12aaf39f6ae70a2512f30b63cc131636581494946423",
+      "packs": []
+    },
+    "rule:restrained": {
+      "digest": "1326064da59ed1664f2cdc01f106a88fb1259d8638c538ddb845cfd55cbe77cd",
+      "packs": []
+    },
+    "rule:ritual": {
+      "digest": "a46ad613132e4d6267401681e28e5ac7d2d654bbbab9d749e95cc812896bb40f",
+      "packs": []
+    },
+    "rule:round-down": {
+      "digest": "99a5b3a4af6e58899fe0fe54c3388c164af4f9a9f44714442f081f206d587dc0",
+      "packs": []
+    },
+    "rule:save": {
+      "digest": "84644570e8dd29b67b29a37b2d71334303ffa962dea84178771803739814f5ce",
+      "packs": []
+    },
+    "rule:saving-throw": {
+      "digest": "736c7e24dc713abc59eb8eea20804b50d48593dea962e8f536a892ef1921331e",
+      "packs": []
+    },
+    "rule:search": {
+      "digest": "2f9813068b7bb5c350731354a2071d04673170aa33cf0404000b65a0af0632f1",
+      "packs": []
+    },
+    "rule:shape-shifting": {
+      "digest": "40ac2f253c7378910a11d19600c50aa8a606e667d58ca4f244d1b075e9e20357",
+      "packs": []
+    },
+    "rule:short-rest": {
+      "digest": "b5bdaa7c6728f217e60dfc0cc53adbf2cbbac37b37da1d2377bd286999df6038",
+      "packs": []
+    },
+    "rule:size": {
+      "digest": "b5fa5317e6f8fd374999edd9563a7387af22ca5a158550e5ff4c86c8f54c2790",
+      "packs": []
+    },
+    "rule:skill": {
+      "digest": "86f3f4b4505e7be06ce1e156548a30744a8fd9cd1869d692d1271283b683d38b",
+      "packs": []
+    },
+    "rule:speed": {
+      "digest": "b8d669246e0c8ef3a87f76645c33cac71ce2b5ff6a12c2d0ba8b8fcf977618b7",
+      "packs": []
+    },
+    "rule:spell": {
+      "digest": "42c6eb1d4e28eab53fc4ec78a884bc7d3f687a5850b68b7b91757f8069c4da54",
+      "packs": []
+    },
+    "rule:spell-attack": {
+      "digest": "645134fe1399fe6374769e04ee76077ca579693564a61e25490822ee3e60d135",
+      "packs": []
+    },
+    "rule:spellcasting-focus": {
+      "digest": "df5e3b4522e3710730a1b8b3200667f2cfc79e3e9d367de1072a7f722866a753",
+      "packs": []
+    },
+    "rule:sphere": {
+      "digest": "8ec163e5bb1bd87779ad665adb4037cfd39b9f52d08977beb1e99540c577205f",
+      "packs": []
+    },
+    "rule:stable": {
+      "digest": "481cc23203d596c8ce39278e9ae6c52ecd8fd366cbb5e17eab3eeaa1f2f8eb05",
+      "packs": []
+    },
+    "rule:stat-block": {
+      "digest": "58a3e46d3ac5ad446a252c987b906f146da07b960c1afcc99304ce3468903eb5",
+      "packs": []
+    },
+    "rule:study": {
+      "digest": "cc943c484cd1183235083ed64a7e43058b3580ed0ac05bcf01fcb39ce2d78b84",
+      "packs": []
+    },
+    "rule:stunned": {
+      "digest": "f9e0cc2a70dbd797e9725c08170f840da727fe046763583dfc6b5569be93d6ad",
+      "packs": []
+    },
+    "rule:suffocation": {
+      "digest": "55b665aae2cb3484471ad73e7fe61c8d5ab211f214fc30e6e3f4dc5ad90fe045",
+      "packs": []
+    },
+    "rule:surprise": {
+      "digest": "567c0c38f3cd39d260adcc5d177da523945157959ed0f521a936e36fc3f2c58e",
+      "packs": []
+    },
+    "rule:swim-speed": {
+      "digest": "7f7956d2911405ae68c8bff1ccb36958290b75e29282cdf945a8c0f593b3d827",
+      "packs": []
+    },
+    "rule:swimming": {
+      "digest": "3fb564f445045fae48cbe3f49083ab09db09ef57c6ad82cefe532e44c4f9a765",
+      "packs": []
+    },
+    "rule:target": {
+      "digest": "bfb113456b40ae921038ccc2cf8be15d33119f96b1d42efe6e7e2c44007d6941",
+      "packs": []
+    },
+    "rule:telepathy": {
+      "digest": "d29a29768ee5b8e89adfc2b22304673410f09a84792e2a510de0e70d7c96e2b6",
+      "packs": []
+    },
+    "rule:temporary-hit-points": {
+      "digest": "7e28286326f7b3ea2d5d57150278145fdc59e1fe944e577439f12c8c810f00be",
+      "packs": []
+    },
+    "rule:tool-proficiency": {
+      "digest": "7f922682a807e42b36d86bc85c8505c8327ebc4d6ae6ac0f2b48fe3e675fca9f",
+      "packs": []
+    },
+    "rule:tremorsense": {
+      "digest": "a7d6cc38c016eb854fe8245bfdc2fa2036480778aa91ea443c8570925a21242d",
+      "packs": []
+    },
+    "rule:truesight": {
+      "digest": "4bbebc342eb03441ac858b7206b87d7136e6e3e536af8126383d5b8f0b5f6540",
+      "packs": []
+    },
+    "rule:unarmed-strike": {
+      "digest": "a3936fad60724cc25b880c19a5b32d0e36aedaf832dae38db0123c1d23104dd7",
+      "packs": []
+    },
+    "rule:unconscious": {
+      "digest": "6de5d945600026336e45987a38a8f2961b362d69d9c2bba3e98c6d550b0735f1",
+      "packs": []
+    },
+    "rule:unoccupied-space": {
+      "digest": "2e81dcce4b92583d78f6f082376a65f57fd57379e026dc32d0b384d9bd9ee4bf",
+      "packs": []
+    },
+    "rule:utilize": {
+      "digest": "04b2533201dd987c9d77f08da7598a88623c21023b2dbca1adfcdeece511b3e1",
+      "packs": []
+    },
+    "rule:vision-and-light": {
+      "digest": "8675ac5e3ce73aeacbc57818269d8486f697280cf65ea57556e45c935a83c33b",
+      "packs": []
+    },
+    "rule:vulnerability": {
+      "digest": "5c1c91720114089d16cae2444eb8265a3d008b54e706f55c04be2e514f074967",
+      "packs": []
+    },
+    "rule:weapon": {
+      "digest": "7e8f043355bf4046086451793d5468202e1105f278360afd281b67b8ee83df60",
+      "packs": []
+    },
+    "rule:weapon-properties": {
+      "digest": "1248cbad06e2f9268fee3376ae0dc1b4c66255a0f9e47f2b1886cd5e4cebc5f1",
+      "packs": []
+    },
+    "spell:arcane-lock": {
+      "digest": "9b5425c886572c78d9f5dd50fe88887eb647eb7229d7f2073bc0eba391d75077",
+      "packs": []
+    },
+    "spell:charm-person": {
+      "digest": "6415bef6cfc28438cec418befee15c6feb4f01c9412e83b00e3dea4ef9893543",
+      "packs": []
+    },
+    "spell:command": {
+      "digest": "e85a7b7d464e6875067d0041dadb16b6d4f7745e050289c4d62a7dcbc788762c",
+      "packs": []
+    },
+    "spell:etherealness": {
+      "digest": "36acebe6bbe47c0371caba5dd4a82395b5b363742c0964db98e8c2a105f1fd71",
+      "packs": []
+    },
+    "spell:greater-restoration": {
+      "digest": "b08c12c6e3f004a9524dff05743d806cfe519b98ddb145cd98114a840494043f",
+      "packs": []
+    },
+    "spell:remove-curse": {
+      "digest": "01e400bfa66633ece24cfd8471d5e6ecf35a4744132258ae115c50b593f0682a",
+      "packs": []
+    },
+    "spell:spider-climb": {
+      "digest": "bcafd5250deab07d46b52ebd5a535eed750b70ed21fda39af7e142192a93f04d",
+      "packs": []
+    },
+    "trap:collapsing-roof": {
+      "digest": "74fa2274464561ebd2f8e3ec58938839706a1ed0da5c1d4c335ac2662bf856fc",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "trap:falling-net": {
+      "digest": "6e522474524a20b26a5282a0ea98324eba72a30af593aff3a19c417d2cd32eb7",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "trap:hidden-pit": {
+      "digest": "b9ac2770bbe63bf813172e6ceb76360ad91f9b33e060d3b205fdd866709eb8bb",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    },
+    "trap:poisoned-darts": {
+      "digest": "9e91031e47c341e3b6524694e1286a27fd557fb13674eab8b69733e1fcc28f4c",
+      "packs": [
+        "cave",
+        "crypt",
+        "stronghold"
+      ]
+    }
+  }
+}
